@@ -2,7 +2,7 @@
 .bundle
 .sass-cache
 _site
-_img
+# _img
 Gemfile.lock
 .idea/*
 npm-debug.log
