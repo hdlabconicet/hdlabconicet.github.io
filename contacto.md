@@ -14,7 +14,7 @@ C1083ACA CABA, Argentina
 
 ### Formulario de contacto
 
-Complete el siguiente formulario o escríbanos a [hdcaicyt@gmail.com](mailto:{{site.email}}) para ponerse en contacto con nosotros.
+Complete el siguiente formulario o escríbanos a [hdcaicyt@conicet.gov.ar](mailto:{{site.email}}) para ponerse en contacto con nosotros.
 
 {% include form.html %}
 
