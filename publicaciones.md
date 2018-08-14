@@ -1,0 +1,35 @@
+---
+layout: page
+title: Publicaciones
+permalink: /publicaciones/
+---
+
+
+# Publicaciones de la Dra. Gimena del Río
+
+* "Ada en la encrucijada de las Humanidades Digitales", Luthor 29, agosto 2016. Número dedicado a las Humanidades Digitales. ISSN 1853-3272 http://www.revistaluthor.com.ar/spip.php?article149
+* "De todo lo visible y lo invisible o volver a pensar la investigación en humanidades digitales", en Signa: Revista de la Asociación Española de Semiótica (UNED), núm. 25, 2016, pp. 95-108. ISSN 1133-3634. http://revistas.uned.es/index.php/signa/article/view/16943
+* "Las Humanidades Digitales desde ArtyHum. Decir, hacer, fundar entre todos", ArtyHum 22, 2016. ISSN 2341-4898, pp. 142-149. https://www.artyhum.com/revista/22/#/4
+* "Humanidades Digitales. Mito, actualidad y condiciones de posibilidad en España y América Latina". ArtyHum, monográfico 1, noviembre de 2015, ISSN 2341-4898 pp. 7-19. https://www.artyhum.com/descargas/monograficos/MONOGR%C3%81FICO%20HD.pdf
+* Día de las Humanidades Digitales desde el CAICYT. Sitio del DayofDh2016, http://dayofdh2016.linhd.es/diahdcaicyt/
+Humanidades Digitales: Construcciones locales en contextos globales. Blog del SEDICI, UNLP, 2016. http://sedici.unlp.edu.ar/blog/2016/03/22/humanidades-digitales-construcciones-locales-en-contextos-globales/
+"La Asociación Argentina de Humanidades Digitales. Punto de encuentro para las culturas, las tecnologías y los saberes", en Actas I Jornadas de Humanidades Digitales de la AAHD, Buenos Aires: Editorial de la Facultad de Filosofía y Letras, pp. 8-11. ISBN 978-987-3617-89-8.
+* "¿De qué hablamos cuando hablamos de Humanidades Digitales?", en Actas I Jornadas de Humanidades Digitales de la AAHD, Buenos Aires: Editorial de la Facultad de Filosofía y Letras, pp. 50-62. ISBN 978-987-3617-89-8.
+* "Un proyecto de edición digital académica en Argentina. Diálogo Medieval", en Actas I Jornadas de Humanidades Digitales de la AAHD, Buenos Aires: Editorial de la Facultad de Filosofía y Letras, pp. 100-114. ISBN 978-987-3617-89-8. En colaboración con Carina Zubillaga.
+* "El Laboratorio de Innovación en Humanidades Digitales y la redefinición del perfil del humanista y la academia en el siglo XXI", en Actas I Jornadas de Humanidades Digitales de la AAHD, Buenos Aires: Editorial de la Facultad de Filosofía y Letras, pp. 160-175. ISBN 978-987-3617-89-8. En colaboración con Elena González Blanco y Clara Martínez Cantón.
+* O’Donnell, D., Bordalejo, B., Murray Ray, P., del Rio, G., González-Blanco, E. (2016). "Boundary Land: Diversity as a defining feature of the Digital Humanities". In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 76-82. http://dh2016.adho.org/abstracts/406
+* del Rio Riande, G., González-Blanco García, E., Martínez Cantón, C., Escribano, J. (2016). "EVI-LINHD. A Virtual Research Environment for the Spanish-speaking Community". In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 776-777. http://dh2016.adho.org/abstracts/86
+* Robles-Gómez, A., González-Blanco, E., Ros, S., Del Rio Riande, G., Hernández, R., Tobarra, L., Caminero, A., Pastor, R. (2016). "Researchers’ perceptions of DH trends and topics in the English and Spanish-speaking community. DayofDH data as a case study". In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 658-660. http://dh2016.adho.org/abstracts/358
+* González-Blanco, E., Del Rio Riande, G., Martinez Cantón, C. (2016). "DH Poetry Modelling: a Quest for Philological and Technical Standardization". In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 526-528. http://dh2016.adho.org/abstracts/73
+* Día de las Humanidades Digitales desde el CAICYT. Sitio del DayofDh2016, http://dayofdh2016.linhd.es/diahdcaicyt
+* Humanidades Digitales: Construcciones locales en contextos globales. Blog del SEDICI, UNLP, 2016. http://sedici.unlp.edu.ar/blog/2016/03/22/humanidades-digitales-construcciones-locales-en-contextos-globales/
+* "Recognizing and accomodating barriers to participation", en Intercultural communication and ADHO: A GO::DH response, 2015. https://docs.google.com/document/d/11b87VmblizmYeFoOUbHDOeR8A2EQ1F_Kg9jNQwUszZE/edit
+* Aquí están, estas son las Humanidades Digitales, en Sitio del DayofDh 2015, http://dayofdh2015.uned.es/meetingpoint/
+* ¿De qué hablamos cuando hablamos de Humanidades Digitales? En Docentes en línea, UNLP, 2015. http://blogs.unlp.edu.ar/didacticaytic/2015/05/04/de-que-hablamos-cuando-hablamos-de-humanidades-digitales/
+* Making visible the invisible. Metrical patterns, contrafacture and compilation in a Medieval Castilian Songbook, New Developments on Quantitative Metrics, DH2015, Global Digital Humanities, University of Western Sydney, del 29 de junio al 3 de julio de 2015 (con Elena González-Blanco). http://dh2015.org/abstracts/xml/BIRNBAUM_David_J_New_Developments_in_Quantitative/BIRNBAUM_David_J_New_Developments_in_Quantitative_Metri.html (brief article)
+* When TEI verse becomes Linked open data, en TEI Conference and members meeting, del 22 al 24 de octubre de 2014, University of Northwestern University, Chicago (con Elena González-Blanco). http://tei.northwestern.edu/files/2014/10/gonzalez-blanco-20wnj3q.pdf (brief article)
+* Building a metrical ontology as a model to link digital poetic repertoires, en ADHO DH2014 Conference (Lausanne, Suiza) (con Elena González-Blanco, Clara Martínez Cantón, María Dolores Martos Pérez), del 5 al 10 de julio de 2014. http://dharchive.org/paper/DH2014/Paper-674.xml (brief article)
+* "Linked open data to represent multilingual poetry collections. A proposal to solve interoperability issues between poetic repertoires" (con Elena González-Blanco, Clara Martínez Cantón), Proceedings of the LREC 2016 Workshop "LDL 2016 – 5th Workshop on Linked Data in Linguistics: Managing, Building and Using Linked Language Resources", John P. McCrae, Christian Chiarcos et al. (eds.). Portoroz: European Language Resources Association. http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-LDL2016_Proceedings.pdf. ISBN 978-2-9517408-9-1. Aceptadas para su inclusión en Thomson Reuters Conference Proceedings Citation Index.
+* "Humanidades Digitales: estándares para su consolidación en el campo científico argentino", 48° Reunión Nacional de Bibliotecarios, Bibliotecarios: integración, identidad regional y abordaje transversal, http://www.abgra.org.ar/documentos/48RNB_20160419_1400-Ponencia.pdf
+* "Una propuesta de integración del sistema de formularios de bases de datos MYSQL con etiquetado TEI: ReMetCa, Repertorio digital de la métrica medieval castellana", en: López Poza Sagrario y Pena Sueiro, Nieves (eds.), Humanidades Digitales: desafíos, logros y perspectivas de futuro, Janus [en línea], Anexo 1, 2014, pp. 209-219. ISSN 2254-7290. http://www.janusdigital.es/anexos/contribucion.htm?id=19. En colaboración con Elena González-Blanco García, Clara Martínez Cantón y María Dolores Martos.
+

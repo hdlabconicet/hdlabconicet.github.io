@@ -1,0 +1,72 @@
+# Site settings
+title: HD CAICYT LAB
+email: hdcaicyt@gmail.com
+author: HD CAICYT LAB 
+description: Sitio del Laboratorio de Humanidades Digitales del Centro Argentino de Información Científica y Tecnológica del CONICET
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://github.com/hdcaicyt/hdcaicyt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: HDCAICYT
+github_username:  hdcaicyt
+facebook_username: HDCAICYTLAB
+
+# SEO PLUGIN
+social:
+  name: HD CAICYT LAB
+  links:
+    - https://twitter.com/HDCAICYT
+    - https://www.facebook.com/HDCAICYTLAB
+    - https://github.com/hdcaicyt
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Inicio', link: '/'}
+  - {name: 'Novedades', link: '/novedades'}
+  - {name: 'Proyectos', link: '/proyectos'}
+  - {name: 'Cursos y Eventos', link: '/cursosyeventos'}
+  - {name: 'Publicaciones', link: '/publicaciones'}
+  - {name: 'Equipo', link: '/equipo'}
+  - {name: 'Contacto', link: '/contacto'}
+
+
+tagline: >
+  Laboratorio de Humanidades Digitales del Centro Argentino de Información Científica y Tecnológica del CONICET
+
+hero_img: posts/HDCAICYTLAB.jpg
+
+disqus:
+  shortname: hdcaicytlab
+
+# Build settings
+markdown: kramdown
+encoding: utf-8
+
+#theme: minima
+theme: jekyll-sleek
+# remote_theme: broccolini/swiss
+# theme_color: blue
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - script
+  - package.json
+  - package-lock.json
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
