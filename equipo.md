@@ -24,7 +24,7 @@ permalink: /equipo/
 * [Gabriel Calarco][gabriel-profile]
 * [Marisol Fila][marisol-profile]
 
-![Juliana photo](/assets/img/equipo/Juliana-micrositio.jpg)
+![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
