@@ -4,7 +4,7 @@ email: hdcaicyt@gmail.com
 author: HD CAICYT LAB 
 description: Sitio del Laboratorio de Humanidades Digitales del Centro Argentino de Información Científica y Tecnológica del CONICET
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/hdcaicyt/hdcaicyt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hdcaicyt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HDCAICYT
 github_username:  hdcaicyt
 facebook_username: HDCAICYTLAB
