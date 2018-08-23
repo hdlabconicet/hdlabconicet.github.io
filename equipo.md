@@ -25,8 +25,11 @@ permalink: /equipo/
 * [Marisol Fila][marisol-profile]
 
 ![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
-![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
+![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
 ![Gabriela photo](/assets/img/equipo/Gabriela-micrositio.png)
+![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
+![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
+
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
