@@ -20,12 +20,13 @@ permalink: /equipo/
 
 * [Juliana Gandini][juliana-profile]
 * [Virginia Brussa][virginia-profile]
-* Gabriela Striker
+* [Gabriela Striker][gabriela-profile]
 * [Gabriel Calarco][gabriel-profile]
 * [Marisol Fila][marisol-profile]
 
 ![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
+![Gabriela photo](/assets/img/equipo/Gabriela-micrositio.png)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
@@ -34,3 +35,4 @@ permalink: /equipo/
 [marisol-profile]: https://lsa.umich.edu/rll/people/graduate-students/mafila.html
 [juliana-profile]:http://www.conicet.gov.ar/new_scp/detalle.php?id=34299&datos_academicos=yes
 [gabriel-profile]: http://aahd.net.ar/personas/gabriel-calarco
+[gabriela-profile]: https://www.aacademica.org/gabriela.edith.striker
