@@ -6,8 +6,8 @@ permalink: /equipo/
 
 # Grupo responsable
 
-* [Gimena del Río Riande][gimena-profile]
-* [Romina De Leon][romina-profile]
+* [Gimena del Rio Riande][gimena-profile]
+* [Romina De León][romina-profile]
 * [Nidia Hernández][nidia-profile]
 * Diego Ferreyra
 
