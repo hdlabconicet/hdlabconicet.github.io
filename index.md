@@ -9,7 +9,7 @@ HUMANIDADES DIGITALES CAICYT LAB es el primer espacio de investigación en Human
 
 HUMANIDADES DIGITALES CAICYT LAB desarrolla proyectos de investigación, herramientas digitales y material científico (artículos en OA, presentaciones, documentos de buenas prácticas), además de capacitaciones en la materia a través de cursos y workshops.
 
-La línea de investigación en Humanidades Digitales se inició a fines de 2014 con un Proyecto Institucional denominado Metodologías en Herramientas Digitales para la Investigación en Ciencias Sociales y Humanidades (MheDI), entre el Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET) y el CAICYT, y hoy se ha extendido, a través de HD CAICYT Lab a las siguientes áreas de interés:
+La línea de investigación en Humanidades Digitales se inició a fines de 2014 con un Proyecto Institucional denominado Metodologías en Herramientas Digitales para la Investigación en Ciencias Sociales y Humanidades (MheDI), entre el Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET) y el Centro Argentino de Información Científica y Tecnológica (CAICYT-CONICET), y hoy se ha extendido, a través de HD CAICYT Lab a las siguientes áreas de interés:
 
 * Edición Digital Académica
 * Georreferenciación y anotación semántica
