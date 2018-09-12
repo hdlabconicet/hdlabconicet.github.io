@@ -2,9 +2,9 @@
 title: HD CAICYT LAB
 email: hdcaicyt@gmail.com
 author: HD CAICYT LAB 
-description: Sitio del Laboratorio de Humanidades Digitales del Centro Argentino de Información Científica y Tecnológica del CONICET
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hdcaicyt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: Sitio del Laboratorio de Humanidades Digitales (HD CAICYT LAB) del Centro Argentino de Información Científica y Tecnológica (CAICYT) del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)
+baseurl: ""
+url: "https://hdcaicyt.github.io"
 twitter_username: HDCAICYT
 github_username:  hdcaicyt
 facebook_username: HDCAICYTLAB
@@ -18,7 +18,7 @@ social:
     - https://github.com/hdcaicyt
 
 # THEME SETTINGS
-navigation: # Navigation links
+navigation:
   - {name: 'Inicio', link: '/'}
   - {name: 'Novedades', link: '/novedades'}
   - {name: 'Proyectos', link: '/proyectos'}
@@ -40,10 +40,7 @@ disqus:
 markdown: kramdown
 encoding: utf-8
 
-#theme: minima
 theme: jekyll-sleek
-# remote_theme: broccolini/swiss
-# theme_color: blue
 plugins:
   - jekyll-feed
 exclude:
