@@ -17,7 +17,7 @@ Participaran del Workshop:
 * [Max-Planck-Institute for European Legal History](https://www.rg.mpg.de/en) 
 * [Digital Humanities at the MPIeR](https://www.rg.mpg.de/1490170/digital_humanities)
 * Miembros del proyecto ["La Escuela de Salamanca: una colección digital de fuentes y un diccionario de su lenguaje jurídico-político"](https://www.salamanca.school/en/index.html)
-* (HD CAICYT LAB, CONICET)[https://hdcaicyt.github.io]
+* [HD CAICYT LAB, CONICET](https://hdcaicyt.github.io)
 
 
 # Ciclo: Explorar las Humanidades Digitales
