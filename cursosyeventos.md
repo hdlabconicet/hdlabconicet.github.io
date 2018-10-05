@@ -4,6 +4,25 @@ title: Cursos y Eventos
 permalink: /cursosyeventos/
 ---
 
+# Taller: Enfoques digitales de la historia en la Temprana Edad Moderna: marcos, herramientas y recursos
+
+23 de Octubre de 2018
+
+Instituto Max Planck Argentina, Godoy Cruz 2390, CABA.
+
+Inscripciones hasta el 15 de octubre de 2018 en: [salamanca@rg.mpg.de](salamanca@rg.mpg.de).
+
+Participaran del Workshop:
+
+* [Max-Planck-Institute for European Legal History](https://www.rg.mpg.de/en)
+(https://www.rg.mpg.de/1490170/digital_humanities)
+
+* Miembros del proyecto ["La Escuela de Salamanca: una colección digital de fuentes y un diccionario de su lenguaje jurídico-político"]
+(https://www.salamanca.school/en/index.html)
+
+* **(HD CAICYT LAB, CONICET)**
+
+
 # Ciclo: Explorar las Humanidades Digitales
 
 5 de junio - 11 de octubre de 2018
