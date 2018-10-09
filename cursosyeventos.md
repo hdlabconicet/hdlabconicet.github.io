@@ -10,14 +10,16 @@ permalink: /cursosyeventos/
 
 Instituto Max Planck Argentina, Godoy Cruz 2390, CABA.
 
-Inscripciones hasta el 15 de octubre de 2018 en: [salamanca@rg.mpg.de](salamanca@rg.mpg.de).
+Inscripciones hasta el 15 de octubre de 2018 en: salamanca@rg.mpg.de.
 
-Participaran del Workshop:
+Participarán del Workshop:
 
 * [Max-Planck-Institute for European Legal History](https://www.rg.mpg.de/en) 
 * [Digital Humanities at the MPIeR](https://www.rg.mpg.de/1490170/digital_humanities)
-* Miembros del proyecto ["La Escuela de Salamanca: una colección digital de fuentes y un diccionario de su lenguaje jurídico-político"](https://www.salamanca.school/en/index.html)
+* Miembros del proyecto ["La Escuela de Salamanca: una colección digital de fuentes y un diccionario de su lenguaje jurídico-político"](https://www.salamanca.school/en/index.html)
 * [HD CAICYT LAB, CONICET](https://hdcaicyt.github.io)
+
+[Más información](https://blog.salamanca.school/es/2018/10/04/digital-approaches-to-early-modern-history-frameworks-tools-and-resources-workshop/)
 
 
 # Ciclo: Explorar las Humanidades Digitales
