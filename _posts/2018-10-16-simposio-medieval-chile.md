@@ -6,7 +6,7 @@ published: true_or_false
 categories:
 - Colaboración
 - Difusión
-- Enseñanza / Aprendizaje
+- Construcción de Comunidad
 featured-img: simposio-medieval-chile
 
 ---
