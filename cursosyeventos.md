@@ -4,9 +4,20 @@ title: Cursos y Eventos
 permalink: /cursosyeventos/
 ---
 
+# Workshop en Humanidades Digitales: ¿Qué son? ¿Para qué sirven?
+
+12 de noviembre de 2018
+
+CITEP - Uriburu 950, CABA
+
+Conversatorio sobre proyectos en Humanidades Digitales y hackathon de edición digital de textos con TEI.
+
+[Más información](assets/img/posts/cronograma-workshop-12nov2018.jpg)
+
+
 # Taller: Enfoques digitales de la historia en la Temprana Edad Moderna: marcos, herramientas y recursos
 
-23 de Octubre de 2018
+23 de octubre de 2018
 
 Instituto Max Planck Argentina, Godoy Cruz 2390, CABA.
 
