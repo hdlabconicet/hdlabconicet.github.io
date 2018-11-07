@@ -12,7 +12,7 @@ CITEP - Uriburu 950, CABA
 
 Conversatorio sobre proyectos en Humanidades Digitales y hackathon de edición digital de textos con TEI.
 
-![Más información](/assets/img/posts/cronograma-workshop-12nov2018.jpg)
+[Más información](/flyer-ws-20181112)
 
 
 # Taller: Enfoques digitales de la historia en la Temprana Edad Moderna: marcos, herramientas y recursos
