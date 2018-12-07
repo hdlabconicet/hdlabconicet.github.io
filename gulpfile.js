@@ -57,19 +57,19 @@ gulp.task('jekyll-build', function (done) {
         .on('close', done);
 });
 
-gulp.task('deploy', ['jekyll-build'], function () {
+gulp.task('deploy', function () {
     return gulp.src('./_site/**/*')
         .pipe(deploy());
 });
 
 // Rebuild Jekyll & do page reload
-gulp.task('rebuild', ['jekyll-build'], function (done) {
+gulp.task('rebuild', function (done) {
     browserSync.reload();
     done();
 });
 
 // Serve after jekyll-build
-gulp.task('browser-sync', ['sass', 'js', 'sw', 'jekyll-build'], function() {
+gulp.task('browser-sync', function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -141,7 +141,6 @@ gulp.task('watch', function() {
   gulp.watch(src.js, ['js']);
 });
 
-gulp.task('default', ['browser-sync', 'watch']);
 
 // Minify HTML
 gulp.task('html', function() {
@@ -162,6 +161,7 @@ gulp.task('sw', function() {
     stripPrefix: distDir
   });
 });
+
 
 // Images
 gulp.task('img', function() {
@@ -219,4 +219,8 @@ gulp.task('serve', function() {
   });
 });
 
-gulp.task('build', ['sass', 'js', 'jekyll-build', 'img', 'sw']);
+gulp.task('build') 
+  gulp.series('sass', 'js', 'jekyll-build', 'img', 'sw');
+
+gulp.task('default')
+  gulp.series('clean', gulp.parallel('jekyll-build', 'deploy', 'rebuild', 'sass', 'js', 'sw','watch'));
