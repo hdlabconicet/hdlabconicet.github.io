@@ -40,7 +40,11 @@ disqus:
 markdown: kramdown
 encoding: utf-8
 
-theme: jekyll-sleek
+collections:
+  argentina_manuscrita: 
+    output: true
+
+remote_theme: jekyll-sleek
 plugins:
   - jekyll-feed
 exclude:
