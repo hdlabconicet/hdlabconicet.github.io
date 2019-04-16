@@ -1,0 +1,137 @@
+---
+sitemap: false
+---
+
+
+/* 
+* COLOR.
+* 
+* Make sure to leave color-scheme in config file empty for granular control
+* 
+*/
+
+$text-color: #454545;
+$heading-color: #404040;
+$link-color: #841212;
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+/* Headings */
+
+h2, h3, h4, h5, h6 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+  margin-bottom: 1em;
+  font-weight: 300;
+  color: $heading-color;
+  letter-spacing: -.025rem;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+
+h2 {
+	margin-top: 2rem;
+	font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h3, h4, h5 {
+	font-size: 1.5rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+
+}
+
+h4, h5, h6 {
+  margin-top: 1rem;
+}
+
+/* Body text */
+p {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p.small {
+  font-size: 0.8rem;
+}
+
+/* Horizontal ruler */
+
+hr {
+  margin-top: 60px;
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+/* Search Highlighting */
+
+mark {
+    color: white;
+    background-color: #841212;
+}
+
+
+div.toc {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+  margin-bottom: 4rem;
+}
+
+.row {
+    display: flex;
+}
+
+div.column-text {
+  margin-bottom: 1rem;
+  margin-left: 1em;
+}
+
+.column {
+    flex: 50%;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+}
+
+li {
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+}
+
+ul.idx {
+  display:inline-block;
+  padding:10px 1%;
+  width: 100%;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+li.idx {
+  display:inline-block;
+  font-size: 20px; 
+  margin-top: 0;
+}
+
