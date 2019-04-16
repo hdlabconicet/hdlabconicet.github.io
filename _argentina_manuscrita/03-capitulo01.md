@@ -1,13 +1,14 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
+section: Libro III
 subtitle: Capítulo 1
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
 type: texto
 ---
 
-# Libro I
+## Libro III
 
 En que se prosigue el discurso de esta conquista desde el año de 1555, que Su Majestad hizo merced de este gobierno a <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="conqueror,explorer,colonizer">Domingo Martínez de Irala</button>, hasta la prisión del General <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="conqueror,explorer,colonizer">Felipe de Cáceres</button>, y la fundación de la ciudad de <a href="https://recogito.pelagios.org/document/wzqxhk0h3vpikm/part/1/edit#a95807da-5bc5-4871-a18d-7266e36ff52b" target="_blank">Santa-Fe</a>
 

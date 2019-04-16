@@ -1,6 +1,7 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
+section: Libro III
 subtitle: Capítulo 3
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB

@@ -27,7 +27,7 @@ layout: compress
     <main class="site__content">
 
       <div class="container">
-        <div class="page-content">
+        <div class="page-content" id="main">
 
           {{ content }}
 
@@ -37,6 +37,26 @@ layout: compress
     </main>
 
     {% include footer.html %}
+
+    <script>
+      // Highlight search Query
+      var url = window.location.href;
+      if (url.lastIndexOf("?q=") > 0) {
+        // get the index of the parameter, add three (to account for length)
+        var stringloc = url.lastIndexOf("?q=") + 3;
+        // get the substring (query) and decode
+        var searchquery = decodeURIComponent(url.substr(stringloc));
+        // regex matches at beginning of line, end of line or word boundary, useful for poetry
+        var regex = new RegExp("(?:^|\\b)(" + searchquery + ")(?:$|\\b)", "gim");
+        // get, add mark and then set content
+        var content = document.getElementById("main").innerHTML;
+        document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
+      }
+      $(document).ready(function(){
+
+      }(document);
+
+    </script>
 
   </body>
 
