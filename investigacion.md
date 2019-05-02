@@ -17,16 +17,11 @@ A partir de 2018, según lo estipula la **Resolución de Directorio No. 4436/17*
 
 <div class="container">
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-  
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}/proyectos">
         <figure class="post-card__thumb">
-          <img class="lazyload blur"
-              src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_placehold.jpg",
-              data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb@2x.jpg 2x"
-              alt="proyectos"
-            />
-          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"></noscript>
+          <img class="lazyload blur" src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"/>
+          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"/></noscript>
         </figure>
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/proyectos">
@@ -35,16 +30,13 @@ A partir de 2018, según lo estipula la **Resolución de Directorio No. 4436/17*
         </div>
       </a>
     </div>
-
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}/cursosyeventos">
         <figure class="post-card__thumb">
           <img
-              src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_placehold.jpg",
-              data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb@2x.jpg 2x"
+              src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg"
               class="lazyload blur"
-              alt="cursosyeventos"
-            />
+              alt="cursosyeventos"/> 
           <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg" alt="cursosyeventos"></noscript>
         </figure>
       </a>
@@ -54,18 +46,15 @@ A partir de 2018, según lo estipula la **Resolución de Directorio No. 4436/17*
         </div>
       </a>
     </div>
-
-
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}/publicaciones">
         <figure class="post-card__thumb">
           <img
-              src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_placehold.jpg",
-              data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb@2x.jpg 2x"
+              src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg"
               class="lazyload blur"
               alt="cursosyeventos"
             />
-          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg" alt="cursosyeventos"></noscript>
+          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg" alt="cursosyeventos"/></noscript>
         </figure>
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/publicaciones">
