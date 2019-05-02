@@ -7,7 +7,7 @@ permalink: /proyectos/
 # Proyectos en curso
 
 ## Pelagios al Sur. Georreferenciación y anotación semántica
-Financiado por Pelagios Commons, el proyecto [Pelagios al Sur][pelagios-site] extiende las herramientas de georreferenciación y anotación semántica de textos y mapas desarrolladas por el consorcio Pelagios Commons a otras fronteras espaciales y geográficas, más allá del mundo antiguo o medieval y de la geografía euro-asiática. A fines de interés de nuestra comunidad académica en Argentina este proyecto aborda textos del período XVI-XVII y la zona Río de la Plata.
+Financiado por [Pelagios Commons](http://commons.pelagios.org/), el proyecto [Pelagios al Sur][pelagios-site] extiende las herramientas de georreferenciación y anotación semántica de textos y mapas desarrolladas por el consorcio Pelagios Commons a otras fronteras espaciales y geográficas, más allá del mundo antiguo o medieval y de la geografía euro-asiática. A fines de interés de nuestra comunidad académica en Argentina este proyecto aborda textos del período XVI-XVII y la zona Río de la Plata.
 
 ## Revista de Humanidades Digitales (CONICET, UNED y UNAM)
 La [Revista de Humanidades Digitales][revistahd-site] es resultado de la colaboración entre investigadores en Humanidades Digitales de LINHD-UNED (España), CONICET (Argentina) y la UNAM (México). La misión de la RHD es ser un espacio para que todas las voces que digan Humanidades Digitales puedan oírse desde lo abierto, la garantía y el rigor de la evaluación científica por pares y desde una comprensión extendida de las Humanidades Digitales. 

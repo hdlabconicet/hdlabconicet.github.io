@@ -21,9 +21,8 @@ social:
 navigation:
   - {name: 'Inicio', link: '/'}
   - {name: 'Novedades', link: '/novedades'}
-  - {name: 'Proyectos', link: '/proyectos'}
-  - {name: 'Cursos y Eventos', link: '/cursosyeventos'}
-  - {name: 'Publicaciones', link: '/publicaciones'}
+  - {name: 'Investigación', link: '/investigacion'}
+  - {name: 'Textos y Mapas', link: '/argentina-manuscrita'}
   - {name: 'Equipo', link: '/equipo'}
   - {name: 'Contacto', link: '/contacto'}
 
