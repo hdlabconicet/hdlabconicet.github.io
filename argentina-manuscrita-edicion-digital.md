@@ -11,11 +11,13 @@ _La Argentina manuscrita_, originalmente publicada como _Historia argentina del 
 
 ![relaciones]({{site.baseurl}}/assets/img/argentina_manuscrita/relaciones_LAM.png)
 
-Hijo de conquistador español y de mujer noble guaraní, el autor ofrece una perspectiva particular dentro del conjunto de cronistas de de Indias. Así se puede apreciar en Ruy Díaz de Guzmán el cruce lingüístico y la voluntad de transmisión de una experiencia desconocida para los lectores europeos.
+Hijo de conquistador español y de mujer noble guaraní, el autor ofrece una perspectiva particular dentro del conjunto de cronistas de de Indias. Así se puede apreciar en Rui Díaz de Guzmán el cruce lingüístico y la voluntad de transmisión de una experiencia desconocida para los lectores europeos.
 
 ![nube]({{site.baseurl}}/assets/img/argentina_manuscrita/cirrus_LAM.png)
 
 <!-- ![trend]({{site.baseurl}}/assets/img/argentina_manuscrita/trend_LAM.png) -->
+
+La presente edición digital fue realizada a partir de la edición de Pedro de Angelis, _Historia Argentina del descubrimiento, población y conquista de las provincias del Río de la Plata_, escrita por Ruy Díaz de Guzmán en el año de 1612. En _Colección de obras y documentos relativos a la Historia Antigua y Moderna de las provincias del Río de La Plata. Tomo Primero_, Buenos Aires, Imprenta del Estado, 1835. Se comparte a través de la licencia Creative Commons 4.0 no comercial internacional (CC BY-NC 4.0): [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <br>
 

@@ -6,7 +6,7 @@ permalink: /argentina-manuscrita/
 
 ## Introducción
 
-_La Argentina Manuscrita_ de Rui Díaz de Guzmán forma parte de un corpus de textos producidos durante la Conquista del Río de la Plata entre los siglos XVI-XVII. Ruy Díaz de Guzmán fue un conquistador mestizo guaraní-español y el primer escritor nacido en el virreinato del Río de la Plata. 
+_La Argentina Manuscrita_ de Rui Díaz de Guzmán forma parte de un corpus de textos producidos durante la Conquista del Río de la Plata entre los siglos XVI-XVII. Rui Díaz de Guzmán fue un conquistador mestizo guaraní-español y el primer escritor nacido en el virreinato del Río de la Plata. 
 
 Esta edición digital es el resultado del proyecto Pelagios al Sur llevado a cabo gracias al apoyo del consorcio Pelagios Commons. Para más información sobre _La Argentina Manuscrita_ y el proyecto Pelagios al Sur, visite la sección [La Edición digital](/argentina-manuscrita-edicion-digital).
 
