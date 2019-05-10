@@ -3,6 +3,15 @@ layout: page
 title: Cursos y Eventos
 permalink: /cursosyeventos/
 ---
+# Editatón 1bib1ref en CAICYT
+
+20 de mayo de 2019
+
+CAICYT-CONICET - Saavedra 15, 3er piso
+
+Edición y referenciación de artículos de Wikipedia.
+
+[Más información](/assets/img/1bib1ref-caicyt-flyer.jpg)
 
 # Workshop en Humanidades Digitales: ¿Qué son? ¿Para qué sirven?
 
