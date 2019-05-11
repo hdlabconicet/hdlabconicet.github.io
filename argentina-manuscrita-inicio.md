@@ -10,6 +10,8 @@ _La Argentina Manuscrita_ de Rui Díaz de Guzmán forma parte de un corpus de te
 
 Esta edición digital es el resultado del proyecto Pelagios al Sur llevado a cabo gracias al apoyo del consorcio Pelagios Commons. Para más información sobre _La Argentina Manuscrita_ y el proyecto Pelagios al Sur, visite la sección [La Edición digital](/argentina-manuscrita-edicion-digital).
 
+Para hacer anotaciones en este sitio, use el botón "Anotar" de la barra de navegación. Luego de hacer click, seleccione el texto de su interés y podrá hacer resaltados y asociar notas. Para más información, visite [Hypothes.is](https://web.hypothes.is/).
+
 <br>
 
 -------------

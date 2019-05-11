@@ -11,7 +11,7 @@ CAICYT-CONICET - Saavedra 15, 3er piso
 
 Edición y referenciación de artículos de Wikipedia.
 
-[Más información](/assets/img/1bib1ref-caicyt-flyer.jpg)
+[Más información](/assets/img/posts/1bib1ref-caicyt-flyer.jpg)
 
 # Workshop en Humanidades Digitales: ¿Qué son? ¿Para qué sirven?
 
@@ -21,7 +21,7 @@ CITEP - Uriburu 950, CABA
 
 Conversatorio sobre proyectos en Humanidades Digitales y hackathon de edición digital de textos con TEI.
 
-[Más información](/flyer-ws-20181112)
+[Más información]({{site.baseurl}}/assets/img/posts/cronograma-workshop-12nov2018.jpg)
 
 
 # Taller: Enfoques digitales de la historia en la Temprana Edad Moderna: marcos, herramientas y recursos
