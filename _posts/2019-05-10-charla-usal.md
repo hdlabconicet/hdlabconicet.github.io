@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Charla "Introducción a las Humanidades Digitales" en la USAL
+title: Conferencia "Introducción a las Humanidades Digitales" en la USAL
 type: post
 published: true_or_false
 categories:
@@ -11,7 +11,7 @@ featured-img: usal-publico
 
 ---
 
-# Charla "Introducción a las Humanidades Digitales" en la USAL
+# Conferencia "Introducción a las Humanidades Digitales" en la USAL
 
 El viernes 10 de mayo, HDCAICYTLAB llevó a cabo una charla introductoria a las Humanidades Digitales auspiciada por la Secretaría de Extensión de la USAL. 
 
