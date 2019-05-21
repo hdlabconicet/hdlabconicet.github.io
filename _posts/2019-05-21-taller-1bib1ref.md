@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taller #1bib1ref
+title: Taller 1bib1ref
 type: post
 published: true_or_false
 categories:
