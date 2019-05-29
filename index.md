@@ -17,8 +17,7 @@ La línea de investigación en Humanidades Digitales se inició a fines de 2014 
 * Lingüística Computacional y Procesamiento del Lenguaje Natural
 * Taxonomías, tesauros y glosarios digitales
 * Explotación y visualización de grandes datos
-* Investigación sobre el currículum científico y educativo en Humanidades 
-* Digitales en América Latina y el Caribe
+* Investigación sobre el currículum científico y educativo en Humanidades Digitales en América Latina y el Caribe
 * Buenas prácticas en Humanidades Digitales
 
 <!-- [HDCAICYTLAB logo](/assets/img/.jpg) -->
