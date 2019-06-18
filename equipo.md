@@ -23,13 +23,16 @@ permalink: /equipo/
 * [Gabriela Striker][gabriela-profile]
 * [Gabriel Calarco][gabriel-profile]
 * [Marisol Fila][marisol-profile]
+* [Carina Zubillaga][carina-profile]
+* [Leonardo Funes][leonardo-profile]
 
 ![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
 ![Gabriela photo](/assets/img/equipo/Gabriela-micrositio.png)
 ![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
-
+![Carina photo](/assets/img/equipo/foto-cz.jpg)
+![Leonardo photo](/assets/img/equipo/foto-lf.jpg)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
@@ -39,3 +42,5 @@ permalink: /equipo/
 [juliana-profile]:http://www.conicet.gov.ar/new_scp/detalle.php?id=34299&datos_academicos=yes
 [gabriel-profile]: http://aahd.net.ar/personas/gabriel-calarco
 [gabriela-profile]: https://www.aacademica.org/gabriela.edith.striker
+[carina-profile]: http://www.iibicrit-conicet.gov.ar/wordpress/quienes-somos/miembros/dra-carina-alejandra-zubillaga/
+[leonardo-profile]: http://www.iibicrit-conicet.gov.ar/quienes-somos/miembros/dr-leonardo-r-funes/ 
