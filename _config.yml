@@ -22,7 +22,7 @@ navigation:
   - {name: 'Inicio', link: '/'}
   - {name: 'Novedades', link: '/novedades'}
   - {name: 'Investigación', link: '/investigacion'}
-  - {name: 'Textos y Mapas', link: '/argentina-manuscrita'}
+  - {name: 'Textos y Mapas', link: '/textosymapas'}
   - {name: 'Equipo', link: '/equipo'}
   - {name: 'Contacto', link: '/contacto'}
 
