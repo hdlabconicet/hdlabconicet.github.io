@@ -42,6 +42,8 @@ encoding: utf-8
 collections:
   argentina_manuscrita: 
     output: true
+  argentina_manuscrita_pages: 
+    output: true
 
 remote_theme: jekyll-sleek
 plugins:
