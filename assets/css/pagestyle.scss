@@ -2,6 +2,7 @@
 sitemap: false
 ---
 
+
 /* 
 * COLOR.
 * 
@@ -20,12 +21,15 @@ $link-color: #841212;
  * Center the page content.
  */
 
-.container {
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto;
-}
+.container{padding-top:30px;margin:0 auto;max-width:100%}
+@media only screen and (min-width: 36em){.container{margin:0 auto;max-width:540px}}
+@media only screen and (min-width: 48em){.container{margin:0 auto;max-width:720px}}
+@media only screen and (min-width: 62em){.container{margin:0 auto;max-width:960px}}
+@media only screen and (min-width: 75em){.container{margin:0 auto;max-width:1280px}}
+
+.page-content{margin:0 auto;padding-top:1.5em 0;max-width:100%}
+@media only screen and (min-width: 48em){.page-content{padding:1.75rem 0}}
+
 
 /* Headings */
 
@@ -96,36 +100,20 @@ div.toc {
   margin-bottom: 4rem;
 }
 
-
-
 div.column-text {
   margin-bottom: 1rem;
   margin-left: 1em;
 }
 
-
-/* Lists */
-ul {
-  list-style: none;
-  margin-top: 1em;
-  margin-bottom: 1rem;
+.column {
+  float: left;
+  width: 50%;
 }
 
-li {
-  font-size: 1.5rem;
-  margin-top: 1.5em;
-}
-
-ul.idx {
-  display:inline-block;
-  padding:10px 1%;
-  width: 100%;
-  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-li.idx {
-  display:inline-block;
-  font-size: 20px; 
-  margin-top: 0;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 

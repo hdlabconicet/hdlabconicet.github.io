@@ -1,0 +1,120 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+
+  {% include head.html %}
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pagestyle.css"/>
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero--small">
+      <div class="hero__wrap">
+        <h1 class="hero__title">{{ page.title }}</h1>
+      </div>
+    </div>
+    <main class="site__content">
+      <div class="container">
+        <div class="page-content">
+
+          {{ content }}
+
+        </div>
+
+        <div class="post-content controls__inner">
+          <div class="controls__item prev">
+            {% if page.previous.url %}
+
+            <span>Anterior</span>
+            <a href="{{page.previous.url | relative_url }}">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                      <path fill="fillColor" d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z"/>
+                    </svg>
+                </span>
+              {{page.previous.subtitle | strip_html | truncate: 30}}
+            </a>
+            {% endif %}
+          </div>
+
+          <div class="controls__item next">
+            {% if page.next.url %}
+            <span>Siguiente</span>
+            <a href="{{page.next.url | relative_url }}">
+              {{page.next.subtitle | strip_html | truncate: 30}}
+              <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                    <path fill="#fillColor" d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z"/>
+                  </svg>
+                </span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+
+        <center>
+          {% if page.type %}
+          <a href="{{site.url }}/argentina-manuscrita-indice-paginas">Ir al índice</a>
+          {% endif %}
+        </center>
+
+      <br>
+
+      </div> 
+    </main>
+
+    {% include footer.html %}
+
+    <script>
+
+    // Highlight search Query
+    var url = window.location.href;
+      if (url.lastIndexOf("?q=") > 0) {
+        // get the index of the parameter, add three (to account for length)
+        var stringloc = url.lastIndexOf("?q=") + 3;
+        // get the substring (query) and decode
+        var searchquery = decodeURIComponent(url.substr(stringloc));
+        // regex matches at beginning of line, end of line or word boundary, useful for poetry
+        var regex = new RegExp("(?:^|\\b)(" + searchquery + ")(?:$|\\b)", "gim");
+        // get, add mark and then set content
+        var content = document.getElementById("main").innerHTML;
+        document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
+      }
+
+    // Toggle sidebar  
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+        var sidebartocitem = document.querySelector('#sidebar-nav-item-toc');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             !sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+
+
+  </body>
+
+</html>
