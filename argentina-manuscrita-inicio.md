@@ -16,9 +16,23 @@ Para hacer anotaciones en este sitio, use el botón "Anotar" de la barra de nave
 
 -------------
 
+<!-- <a href="{{site.baseurl}}/argentina-manuscrita-indice"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/argman.gif" align="center"/></a> -->
+
+<ul class="idx">
+<li><a href="{{site.baseurl}}/argentina-manuscrita-indice">Ver edición digital anotada</a></li>
+<li><a href="{{site.baseurl}}/search">Hacer una búsqueda</a></li>
+<li><a href="{{site.baseurl}}/argentina-manuscrita-biblio">Bibliografía</a></li>
+</ul>
+
+-------------
+
 <br>
 
-  <div class="toc">
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1dzNiAAvRLFvFayZVusjq_ZZM78G4kRSBO2ozn1VZWUY&font=Default&lang=es&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+
+
+
+<!--   <div class="toc">
     <div class="toc-item row">
       <div class="column">
         <img src="{{site.baseurl}}/assets/img/argentina_manuscrita/11622020.jpg"/>
@@ -32,7 +46,7 @@ Para hacer anotaciones en este sitio, use el botón "Anotar" de la barra de nave
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 <!--[Descargar anotación TEI]({{ site.url }}{{ site.baseurl }}/textos/Ruy_Diaz-La_Argentina_Manuscrita.tei.xml) -->
