@@ -13,7 +13,7 @@ featured-img: tei-graz
 
 # Conferencia anual de la TEI, Universidad de Graz - 2019
 
-Del 16 al 20 de septiembre se llevó a cabo la [Conferencia anual y Reunión de miembros del Consorcio TEI](https://graz-2019.tei-c.org/), organizado por el Centro de Modelado de Información, en la Universidad de Graz, Austria, precedido por *Georg Vogeler* y la Dra. *Gimena del Rio*, como parte del *Board of Directors* de la TEI y del [programme committee](https://graz-2019.tei-c.org/wp-content/uploads/2019/09/ProgrammheftFINAL.pdf).
+Del 16 al 20 de septiembre se llevó a cabo la [Conferencia anual y Reunión de miembros del Consorcio TEI](https://graz-2019.tei-c.org/), organizado por el Centro de Modelado de Información, en la Universidad de Graz, Austria, presidido por *Georg Vogeler* y la Dra. *Gimena del Rio*, como parte del *Board of Directors* de la TEI y del [programme committee](https://graz-2019.tei-c.org/wp-content/uploads/2019/09/ProgrammheftFINAL.pdf).
 
 Esta edición tuvo por objetivo el debate sobre el desarrollo de la TEI y las discusiones en su entorno que han demostrado cuán diversos pueden ser los textos y cuán amplio es el enfoque de la TEI. Los resúmenes han sido evaluados por al menos tres revisores del comité del programa y han sido recopilados en (https://gams.uni-graz.at/o:tei2019.bookofabstracts).
 
