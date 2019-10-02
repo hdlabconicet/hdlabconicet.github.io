@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jornda Gestión y análisis de datos
+title: Jornada Gestión y análisis de datos
 type: post
 published: true_or_false
 categories:
