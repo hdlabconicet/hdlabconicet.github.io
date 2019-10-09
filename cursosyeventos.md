@@ -4,6 +4,41 @@ title: Cursos y Eventos
 permalink: /cursosyeventos/
 ---
 
+# Curso online: Explorar las Humanidades Digitales
+
+24 de octubre - 28 de noviembre de 2019
+
+[Virtual](http://citep.rec.uba.ar/explorar-las-humanidades-digitales/)
+
+Curso teórico-práctico de introducción a las Humanidades Digitales.
+
+[Inscripciones](https://docs.google.com/forms/d/e/1FAIpQLSdRjXyULSBQ12lrLLjDFujOE88jpnGqID0nMuQUCTTCeSOVig/viewform)
+
+-----------
+
+# Semana de la Ciencia 2019
+
+11 de septiembre de 2019
+
+CAICYT-CONICET - Saavedra 15, 1er piso
+
+Taller de Humanidades Digitales.
+
+[Más información](/assests/img/posts/semana-ciencia-2019-flyer-big.jpg)
+
+-----------
+# Webaton: Humanidades digitales, patrimonio cultural y acceso abierto
+
+4 de septiembre de 2019
+
+[Virtual](http://cor.to/githubwebaton)
+
+Jornada online de Humanidades Digitales en videoconferencia.
+
+[Más información](/assests/img/posts/webaton1.jpg)
+
+-----------
+
 # Editatón 1bib1ref en CAICYT
 
 20 de mayo de 2019
