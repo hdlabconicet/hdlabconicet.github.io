@@ -27,6 +27,7 @@ Taller de Humanidades Digitales.
 [Más información](/assests/img/posts/semana-ciencia-2019-flyer-big.jpg)
 
 -----------
+
 # Webaton: Humanidades digitales, patrimonio cultural y acceso abierto
 
 4 de septiembre de 2019
