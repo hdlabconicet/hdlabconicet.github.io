@@ -24,7 +24,9 @@ CAICYT-CONICET - Saavedra 15, 1er piso
 
 Taller de Humanidades Digitales.
 
-[Más información](/assests/img/posts/semana-ciencia-2019-flyer-big.jpg)
+[Más información](http://www.semanadelaciencia.mincyt.gob.ar/)
+
+![Flyer Semana Ciencia 2019]({{site.baseurl}}/assets/img/posts/semana-ciencia-2019-flyer.jpg)
 
 -----------
 
@@ -36,7 +38,7 @@ Taller de Humanidades Digitales.
 
 Jornada online de Humanidades Digitales en videoconferencia.
 
-[Más información](/assests/img/posts/webaton1.jpg)
+[Más información](/assets/img/posts/webaton1.jpg)
 
 -----------
 
@@ -48,11 +50,11 @@ CAICYT-CONICET - Saavedra 15, 3er piso
 
 Edición y referenciación de artículos de Wikipedia.
 
+[Más información](assets/img/posts/semana-ciencia-2019-flyer.jpg)
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/yntF5W8URAY" frameborder="0" allowfullscreen>
   <p>Your browser does not support iframes.</p>
 </iframe>
-
-[Más información](/assets/img/posts/1bib1ref-caicyt-flyer.jpg)
 
 -----------
 
