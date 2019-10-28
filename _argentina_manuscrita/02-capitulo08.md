@@ -1,7 +1,7 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 8
+subtitle: Capítulo VIII
 section: Libro II
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB

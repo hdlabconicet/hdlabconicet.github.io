@@ -1,7 +1,7 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 6
+subtitle: Capítulo VI
 section: Libro II
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
