@@ -6,6 +6,7 @@ subtitle: Prólogo
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
 type: texto
+img: pg_0001
 ---
 
 ## Prólogo y argumento al benigno lector

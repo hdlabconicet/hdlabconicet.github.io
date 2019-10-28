@@ -1,9 +1,8 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 13
+subtitle: Capítulo XIII
 section: Libro I
-
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
 type: texto

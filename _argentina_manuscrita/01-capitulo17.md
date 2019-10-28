@@ -1,9 +1,8 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 17
+subtitle: Capítulo XVII
 section: Libro I
-
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
 type: texto

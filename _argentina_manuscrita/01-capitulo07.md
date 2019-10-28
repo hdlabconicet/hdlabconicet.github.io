@@ -1,7 +1,7 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 7
+subtitle: Capítulo VII
 section: Libro I
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB

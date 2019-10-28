@@ -1,9 +1,8 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 11
+subtitle: Capítulo XI
 section: Libro I
-
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
 type: texto

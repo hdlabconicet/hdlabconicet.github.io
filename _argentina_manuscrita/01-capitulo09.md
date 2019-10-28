@@ -1,7 +1,7 @@
 ---
 layout: texto
 title: La Argentina Manuscrita
-subtitle: Capítulo 9
+subtitle: Capítulo IX
 section: Libro I
 author: Rui Díaz de Guzmán
 editor: HD CAICYT LAB
