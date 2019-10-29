@@ -13,12 +13,6 @@ permalink: /argentina-manuscrita-indice/
 
 <!-- Dedicatoria -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-      <span class="post-card__label">
-        <a href="{{site.baseurl}}/argentina_manuscrita/00-dedicatoria.md" class="label"> Texto completo </a>
-      </span>
-      <span class="post-card__label">
-        <a href="{{site.baseurl}}/" class="label"> Páginas </a>
-      </span>
       <a href="{{ site.baseurl }}/argentina_manuscrita_pages/pg_0001">
         <figure class="post-card__placehold">
           <img class="lazyload blur" src="{{ site.url }}{{ site.baseurl }}/assets/img/argentina_manuscrita/pg_0001_placehold.jpg" alt="Dedicatoria"/>
@@ -27,7 +21,7 @@ permalink: /argentina-manuscrita-indice/
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/argentina_manuscrita_pages/pg_0001">
         <div class="post-card__header">
-          <h6>Dedicatoria</h6>
+          <h3>Dedicatoria</h3>
         </div>
       </a>
     </div>
@@ -41,7 +35,7 @@ permalink: /argentina-manuscrita-indice/
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/argentina_manuscrita_pages/pg_0003">
         <div class="post-card__header">
-          <h6>Prólogo</h6>
+          <h3>Prólogo</h3>
         </div>
       </a>
     </div>
@@ -60,7 +54,7 @@ permalink: /argentina-manuscrita-indice/
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/argentina_manuscrita_pages/pg_0005">
         <div class="post-card__header">
-          <h6>Libro I</h6>
+          <h3>Libro I</h3>
         </div>
        </a>
     </div>
@@ -78,7 +72,7 @@ permalink: /argentina-manuscrita-indice/
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/argentina_manuscrita_pages/pg_0063">
         <div class="post-card__header">
-          <h6>Libro II</h6>
+          <h3>Libro II</h3>
         </div>
       </a>
     </div>
@@ -96,7 +90,7 @@ permalink: /argentina-manuscrita-indice/
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/argentina_manuscrita_pages/pg_0113">
         <div class="post-card__header">
-          <h6>Libro III</h6>
+          <h3>Libro III</h3>
         </div>
       </a>
     </div>
