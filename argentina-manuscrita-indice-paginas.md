@@ -9,9 +9,9 @@ permalink: /argentina-manuscrita-indice-paginas/
 
 #### Paratextos
 <ul class="idx">
-{% for capitulo in site.argentina_manuscrita_pages %}
-	{% if capitulo.section == "Paratextos" %}
-		<li class="idx"><a href="{{ capitulo.url }}">{{ capitulo.subtitle }}</a> | </li>
+{% for page in site.argentina_manuscrita_pages %}
+	{% if page.section == "Paratextos" %}
+		<li class="idx"><a href="{{ page.url }}">{{ page.subtitle }}</a> | </li>
 	{% endif %}
 {% endfor %}
 </ul>
@@ -19,9 +19,9 @@ permalink: /argentina-manuscrita-indice-paginas/
 #### Libro I
 
 <ul class="idx">
-{% for capitulo in site.argentina_manuscrita_pages %}
-	{% if capitulo.section == "Libro I" %}
-	<li class="idx"><a href="{{ capitulo.url }}">{{ capitulo.subtitle }}</a> | </li>
+{% for page in site.argentina_manuscrita_pages %}
+	{% if page.section == "Libro I" %}
+	<li class="idx"><a href="{{ page.url }}">{{ page.subtitle }}</a> | </li>
 	{% endif %}
 {% endfor %}
 </ul>
@@ -29,9 +29,9 @@ permalink: /argentina-manuscrita-indice-paginas/
 ### Libro II
 
 <ul class="idx">
-  {% for capitulo in site.argentina_manuscrita_pages %}
-  	{% if capitulo.section == "Libro II" %}
-	    <li class="idx"> <a href="{{ capitulo.url }}">{{ capitulo.subtitle }}</a> | </li>
+  {% for page in site.argentina_manuscrita_pages %}
+  	{% if page.section == "Libro II" %}
+	    <li class="idx"> <a href="{{ page.url }}">{{ page.subtitle }}</a> | </li>
 	{% endif %}
   {% endfor %}
 </ul>
@@ -40,9 +40,9 @@ permalink: /argentina-manuscrita-indice-paginas/
 ### Libro III
 
 <ul class="idx">
-  {% for capitulo in site.argentina_manuscrita_pages %}
-  	{% if capitulo.section == "Libro III" %}
-	    <li class="idx"> <a href="{{ capitulo.url }}">{{ capitulo.subtitle }}</a> | </li>
+  {% for page in site.argentina_manuscrita_pages %}
+  	{% if page.section == "Libro III" %}
+	    <li class="idx"> <a href="{{ page.url }}">{{ page.subtitle }}</a> | </li>
 	{% endif %}
   {% endfor %}
 </ul>
