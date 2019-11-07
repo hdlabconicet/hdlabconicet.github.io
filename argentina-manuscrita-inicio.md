@@ -20,6 +20,7 @@ Para hacer anotaciones en este sitio, use el botón "Anotar" de la barra de nave
 
 <ul class="idx">
 <li><a href="{{site.baseurl}}/argentina-manuscrita-indice">Ver edición digital anotada</a></li>
+<li><a href="{{site.baseurl}}/argentina-manuscrita-pueblos-originarios">Índice de pueblos originarios</a></li>
 <li><a href="{{site.baseurl}}/search">Hacer una búsqueda</a></li>
 <li><a href="{{site.baseurl}}/argentina-manuscrita-biblio">Bibliografía</a></li>
 </ul>
