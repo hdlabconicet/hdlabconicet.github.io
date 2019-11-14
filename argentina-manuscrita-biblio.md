@@ -2,6 +2,7 @@
 layout: texto
 title: La Argentina Manuscrita
 permalink: /argentina-manuscrita-biblio/
+type: extras
 ---
 
 ## Bibliografía
@@ -206,5 +207,3 @@ permalink: /argentina-manuscrita-biblio/
 
 
 <!-- groups/1669951/hdcaicyt-pelagios_al_sur -->
-
-[Volver](/argentina-manuscrita)

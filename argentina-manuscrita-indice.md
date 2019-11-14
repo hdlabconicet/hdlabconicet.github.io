@@ -2,6 +2,7 @@
 layout: texto
 title: La Argentina Manuscrita
 permalink: /argentina-manuscrita-indice/
+type: extras
 ---
 
 <h2>Índice</h2>

@@ -2,6 +2,7 @@
 layout: texto
 title: La Argentina Manuscrita
 permalink: /argentina-manuscrita-nombres/
+type: extras
 ---
 
 ## Índice de nombres

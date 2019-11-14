@@ -2,7 +2,7 @@
 layout: texto
 title: La Argentina Manuscrita
 permalink: /argentina-manuscrita-edicion-digital/
-type: texto
+type: extras
 ---
 
 ## La edición digital de La Argentina Manuscrita
