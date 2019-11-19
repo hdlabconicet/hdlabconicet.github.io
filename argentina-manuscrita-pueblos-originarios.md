@@ -9,7 +9,7 @@ type: extras
 
 ### Lista de pueblos originarios mencionados en _La Argentina Manuscrita_.
 
-**Arachanes**: Otro nombre que se le daba en la región a los guaraníes.
+**Arachanes**: Otro nombre que se le daba a los guaraníes en las costas del sur de Brasil en torno a la laguna de los Patos en Río Grande del Sur.
 
 **Agases**: Agaces o Agases. Una sociedad nativa que habitaba en el curso inferior del río paraguay. Pertenecían al tronco lingüístico mataco-guaycurú y eran muy hábiles canoeros y pescadores. Solían tener conflictos con los guaraníes carios que vivían río arriba y luego por extensión con los cristianos de Asunción.
 
@@ -17,13 +17,23 @@ type: extras
 
 **Caracarás**: Parcialidad Chaná-Timbú.
 
+**Carayazapera**: Parcialidad tupí-guaraní.
+
 **Caribes**: Refiere a los carijós, que pertenecen al tronco lingüístico guaraní. La referencia a los caribes, realizada primero por Cristóbal Colón para nombrar a los supuestos enemigos de los taínos de Guanahaní, fue utilizada repetidamente en el curso del siglo XVI para caracterizar a las sociedades americanas que practicaban canibalismo ritual.
 
-**Carios**: parcialidad guaraní en las proximidades de la ciudad de Asunción. Es frecuente que se utilice su nombre para denominar a todos los guaraníes. 
+**Carios**: Parcialidad guaraní en las proximidades de la ciudad de Asunción. Es frecuente que se utilice su nombre para denominar a todos los guaraníes.
+
+**Charcas**: Refiere al pueblo charca, etnia que habitó la región del actual departamento de Chuquisaca, Bolivia. Desde fines del siglo XV fueron súbditos del Incanato. Regularmente sufrían incursiones de los avá guaraní, desde el actual Paraguay y al este, de los chiriguanos. 
 
 **Charrúas**: los charrúas constituían una sociedad de cazadores-recoletores que habitaban en los actuales territorios de Uruguay. Tribu feroz e indómita, en continua guerra con los Arachanes. Fueron perseguidos y exterminados por el General don Fructuoso Rivera en 1831. Pedro de Ángelis propone la siguiente etimología para &quot;charrúa&quot;: &quot;en guaraní, quiere decir, &quot;somos turbulentos y revoltosos&quot; (_Cha_, nosotros, y _rru_, enojadizo)&quot;.
 
+**Chayos**: Refiere a los  yaros, yaroes, yaroses o jaros, pueblo indígena de América del Sur que antes de su fusión dentro del complejo charrúa entre fines del siglo XVII y principios del siglo XVIII habitaba en ambas márgenes del bajo río Uruguay en Argentina y Uruguay.
+
+**Chiquis**: Indígenas del Guayra. Tribu poco conocida, en las márgenes del Iguazú.
+
 **Chiriguanos**: los chiriguanos componían la parcialidad más occidental de los guaraníes, asentados en actual territorio boliviano sobre los contrafuertes andinos. Ruy Díaz dirigió varias campañas en su contra.
+
+**Chovas**: Indígenas del Guayra, con similitudes en la lengua con los Pates. Poblaban las márgenes del río Iguazú, en parajes retirados.
 
 **Curumías**: Podría tratarse de una parcialidad de los cutaguas, debido a las similitudes de ambos grupos en costumbres y lengua. Habitaban la parte alta de Xerez, establecidos en los campos regados por el río Mbotetey.
 
@@ -56,8 +66,6 @@ El muy difundido nombre guaraní lo escucharon los españoles que, al invadir su
 **Napabes**: Podría tratarse de una parcialidad guaycurú, naparús.
 
 **Mogolas**: indios del Paraguay reducidos por Cabeza de Vaca. Esta tribu ha dejado de existir y se habla muy poco de ella en la historia de la conquista. Su nombre no es guaraní, se ignora su significado.
-
-**Jarayes**: Xarayes o Jarayes. Los guató, una sociedad nativa que habitaba el Gran Pantanal, eran habitualmente referidos en las fuentes coloniales como Xarajes. Indios del Perú, a 60 leguas arriba de la isla de los Orejones. Gente muy dócil, poblada sobre el río Paraguay; se divide en Perabazanes y Maneses.
 
 **Orejones**: Parcialidad de los huitoto, etnia de la Amazonía colombiana y peruana, cuyo territorio originario se encontraba en la parte media del río Caquetá y sus afluentes, y la zona selvática que va hasta el río Putumayo. Hablan una lengua de la familia bora-witoto, habitaban cerca de un paraje llamado Puerto de los Reyes..
 
