@@ -16,39 +16,27 @@ var index = elasticlunr(function () {
 //Add to this index the proper metadata from the Jekyll content
 
 
-{% assign count = 0 %}{% for text in site.argentina_manuscrita %}
+{% assign count = 0 %}{% for text in site.argentina_manuscrita_pages %}
 index.addDoc({
   section: {{text.section | jsonify}},
   subtitle: {{text.subtitle | jsonify}},
+  chapter: {{text.chapter | jsonify}},
   layout: {{text.layout | jsonify}},
   content: {{text.content | jsonify | strip_html}},
   id: {{count}}
 });{% assign count = count | plus: 1 %}{% endfor %}
-{% for text in site.pages %}{% if text.materiales == true %}
-index.addDoc({
-  section: {{text.section | jsonify}},
-  subtitle: {{text.subtitle | jsonify}},
-  layout: {{text.layout | jsonify}},
-  content: {{text.content | jsonify | strip_html}},
-  id: {{count}}
-});{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
 console.log( jQuery.type(index) );
 
 // Builds reference data (maybe not necessary for us, to check)
 
 
-var store = [{% for text in site.argentina_manuscrita %}{
+var store = [{% for text in site.argentina_manuscrita_pages %}{
   "section": {{text.section | jsonify}},
   "subtitle": {{text.subtitle | jsonify}},
+  "chapter": {{text.chapter | jsonify}},
   "layout": {{ text.layout | jsonify }},
   "link": {{text.url | jsonify}},
 },
-{% endfor %}{% assign materiales = site.pages | where: "materiales", true %}{% for text in materiales %}{
-  "section": {{text.section | jsonify}},
-  "subtitle": {{text.subtitle | jsonify}},
-  "layout": {{ text.layout | jsonify }},
-  "link": {{text.url | jsonify}},
-}{% unless forloop.last %},{% endunless %}
 {% endfor %}]
 
 //Query
@@ -78,7 +66,7 @@ function doSearch() {
   //Loop through, match, and add results
   for (var item in result) {
     var ref = result[item].ref;
-    var searchitem = '<div class="result"><p><a href="{{ site.baseurl }}'+store[ref].link+'?q='+query+'">'+store[ref].section+' - '+store[ref].subtitle+'</a></p></div>';
+    var searchitem = '<div class="result"><p><a href="{{ site.baseurl }}'+store[ref].link+'?q='+query+'">'+store[ref].section+' - '+store[ref].chapter+' - '+store[ref].subtitle+'</a></p></div>';
     resultdiv.append(searchitem);
   }
 }
