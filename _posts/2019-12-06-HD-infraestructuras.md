@@ -99,7 +99,7 @@ Y este no es un panorama ajeno a los proyecto en HD en América Latina. Si bien,
 
 En nuestro caso, como decís, el laboratorio genera hoy su propia infraestructura, a través del uso de tecnologías mínimas y abiertas para la anotación, edición y explotación y publicación del corpus, y para el almacenamiento y preservación de los datos. Este proceso, que ha sido parte de una investigación casi artesanal, de "prueba y error", en el cual mucho he aprendido de mis colegas del norte, como parte de mi colaboración con el consorcio [Force11](https://www.force11.org/), hace que la infraestructura que usamos en el laboratorio se vuelva visible en cada uno de los pasos que llevamos adelante en nuestro proceso de investigación.
 
-![hd-infraestructuras3](/assets/img/posts/hd-infraestructuras3.jpg)
+![hd-infraestructuras3](/assets/img/posts/hd-infraestructuras31.jpg)
 <br>
 
 ### 3. De todo lo visible y lo invisible o volver a pensar la investigación en HD
