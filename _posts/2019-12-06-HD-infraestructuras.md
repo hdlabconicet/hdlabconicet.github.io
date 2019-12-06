@@ -134,23 +134,23 @@ Bowker, G. C. (1994). Science on the Run: Information Management and Industrial 
 
 Benardou, A., Champion, E., Dallas, C. y Hughes, L. M. (2018). Introduction: A Critique of Digital Practices and Research Infrastructures. In Benardou, A., Champion, E., Dallas, C. and Hughes, L. (Eds.), Cultural Heritage Infrastructures in Digital Humanities. Series: Digital Research in the Arts and Humanities. Routledge: Abingdon.
 
-Bilder G., Lin J., Neylon C. (2015) Principles for Open Scholarly Infrastructure-v1- Accesible desde: <a href="dx.doi.org/10.6084/m9.figshare.1314859" target="_blank">dx.doi.org/10.6084/m9.figshare.1314859</a>.
+Bilder G., Lin J., Neylon C. (2015) Principles for Open Scholarly Infrastructure-v1- Accesible desde: <a href="https://figshare.com/articles/Principles_for_Open_Scholarly_Infrastructures_v1/1314859" target="_blank">dx.doi.org/10.6084/m9.figshare.1314859</a>.
 
-Blümm, M., y Schmunk, S. (2016). Digital Research Infrastructures: DARIAH. Lecture Notes in Computer Science, 62-73. doi:<a href="10.1007/978-3-319-47647-6" target="_blank">10.1007/978-3-319-47647-6</a>. 
+Blümm, M., y Schmunk, S. (2016). Digital Research Infrastructures: DARIAH. Lecture Notes in Computer Science, 62-73. doi:<a href="https://link.springer.com/book/10.1007/978-3-319-47647-6" target="_blank">10.1007/978-3-319-47647-6</a>. 
 
 Bowker, G. C. (1998). The History of Information Infrastructures: The Case ofthe International Classification of Diseases. Historical Studies in Information Science, 81.
 
 Capadisli, S. (2016). Linked Research on the Decentralised Web. Accesible desde: <a href="https://csarven.ca/linked-research-decentralised-web#decentralising-scholarly-communication" target="_blank">https://csarven.ca/linked-research-decentralised-web#decentralising-scholarly-communication</a>.
 
-Champion, E. (2014). Researchers as Infrastructure. In Proceedings of the Digital Humanities Congress 2012: Studies in the Digital Humanities. Sheffield. HRI online publications. Accesible desde: <a href="www.academia.edu/6414838/Researchers_as_Infrastructure" target="_blank">www.academia.edu/6414838/Researchers_as_Infrastructure</a>.
+Champion, E. (2014). Researchers as Infrastructure. In Proceedings of the Digital Humanities Congress 2012: Studies in the Digital Humanities. Sheffield. HRI online publications. Accesible desde: <a href="https://www.academia.edu/6414838/Researchers_as_Infrastructure" target="_blank">www.academia.edu/6414838/Researchers_as_Infrastructure</a>.
 
 Corsín Jiménez, A. (2018). Reclamar las Infraestructuras. La Aventura de Aprender. Accesible desde: <a href="http://laaventuradeaprender.intef.es/documents/10184/73911/AlbertoCorsin_infraestructurasD.pdf" target="_blank">http://laaventuradeaprender.intef.es/documents/10184/73911/AlbertoCorsin_infraestructurasD.pdf</a>.
 
-Dombrowski, Q. (2014). What Ever Happened to Project Bamboo? Literary and Linguistic Computing, 29(3), 326-339. doi:<a href="10.1093/llc/fqu026" target="_blank">10.1093/llc/fqu026</a>.
+Dombrowski, Q. (2014). What Ever Happened to Project Bamboo? Literary and Linguistic Computing, 29(3), 326-339. doi:<a href="https://doi.org/10.1093/llc/fqu026" target="_blank">10.1093/llc/fqu026</a>.
 
 Fiormonte, D. (2012). Towards and Cultural Critique of the Digital Humanities. In Controversies around the Digital Humanities, edited by Manfred Thaller, 59-76. 
 
-_____ (2014). Digital Humanities from a Global Perspective. Laboratorio dell’ISPF XI. doi: <a href="10.12862/ispf14L203" target="_blank"> 10.12862/ispf14L203</a>.
+_____ (2014). Digital Humanities from a Global Perspective. Laboratorio dell’ISPF XI. doi: <a href="http://www.ispf-lab.cnr.it/2014_203.pdf" target="_blank">10.12862/ispf14L203</a>.
 
 Fiormonte, D y del Rio Riande, G. (2017). Por unas Humanidades Digitales globales. In Infolet. 9 Oct 2017. Accesible desde: <a href="https://infolet.it/2017/10/09/humanidades-digitales-globales/" target="_blank">https://infolet.it/2017/10/09/humanidades-digitales-globales/</a>.
 
