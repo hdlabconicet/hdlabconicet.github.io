@@ -9,12 +9,10 @@ permalink: /equipo/
 * [Gimena del Rio Riande][gimena-profile]
 * [Romina De León][romina-profile]
 * [Nidia Hernández][nidia-profile]
-* Diego Ferreyra
 
 ![Gimena photo](/assets/img/equipo/Gimena-micrositio.jpg)
 ![Romina photo](/assets/img/equipo/Romina-micrositio.jpg)
 ![Nidia photo](/assets/img/equipo/Nidia-micrositio.jpg)
-![Diego photo](/assets/img/equipo/Diego-micrositio.jpg)
 
 # Grupo colaborador
 
@@ -25,6 +23,7 @@ permalink: /equipo/
 * [Marisol Fila][marisol-profile]
 * [Carina Zubillaga][carina-profile]
 * [Leonardo Funes][leonardo-profile]
+* Diego Ferreyra
 
 ![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
@@ -33,6 +32,7 @@ permalink: /equipo/
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
 ![Carina photo](/assets/img/equipo/foto-cz.jpg)
 ![Leonardo photo](/assets/img/equipo/foto-lf.jpg)
+![Diego photo](/assets/img/equipo/Diego-micrositio.jpg)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
