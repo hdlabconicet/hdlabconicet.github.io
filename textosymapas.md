@@ -18,11 +18,11 @@ A continuación, es posible encontrar documentos enriquecidos y material de apoy
 
 En esta sección es posible acceder a los textos enriquecidos por las anotaciones de nuestro equipo para el proyecto [Pelagios al Sur]({{site.baseurl}}/proyectos) usando Recogito.
 
-Visite nuestra edición digital de [La Argentina Manuscrita]({{site.baseurl}}/argentina-manuscrita) anotada con Recogito.
+Visite nuestra edición digital de [La Argentina Manuscrita](http://hdcaicyt.github.io/La-Argentina-Manuscrita) anotada con Recogito:
 
 <br>
 
-<a href="{{site.baseurl}}/argentina-manuscrita"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
+<a href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
 
 Fuente: gallica.bnf.fr
 
