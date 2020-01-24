@@ -1,4 +1,4 @@
-﻿---
+---
 layout: inicio
 title: HD CAICYT LAB
 ---
