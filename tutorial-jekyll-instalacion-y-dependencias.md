@@ -16,7 +16,6 @@ Al finalizar el tutorial, tendremos todos los programas necesarios para crear un
 - [Antes de la instalación](#section1)
 	- [Sistemas operativos](#section1-0)
 	- [Cuenta de usuario de Github](#section1-1)
-	- [Aplicación Github Desktop](#section1-2) **Chequear si es necesario**
 	- [Editor de texto](#section1-3)
 	- [Línea de comandos](#section1-4)
 - [Instalación de dependencias](#section2)
@@ -29,7 +28,6 @@ En esta sección, vamos a asegurarnos de tener todo lo necesario para crear un s
 
 - [qué sistema operativo es posible usar (es decir, Mac / Windows / Linux)](#section1-0)
 - [crear una cuenta de GitHub](#section1-1)
-- [instalar la aplicación GitHub Desktop](#section1-2) **Chequear si es necesario**
 - [por qué es necesario usar un "editor de texto" para trabajar en nuestro sitio web](#section1-3)
 - [cómo usar la línea de comandos](#section1-4)
 
@@ -43,25 +41,15 @@ Jekyll no es oficialmente compatible con Windows, lo que significa que la docume
 
 ### Cuenta de usuario de GitHub  {#section1-1}
 
-*La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en GitHub (desarrollaremos esto más tarde). Como beneficio adicional, también nos permite hacer un seguimiento de las versiones de nuestro sitio y su escritura a medida que crece o cambia con el tiempo.*
+*La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en GitHub. Como beneficio adicional, también nos permite hacer un seguimiento de las versiones de nuestro sitio y su escritura a medida que crece o cambia con el tiempo.*
 
-1. Visite [GitHub.com](https://github.com/) y haga clic en el botón verde "Sign up" (Registrarse) en la esquina superior derecha. Defina el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio de será http://hdcaicyt.github.io/. (*Tenga en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial*). Escriba su dirección de correo electrónico y defina una contraseña y luego haga clic en "Create an account" (Crear una cuenta).
-2. En la página siguiente, haga clic en el botón "Choose" (Seleccionar) junto a la opción de plan "Free" (Gratis). Ignore la casilla "Help me set up an organization next" (Ayuda para crear una organización) y haga clic en "Finish sign up" (Finalizar registro).
-3. *Opcional*: puede visitar https://github.com/settings/profile para agregar un nombre completo (puede ser su nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo desea.
-
-### Aplicación GitHub Desktop {#section1-2}
-
-**¿Vamos a usar esto en nuestro curso? Por lo que recuerdo, no, vamos a usar la línea de comandos, así que no sería necesario**
-
-*La aplicación GitHub Desktop facilitará la actualización de nuestro sitio web una vez que esté terminado: es una herramienta visual sencilla y más intuitiva que la línea de comandos.*
-
-1. Visite el [sitio de GitHub Desktop](https://desktop.github.com/) y haga clic en el botón "Download GitHub Desktop" (Descargar GitHub Desktop) para descargar el software de GitHub Desktop a su computadora (disponible para Windows y Mac solamente; los usuarios de Linux deben usar git a través de la línea de comandos, que no será tratada en este tutorial).
-2. Una vez que el archivo se haya descargado por completo, descomprímalo y siga las siguientes instrucciones para instalar GitHub Desktop.
-3. Haga click en "Sign in" (Registrarse) e ingrese el nombre de usuario y la contraseña para la cuenta de GitHub.com que creó siguiendo los pasos anteriores. Haga clic en "Continue" (Continuar).
-4. Ingrese el nombre y la dirección de correo electrónico a los que desea asociar su sitio. **A partir de acá no pude seguir con la instalacion porque me dio error**
-5. En la barra de menú, haga clic en *Github Desktop > Install Command Line Tool* (Instalar herramienta de línea de comandos) e ingrese el nombre de usuario y la contraseña de su computadora, luego haga clic en el botón "Install Helper" (Instalar ayudante). Después de recibir el mensaje de que todas las herramientas de línea de comandos se han instalado correctamente, haga clic en continuar.
-6. La última página preguntará "Which repositories would you like to use?" (¿Qué repositorios le gustaría usar?). Ignórelo y haga clic en el botón "Done" (Listo).
-7. *Opcional:* siga el paso a paso de GitHub Desktop que aparecerá (esto no es necesario; cubriremos todo lo que necesite hacer con GitHub en este tutorial).
+1. Visite [GitHub.com](https://github.com/) y haga clic en el botón verde "Sign up" (Registrarse). 
+2. En la página siguiente, defina el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio de será http://hdcaicyt.github.io/. (*Tenga en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial*). Escriba una dirección de correo electrónico de uso habitual y defina una contraseña que contenga al menos un número y una letra minúscula. 
+3. En el recuadro "Verify your account", presione el botón "Verify" (Verificar). Use las flechas para poner la imagen en el sentido correcto. Finalmente haga clic en "Select a plan" (Seleccionar un plan).
+4. En la página siguiente, haga clic en el botón "Choose Free" (Seleccionar gratis).
+5. Baje hasta el final de la siguiente página y haga click en "Complete Setup" (Completar configuración).
+6. Vaya a su casilla de email y abra el email de Github (si no aparece en la bandeja de entrada, búsquelo en correo no deseado). Haga click en el botón "Verify email address" (Verificar dirección de email).
+7. *Opcional*: puede visitar https://github.com/settings/profile para agregar un nombre completo (puede ser su nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo desea.
 
 ### Editor de texto  {#section1-3}
 
