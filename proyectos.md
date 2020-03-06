@@ -7,8 +7,7 @@ permalink: /proyectos/
 # Proyectos en curso
 
 ## Reis trobadors: reconstrucción filológico-musicológica de la lírica medieval románica con herramientas digitales
-Participación en el proyecto FILO:CyT - Programa de Apoyo a la Investigación de la Facultad de Filosofía y Letras "Reis trobadors:
-reconstrucción filológico-musicológica de la lírica medieval románica con herramientas digitales", en el desarrollo de recursos digitales para el estudio de la poesía ibérica medieval.
+Proyecto FILO:CyT - Programa de Apoyo a la Investigación de la Facultad de Filosofía y Letras "Reis trobadors: reconstrucción filológico-musicológica de la lírica medieval románica con herramientas digitales", en el desarrollo de recursos digitales para el estudio de la poesía ibérica medieval.
 
 ## Pelagios al Sur. Georreferenciación y anotación semántica
 Financiado por [Pelagios Commons](http://commons.pelagios.org/), el proyecto [Pelagios al Sur][pelagios-site] extiende las herramientas de georreferenciación y anotación semántica de textos y mapas desarrolladas por el consorcio Pelagios Commons a otras fronteras espaciales y geográficas, más allá del mundo antiguo o medieval y de la geografía euro-asiática. A fines de interés de nuestra comunidad académica en Argentina este proyecto aborda textos del período XVI-XVII y la zona Río de la Plata. A través de distintos proyectos financiados por el consorcio durante el año 2018 se trabajó en el proyecto Latam gazetteer, en conjunto con la herramienta de transcripción [FromthePage][ftp-site] y la base de datos de [HGIS (Sistema de Información Histórico-geográfica de Hispanoamérica para los años 1701-1808)][hgis-site], que fueron incorporados al World Historical Gazetteer. Durante el año 2019 se mejoraron las condiciones de marcado en XML-TEI en [Recogito][recogito-site].
@@ -21,7 +20,7 @@ HD CAICYT LAB colabora en esta inciativa no sólo con la gestión y generación 
 HD CAICYT LAB colabora con el proyecto de digitalización de los fondos del SECRIT (Seminario de Edición y Crítica Textual "Dr. Germán Orduna"), en particular la revista Incipit. HD CAICYT LAB participa de la edición y posterior publicación en el administrador de revistas científicas, Open Journal Systems (OJS). Gracias a este trabajo, los números históricos de la revista están disponibles [online][incipit-site].
 
 ## Poblaciones
-[Poblaciones][pobl-site] es una plataforma abierta de datos espaciales de la Argentina, que posibilita la consulta, visualización y/o carga de información georreferenciada. Se trata de una iniciativa conjunta de los institutos [CAICYT][caicyt-site] y [IIBICRIT][iibicrit-site] del [Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)][conicet-site] y del [Observatorio de la Deuda Social Argentina (ODSA)][odsa-site] de la Universidad Católica Argentina (UCA) para facilitar la publicación y la libre circulación de información pública y de resultados de investigación social.
+[Poblaciones][pobl-site] es una plataforma abierta de datos espaciales de la Argentina, que posibilita la consulta, visualización y/o carga de información georreferenciada. Se trata de una iniciativa conjunta mediante un convenio de investigación desde los institutos [CAICYT][caicyt-site] y [IIBICRIT][iibicrit-site] del [Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)][conicet-site] y del [Observatorio de la Deuda Social Argentina (ODSA)][odsa-site] de la Universidad Católica Argentina (UCA) para facilitar la publicación y la libre circulación de información pública y de resultados de investigación social.
 Durante el 2019 HD CAICYT LAB colabora en el desarrollo y mantenimiento de la página web.
  
 ## Taxonomías en Humanidades Digitales
