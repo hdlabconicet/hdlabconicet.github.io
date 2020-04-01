@@ -19,5 +19,6 @@ La línea de investigación en Humanidades Digitales se inició a fines de 2014 
 * Explotación y visualización de grandes datos
 * Investigación sobre el currículum científico y educativo en Humanidades Digitales en América Latina y el Caribe
 * Buenas prácticas en Humanidades Digitales
+* Prácticas de investigación abierta en Humanidades Digitales
 
 <!-- [HDCAICYTLAB logo](/assets/img/.jpg) -->
