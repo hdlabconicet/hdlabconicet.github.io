@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'LatAm: un gazetteer histórico para América Latina y el Caribe'
+title: LatAm, un gazetteer histórico para América Latina y el Caribe
 date: 2018-05-10 15:07:24.000000000 -05:00
 type: post
 categories:
@@ -11,6 +11,9 @@ categories:
 - Proyectos
 featured-img: alcedo-cover
 ---
+
+#  LatAm: un gazetteer histórico para América Latina y el Caribe
+
 Anunciamos la participación de HD CAIYT LAB en un equipo internacional junto a [Brumfield Labs](http://www.brumfieldlabs.com/)[LLILAS-Benson](https://llilasbenson.utexas.edu/) (UT-Austin), [World Historical Gazetter](http://whgazetteer.org/) (Pitt) y [FromThePage](https://fromthepage.com), para desarrollar un gazetter para Latinoamérica que recientemente fue galardonado con un nuevo [Pelagios Resource Development Grant](http://commons.pelagios.org/2018/05/and-announcing-2018-resource-development-grants/).
 
 
@@ -19,5 +22,5 @@ El proyecto LatAm desarrollará un gazetteer o nomenclátor a partir de un conju
 
 Para más información acceder [aquí](https://content.fromthepage.com/latam-un-gazetteer-historico-para-america-latina-y-el-caribe/).
 
-![Alcedo Dict](/assets/diccionariogeogr01alce_0003.jpg)
+![Alcedo-dict](/assets/img/posts/diccionariogeogr01alce_0003.jpg)
 
