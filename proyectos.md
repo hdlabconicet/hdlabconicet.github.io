@@ -24,7 +24,7 @@ HD CAICYT LAB colabora con el proyecto de digitalización de los fondos del SECR
 Durante el 2019 HD CAICYT LAB colabora en el desarrollo y mantenimiento de la página web.
  
 ## Taxonomías en Humanidades Digitales
-Integración de tesauros en proyectos de Humanidades Digitales como [TADIRAH en español (DARIAH-EU)][tadirah-site] y [POSTDATA (UNED-Madrid)][postdata-site].
+Integración de tesauros en proyectos de Humanidades Digitales como [TADIRAH en español (DARIAH-EU)][tadirah-site], [POSTDATA (UNED-Madrid)][postdata-site], [Digital Humanities Thesaurus de Alyson Musser][alyson-site] y [Taxonomía CRediT][credit-site].
 
 ## Encuesta Prácticas Digitales en América Latina
 [Encuestas][encuesta-site] llevadas a cabo con el CIM de la Universidad Nacional de Rosario y OpenLabs México.
@@ -46,3 +46,5 @@ Integración de tesauros en proyectos de Humanidades Digitales como [TADIRAH en 
 [hgis-site]: https://www.hgis-indias.net/
 [ftp-site]: https://fromthepage.com/
 [recogito-site]: https://recogito.pelagios.org/
+[alyson-site]: https://vocabularyserver.com/dhthesaurus/
+[credit-site]: http://hdlab.space/taxonomia/
