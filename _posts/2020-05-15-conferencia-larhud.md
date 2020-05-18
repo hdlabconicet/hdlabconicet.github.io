@@ -14,7 +14,7 @@ featured-img: larhud-2020-1
 
 # Conferencia en I Seminário Internacional Remoto - Experiences in Digital Humanities from the Global South
 
-El 13 de mayo la Dra. Gimena del Rio brindó la Conferencia **Humanidades Digitales: notas desde el sur del Sur Global** en el *I Seminário Internacional Remoto - Experiences in Digital Humanities from the Global South*, realizado por el <a href="http://www.larhud.ibict.br/" target="_blank"> Laboratório em Rede de Humanidades Digitais</a>.
+El 13 de mayo la Dra. Gimena del Rio brindó la video conferencia **Humanidades Digitales: notas desde el sur del Sur Global** en el *I Seminário Internacional Remoto - Experiences in Digital Humanities from the Global South*, realizado por el <a href="http://www.larhud.ibict.br/" target="_blank"> Laboratório em Rede de Humanidades Digitais</a>.
 
 ![larhud-1](/assets/img/posts/larhud-2020.png)
 
