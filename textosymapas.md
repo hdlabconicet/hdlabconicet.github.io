@@ -18,15 +18,20 @@ A continuación, es posible encontrar documentos enriquecidos y material de apoy
 
 En esta sección es posible acceder a los textos enriquecidos por las anotaciones de nuestro equipo para el proyecto [Pelagios al Sur]({{site.baseurl}}/proyectos) usando Recogito.
 
-Visite nuestra edición digital de [La Argentina Manuscrita](http://hdcaicyt.github.io/La-Argentina-Manuscrita) anotada con Recogito:
+Visite nuestra edición digital enriquecida de [La Argentina Manuscrita](http://hdcaicyt.github.io/La-Argentina-Manuscrita) y la [Relación de un viaje al Río de la Plata](http://hdcaicyt.github.io/Relacion-de-un-viaje/) de Acarete du Biscay:
 
-<br>
+<div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+	<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+		<a href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
+		<p> </p>
+		<a class="post-card__inner" href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><p>Imagen: gallica.bnf.fr</p></a>
+	</div>
+	<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+		<a href="http://hdcaicyt.github.io/Relacion-de-un-viaje/" target="_blank"><img src="{{site.baseurl}}/assets/img/acarete-1943-cover.jpg" align="center"/></a>
+		<a class="post-card__inner" href="http://hdcaicyt.github.io/Relacion-de-un-viaje/" target="_blank"><p>Imagen: Cervantes Virtual</p></a>
+	</div>
 
-<a href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
-
-Fuente: gallica.bnf.fr
-
-<br>
+</div>
 
 
 --------------------------
