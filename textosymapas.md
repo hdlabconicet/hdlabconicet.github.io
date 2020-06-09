@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Textos y Mapas
-permalink: /textosymapas/
+permalink: /biblioteca-digital/
 ---
 
 La anotación es, junto con la edición digital de textos, una de las actividades principales de las Humanidades Digitales. En el proyecto [Pelagios al Sur]({{site.baseurl}}/proyectos), y como miembro de [Pelagios Network](https://pelagios.org/), HD CAICYT LAB trabaja en el enriquecimiento de textos y mapas de la modernidad temprana a través de la anotación. 
