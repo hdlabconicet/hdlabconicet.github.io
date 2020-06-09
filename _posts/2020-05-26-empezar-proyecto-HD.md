@@ -20,5 +20,5 @@ En esta conferencia el Dr. Viglianti presentó diversas metodologías muy utiliz
 
 Desde el siguiente <a href="https://us.bbcollab.com/collab/ui/session/playback">link</a> puede acceder al video de la conferencia.
 
-![raff-usal](/assets/img/posts/raff-usal-1.jpg)
 ![raff-usal-1](/assets/img/posts/raff-usal-1.png)
+![raff-usal](/assets/img/posts/raff-usal-1.jpg)
