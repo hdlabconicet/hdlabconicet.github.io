@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conferencia Dr. Viglianti en USal
+title: Conferencia Cómo empezar un proyecto de Humanidades Digitales
 type: post
 published: true_or_false
 categories:
