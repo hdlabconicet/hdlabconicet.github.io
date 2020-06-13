@@ -22,7 +22,7 @@ navigation:
   - {name: 'Inicio', link: '/'}
   - {name: 'Novedades', link: '/novedades'}
   - {name: 'Investigación', link: '/investigacion'}
-  - {name: 'Textos y Mapas', link: '/biblioteca-digital'}
+  - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
   - {name: 'Equipo', link: '/equipo'}
   - {name: 'Contacto', link: '/contacto'}
 
