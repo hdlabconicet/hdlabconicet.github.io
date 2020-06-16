@@ -5,11 +5,15 @@ type: texto
 permalink: /tutorial-jekyll-github-pages/
 ---
 
-En este tutorial, vamos a:
-- instalar algunos programas
-- usar la línea de comandos para instalar algunas cosas que solo se pueden instalar de esa manera
+Este tutorial es una traducción al español y adaptación de Building a static website with Jekyll and GitHub pages, de Amanda Visconti, publicado originalmente en inglés en [The Programming Historian] (https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages), (2016-04-18).
 
-Al finalizar el tutorial, tendremos todos los programas necesarios para crear un sitio web estático. 
+Esta lección está dirigida a quienes deseen crear un sitio web totalmente gratuito, fácil de mantener, preservable y seguro, y sobre el que se tenga control total.
+Requisitos: una computadora (Mac / Windows / Linux, aunque esta lección no cubre algunos aspectos del uso de Linux), la capacidad de descargar e instalar software en tu computadora, una conexión a Internet soporte la descarga de software. Los usuarios han informado que necesitan entre 1 y 3 horas para completar toda la lección.
+
+Vamos a:
+- instalar algunos programas.
+- usar la línea de comandos para instalar dependencias de esos programas.
+
 
 ## Contenidos
 
@@ -24,18 +28,18 @@ Al finalizar el tutorial, tendremos todos los programas necesarios para crear un
 
 ## Antes de la instalación  {#section1}
 
-En esta sección, vamos a asegurarnos de tener todo lo necesario para crear un sitio web estático con Jekyll y Github Pages. Para eso, vamos a abordar:
+En esta sección vamos a asegurarnos de tener todo lo necesario para crear un sitio web estático con Jekyll y Github Pages. Para eso, vamos a abordar:
 
 - [qué sistema operativo es posible usar (es decir, Mac / Windows / Linux)](#section1-0)
 - [crear una cuenta de GitHub](#section1-1)
 - [por qué es necesario usar un "editor de texto" para trabajar en nuestro sitio web](#section1-3)
 - [cómo usar la línea de comandos](#section1-4)
 
-Todos los elementos que vamos a instalar son herramientas de desarrollo web estándares y confiables, por lo que no es indispensable saber exactamente qué hace cada una antes de instalarla. Trataremos de brindar más información sólo para aquellos elementos que es necesario comprender en profundidad con una breve explicación de cada uno, acompañada de un enlace a más información en caso de que desee saber más sobre lo que está poniendo en su computadora.
+Todos los elementos que vamos a instalar son herramientas de desarrollo web estándar. Se trata de herramientas confiables, por lo que no es indispensable saber exactamente qué hace cada una de ellas. Brindaremos una breve explicación de los elementos que es necesario comprender en profundidad y dejaremos enlaces, en caso de desear saber más sobre lo que se está instalando.
 
 ### Sistemas operativos  {#section1-0}
 
-Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza el software GitHub Desktop (disponible para Windows y Mac únicamente) y los usuarios de Linux tienen que usar git en la línea de comandos (no abordado en este tutorial).
+Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza para línea de comandos el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git] (https://git-scm.com/docs/gittutorial) para ello (no abordado en este tutorial).
 
 Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. El resto del tutorial debería funcionar igual para los usuarios de Windows y Mac, aunque las capturas de pantalla que mostramos son todas de una Mac (por lo que pueden verse un poco diferentes en Windows).
 
@@ -43,13 +47,13 @@ Jekyll no es oficialmente compatible con Windows, lo que significa que la docume
 
 *La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en GitHub. Como beneficio adicional, también nos permite hacer un seguimiento de las versiones de nuestro sitio y su escritura a medida que crece o cambia con el tiempo.*
 
-1. Visite [GitHub.com](https://github.com/) y haga clic en el botón verde "Sign up" (Registrarse). 
-2. En la página siguiente, defina el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio de será http://hdcaicyt.github.io/. (*Tenga en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial*). Escriba una dirección de correo electrónico de uso habitual y defina una contraseña que contenga al menos un número y una letra minúscula. 
-3. En el recuadro "Verify your account", presione el botón "Verify" (Verificar). Use las flechas para poner la imagen en el sentido correcto. Finalmente haga clic en "Select a plan" (Seleccionar un plan).
-4. En la página siguiente, haga clic en el botón "Choose Free" (Seleccionar gratis).
-5. Baje hasta el final de la siguiente página y haga click en "Complete Setup" (Completar configuración).
-6. Vaya a su casilla de email y abra el email de Github (si no aparece en la bandeja de entrada, búsquelo en correo no deseado). Haga click en el botón "Verify email address" (Verificar dirección de email).
-7. *Opcional*: puede visitar https://github.com/settings/profile para agregar un nombre completo (puede ser su nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo desea.
+1. Visita [GitHub.com](https://github.com/) y haz clic en el botón verde "Sign up" (Registrarse). 
+2. En la página siguiente, define el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio de será http://hdcaicyt.github.io/. (*Tenga en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial*). Escribe una dirección de correo electrónico de uso habitual y define una contraseña que contenga al menos un número y una letra minúscula. 
+3. En el recuadro "Verify your account", presiona el botón "Verify" (Verificar). Usa las flechas para poner la imagen en el sentido correcto. Finalmente haga clic en "Select a plan" (Seleccionar un plan).
+4. En la página siguiente, haz clic en el botón "Choose Free" (Seleccionar gratis).
+5. Bajea hasta el final de la siguiente página y haz clic en "Complete Setup" (Completar configuración).
+6. Ve a tu email y abre el de Github (si no aparece en la bandeja de entrada, búscalo en correo no deseado). Haz clic en el botón "Verify email address" (Verificar dirección de email).
+7. *Opcional*: puedes visitar https://github.com/settings/profile para agregar un nombre completo (puede ser tu nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo deseas.
 
 ### Editor de texto  {#section1-3}
 
