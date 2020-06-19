@@ -46,7 +46,7 @@ permalink: /traduccion-proghist/
 * TOC
 {:toc}
 
-## ¿Qué son los sitios estáticos, Jekyll, etc. y por qué debería importarme? <a id="section0"></a>
+## ¿Qué son los sitios estáticos, Jekyll, etc. y por qué deberían importarme? <a id="section0"></a>
 
 *Este tutorial se basa en la [Documentación oficial de Jekyll](http://jekyllrb.com/docs/home/) escrita por la comunidad de Jekyll. Revisa la sección ["Leer más"](#sección9-3) al final de la lección si deseas profundizar más sobre estos temas.*
 
