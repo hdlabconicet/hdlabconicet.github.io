@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LLAAR-La Ciencia Abierta desde el COVID-19
+title: LLAAR - La Ciencia Abierta desde el COVID-19
 type: post
 published: true_or_false
 categories:
@@ -30,6 +30,6 @@ La *<a href="http://eprints.rclis.org/40026/">Versión II: junio 3 de 2020</a>*,
 - Jaider Ochoa-Gutiérrez – Universidad de Antioquia. CoLaV. EIB (Colombia)
 <jaider.ochoa@udea.edu.co>
 
-![llaar](/assets/img/posts/llaar-ciencia-abierta_md)
+![llaar](/assets/img/posts/llaar-ciencia-abierta_md.jpg)
 
  
