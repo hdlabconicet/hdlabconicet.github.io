@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Open Publishing Fest
+title: TostadaHD
 type: post
 published: true_or_false
 categories:
 - Colaboración
 - Construcción de Comunidad
 - Difusión
-featured-img: OpenPublishingFest
+featured-img: tostadahd
 
 ---
 
-# Open Publishing Fest: Roads to Open/Caminos para lo abierto
+# TostadaHD: retos y metodologías de la educación virtual
 
 Entre los días 18 y 29 de mayo se llevó adelante el *<a href="https://openpublishingfest.org/index.html" target="_blank">Open Publishing Fest</a>*, que celebró reuniones para las comunidades que desarrollan proyectos abiertos de publicación creativa, académica, tecnológica y cívica.
 
