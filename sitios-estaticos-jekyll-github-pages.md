@@ -19,6 +19,7 @@ permalink: /traduccion-proghist/
  editors:
  -
  translator:
+ - Romina De León
  - Nidia Hernández
  translation-editor:
  -
@@ -38,7 +39,7 @@ permalink: /traduccion-proghist/
 
 **Requisitos:** computadora (Mac/Windows/Linux están bien, aunque esta lección no cubre algunos aspectos del uso de Linux), capacidad de descargar e instalar software en la computadora, conexión a Internet que soporte la descarga de software. Según los usuarios, se necesitan entre 1 y 3 horas para completar toda la lección.
 
-**Difficulty level:** Intermediate (this lesson includes use of the command line and git, *but* walks you through anything needed to complete this lesson). Forthcoming lessons in the basics of git/GitHub and GitHub Pages will be linked here when available, and provide a good background for anyone wishing for deeper understanding of the technology used in this lesson.
+**Nivel de dificultad:** Intermedio (esta lección incluye el uso de línea de comandos y git, *pero* te guiará a través de todo lo necesario para completar esta lección). Las próximas lecciones sobre los fundamentos básicos de las páginas git/GitHub y GitHub se enlazarán aquí cuando estén disponibles, y proporcionarán una buena base para cualquiera que desee una comprensión más profunda de la tecnología utilizada en esta lección.
 
 ## Contenidos
 {:.no_toc}
@@ -68,8 +69,7 @@ Puedes leer más acerca de [Jekyll](http://jekyllrb.com/docs/home/) o [generador
 
 *[GitHub Pages](https://pages.github.com/)* es un espacio gratuito para almacenar los archivos que ejecutan un sitio web y alojar ese sitio web para que las personas lo visiten (solo funciona para tipos particulares de sitios web, como sitios HTML básicos o sitios Jekyll y no aloja bases de datos).
 
-*[GitHub](https://github.com/)* es una plataforma visual para utilizar *[git](https://git-scm.com/documentation)*, 
-un sistema de *versionado* o, en otras palabras, de registro de cambios realizados en los archivos (código y documentos de texto, entre otros) a través del tiempo (como ya explicamos [más arriba](#section0-1)). Si tienes curiosidad, puedes explorar este [minitutorial de GitHub](https://guides.github.com/activities/hello-world/) (en inglés).
+*[GitHub](https://github.com/)* es una plataforma visual para utilizar *[git](https://git-scm.com/documentation)*, un sistema de *versionado* o, en otras palabras, de registro de cambios realizados en los archivos (código y documentos de texto, entre otros) a través del tiempo (como ya explicamos [más arriba](#section0-1)). Si tienes curiosidad, puedes explorar este [minitutorial de GitHub](https://guides.github.com/activities/hello-world/) (en inglés).
 
 ### What are the reasons for using a static website? <a id="section0-3"></a>
 
