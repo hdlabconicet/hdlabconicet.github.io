@@ -19,7 +19,7 @@ permalink: /traduccion-proghist/
  editors:
  -
  translator:
- - Nidia Hernández, Gimena del Rio Riande, Romina de León, Gabriel Calarco, Raffaele Viglianti
+ - Nidia Hernández, Gimena del Rio Riande, Romina De León, Gabriel Calarco, Raffaele Viglianti
  translation-editor:
  -
  translation-reviewer:
@@ -85,7 +85,7 @@ Opciones como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.o
 
 - **Alojamiento gratuito:** Si bien muchas herramientas de sitios web como Drupal, WordPress y Omeka son gratuitas, alojarlas (pagar a alguien para que muestre los archivos de tu sitio web a los visitantes del sitio) puede costar dinero.
 
-- **Control de versiones:** Hospedar en páginas de GitHub significa que tu sitio está vinculado a la interfaz visual de GitHub para el control de versiones de git, por lo que puede realizarse un seguimiento de los cambios en tu sitio y siempre volver al estado anterior de cualquier publicación de blog, o página, si fuera necesario. Esto incluye archivos cargados que tal vez desees almacenar en el sitio, como programas de estudio y publicaciones antiguas (El control de versiones se explicó [con más detalle anteriormente] (# sección0-1)).
+- **Control de versiones:** Hospedar en páginas de GitHub significa que tu sitio está vinculado a la interfaz visual de GitHub para el control de versiones de git, por lo que puede realizarse un seguimiento de los cambios en tu sitio y siempre volver al estado anterior de cualquier publicación de blog, o página, si fuera necesario. Esto incluye archivos cargados que tal vez desees almacenar en el sitio, como programas de estudio y publicaciones antiguas (El control de versiones se explicó [con más detalle anteriormente](#sección0-1)).
 
 - **Seguridad:** No hay una base de datos a la que haya que proteger de los hackers.
 
@@ -113,7 +113,7 @@ Todos los elementos que vamos a instalar son herramientas de desarrollo web est�
 
 ### Sistemas operativos <a id="section1-0"></a>
 
-Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza para línea de comandos el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git] (https://git-scm.com/docs/gittutorial) para ello (no abordado en este tutorial).
+Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza para línea de comandos el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git](https://git-scm.com/docs/gittutorial) para ello (no abordado en este tutorial).
 
 Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. El resto del tutorial debería funcionar igual para los usuarios de Windows y Mac, aunque las capturas de pantalla que mostramos son todas de una Mac (por lo que pueden verse un poco diferentes en Windows).
 
@@ -160,7 +160,7 @@ A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac
 
 Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e ingresar comandos, ten en cuenta lo siguiente:
 
-1. **Los comandos que debes escribir (o copiar / pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de Enter.
+1. **Los comandos que debes escribir (o copiar/pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de Enter.
 
 2. **Debes dejar que los procesos de instalación se ejecuten *completamente* antes de ingresar nuevos comandos.** A veces, escribir un comando y presionar "Enter" produce un resultado instantáneo; otras veces, una gran cantidad de texto comenzará a llenar la ventana de la línea de comandos o parecerá que la línea de comandos no está haciendo nada pero algo está sucediendo detrás de escena, como descargar un archivo. Por eso es importante que **al escribir un comando y presionar Enter, esperemos que ese comando termine por completo *antes de escribir otra cosa***, de lo contrario, podríamos detener un proceso por la mitad y generar problemas. 
     {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de ingreso de un comando, seguido de un texto que le muestra lo que estaba sucediendo mientras se procesaba ese comando (y a veces le pedía que hiciera algo, como ingresar su contraseña) y finalmente la reaparición del prompt para hacerle saber que ya puede escribir algo más.
@@ -351,8 +351,7 @@ En la línea de comandos, ingresa:
    You won't need to mess with the Gemfile again, since we'll be hosting your website on GitHub Pages and GitHub Pages does not allow additional site dependencies or plugins (code that adds specific features, like social media buttons after every post; [more on plugins below](#section7-2).)
 
 ## Ejecutar un sitio web localmente <a id="section3a"></a>
-*This section will describe how to run your website* ***locally****—meaning you'll be able to see what your website will look like in a web browser just on your computer (aka locally), but not anywhere else. Working on a "local" version of a website means that it's private to your computer; no one else can see your website yet (your website isn't "live" or "public": no one can type in the URL and see it in their browser).*
-
+*This section will describe how to run your website ***locally****—meaning you'll be able to see what your website will look like in a web browser just on your computer (aka locally), but not anywhere else. Working on a "local" version of a website means that it's private to your computer; no one else can see your website yet (your website isn't "live" or "public": no one can type in the URL and see it in their browser).*
 *This means you can experiment all you want, and only publish your site for the world to see when it's ready. Or, once you've made your site live, you can continue to experiment locally with new writing, design, etc. and only add these to the public site once you're happy with how they look on the local site.*
 
 1. En la línea de comandos, type  
@@ -459,13 +458,13 @@ To get a sense of how your site works and what files you'd experiment with to do
 
 ## Writing pages and posts <a id="section5"></a>
 
-*This section will describe how to create pages and blog posts on your website.*
+*Esta sección describirá como crear páginas o entradas de blog en tu sitio web.*
 
-**Pages** and **posts** are just two types of written content that's styled differently. Pages are content (like an "About" page) that isn't organized or displayed chronologically, but might be included in your website's main menu; posts are meant to be used for content best organized by publication date. The URLs (links) for pages and posts are also different by default (although you can change this): page URLs look like *MySite.com/about/*, while post URLs look like *MySite.com/2016/02/29/my-post-title.html.*
+**Páginas** y **entradas de blog** son solo dos tipos de contenido escrito con un estilo diferente. Las páginas son contenidos (como la página "Acerca de")que no está organizada ni se muestra cronológicamente, pero que puede ser incluida en el menú principal de tu sitio web; las entradas de blog están pensados para ser utilizados como contenido organizado por fecha de publicación. Los URLs (enlaces) para páginas y entradas también son diferentes en forma predeterminada (pero tú puedes cambiar eso): la URLs de página se ven como *MySite.com/about/*, mientras que la URLs de entradas se ven como *MySite.com/2016/02/29/my-post-title.html*.
 
-#### Authoring in Markdown <a id="section5-1"></a>
+#### Creación en Markdown <a id="section5-1"></a>
 
-Markdown is a way of formatting your writing for reading on the web: it's a set of easy-to-remember symbols that show where text formatting should be added (e.g. a # in front of text means to format it as a heading, while a * in front of text means to format it as a bulleted list item). For Jekyll in particular, Markdown means you can write webpages and blog posts in a way that's comfortable to authors (e.g. no need to look up/add in HTML tags while trying to write an essay), but have that writing show up formatted nicely on the web (i.e. a text-to-HTML convertor).
+Markdown es una herramienta para dar formato a tus escritos para su lectura en la web: es un conjunto de símbolos, fáciles de recordar, que muestran dónde debe añadirse el formato del texto (por ejemplo, un # delante del texto significa que se le da formato como un encabezamiento, mientras que un * delante del texto significa que se le da formato como un elemento de la lista con viñetas). Para Jekyll en particular, Markdown significa que se pueden escribir páginas web y entradas de blog de una manera que sea cómoda para los autores (por ejemplo, no es necesario buscar/añadir etiquetas HTML mientras se intenta escribir un ensayo), pero que ese escrito se muestre bien formateado en la web (es decir, convertido de texto a HTML).
 
 We won't cover Markdown in this lesson; if you're not familiar with it, for now you can just create posts and pages with no formatting (i.e. no bold/italic, no headers, no bulleted lists). But these are easy to learn how to add: there's a handy markdown [reference](http://kramdown.gettalong.org/quickref.html), as well as [a Programming Historian lesson by Sarah Simpkin on the hows and whys of writing with Markdown](http://programminghistorian.org/lessons/getting-started-with-markdown). Check out these links if you'd like to format text (italics, bold, headings, bullet/numbered lists) or add hyperlinks or embedded images and other files.
 
