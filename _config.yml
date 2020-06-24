@@ -19,12 +19,12 @@ social:
 
 # THEME SETTINGS
 navigation:
-  - {name: 'Inicio', link: '/'}
   - {name: 'Novedades', link: '/novedades'}
   - {name: 'Investigación', link: '/investigacion'}
   - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
   - {name: 'Equipo', link: '/equipo'}
   - {name: 'Contacto', link: '/contacto'}
+  - {name: 'Buscar', link: '/search'}
 
 
 tagline: >
