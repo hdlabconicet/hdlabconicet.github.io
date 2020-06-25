@@ -30,19 +30,13 @@ layout: compress
         <div class="container">
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% capture current_year %}{{ site.time | date: '%Y' }}{% endcapture %}
+            {% assign filed_year = page.filed_year | plus: 0 %}
             {% for post in site.posts %}
-              {% capture post_year %}{{post.date | date: '%Y' }}{% endcapture %}
-              {% if post_year == current_year %}
+              {% assign post_year = post.date | date: '%Y' | plus: 0 %}              
+              {% if post_year == filed_year %}
                 {% include card.html %}
               {% endif %}
             {% endfor %}
-
-            {% assign filed_year = "2019" %}
-            {% include card_archivo.html %}
-
-            {% assign filed_year = "2018" %}
-            {% include card_archivo.html %}
 
           </div>
 
