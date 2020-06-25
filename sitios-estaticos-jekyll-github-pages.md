@@ -526,93 +526,106 @@ Notice that **the URL of the post** is your local website URL (e.g. *localhost:4
 
 For reference, you can check out [an example of a post](http://amandavisconti.github.io/JekyllDemo/2016/02/29/a-post-about-my-research.html) on my demo site, or see [the code running that post](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
-## Hosting on GitHub Pages <a id="section6"></a>
+## Hosting en GitHub Pages <a id="section6"></a>
 
-*You now know how to add text pages and posts to your website. In this section. we'll move your local site live so that others can visit it on the Web.* **At this point, we are making a version of your website publicly viewable** *(e.g. to search engines and to anyone who knows of or happens on the link).*
+*Ahora que ya sabes cómo añadir páginas de texto y posteos a tu sitio web; en esta sección moveremos tu sitio local a la Web para que otros puedan visitarlo.* **En este punto, estaremos haciendo una versión de tu sitio que será visible públicamente** *(tanto para motores de búsqueda como para cualquiera que conozca o encuentre casualmente el link).*
 
-*[Earlier in the lesson,](#section1-2) you installed the GitHub Desktop app. We'll now use this app to easily move your website files to a place that will serve them to visitors as webpages (GitHub Pages), where the public can then visit them online. This first time, we'll move all your website's files to the Web since none of them are there yet; in the future, you'll use this app whenever you've adjusted the website's files (added, edited, or deleted content or files) on your local version of the website and are ready for the same changes to appear on the public website (there's [a cheatsheet at the end of this section](#section6-1) for this).*
-1. Open the GitHub Desktop app. Click the **+** icon in the top left corner, and click on the "Add" option along the top of the box that appears (if "Add" isn't already selected).
+*[Anteriormente en esta lección,](#section1-2) instalamos la aplicación GitHub Desktop. Ahora la utilizaremos para mover los archivos de su sitio a un servidor que los presentará como páginas web (GitHub Pages), que el público podrá visitar en línea. Esta será la primera vez en la que subiremos todos los archivos de tu sitio a la Web; en el futuro, utilizarás esta aplicación siempre que hayas realizado cambios en los archivos de tu sitio local y desees que esos cambios se vean reflejados en la versión pública del sitio (al final de esta sección encontrarás una[guía](#section6-1) con información útil para realizar esta tarea).*
 
-2. Click on the "Choose…" button and choose the folder (*JekyllDemo* in my example) containing your website files (if on a Mac and unable to locate this folder, your Library folder may be hidden; [use these directions](http://www.macobserver.com/tmo/article/mavericks-easily-make-user-library-folder-visible) to make it visible so the GitHub Desktop app can look navigate inside it).
+1. Abre la aplicación GitHub Desktop y haz clic en el signo “+” (Mac) o en la pestaña “File” (Windows) que se encuentra en la esquina superior izquierda y haz clic en la opción “Add” (o “Add local repository…”) que aparece en la caja que se despliega.
 
-3. Then, click on the "Create & Add Repository" button (Mac) or the "Create Repository" button (Windows). You'll now see a list of the files to which you've made changes (additions or deletions to and of files) since the last time you copied your website code from your computer to GitHub (*in this case, we've never copied code to GitHub before, so all files are listed here as new*).
+2. Haz clic en el botón "Choose…" y selecciona la carpeta (*JekyllDemo* en nuestro ejemplo) que contiene los archivos de tu sitio local (si estás utilizando Mac y te resulta imposible encontrar esta carpeta, es posible que sea porque se halla oculta; [usa estas indicaciones](http://www.macobserver.com/tmo/article/mavericks-easily-make-user-library-folder-visible) para hacerla visible, y que de esta forma GitHub Desktop pueda ingresar a ella).
 
-4. In the first field, type a short description of the changes you've made since you last moved your work on the website to GitHub (space is limited). In this first case, something along the lines of "My first commit!" is fine; in the future, you might want to be more descriptive to help you locate when you made a given change—e.g. writing "Added new 'Contact Me' page".
+3. Luego haz clic en el botón "Create & Add Repository" (Mac) o "Add Repository" (Windows). Ahora verás una lista de los archivos en los que hayas realizado cambios (tanto sean adiciones o sustracciones de archivos o en ellos) desde la última vez en la que hayas copiado el código de tu sitio de tu computadora a Git Hub (*en el caso de que todavía no hayas realizado este proceso, todos los archivos del repositorio aparecerán listados como nuevas adiciones*).
 
-   You can use the larger text area below this to write a longer message, if needed (*it's optional*).
+4. Completa el primer campo con una descripción de los cambios hayas realizado en tu sitio desde la última vez en que hayas subido tus archivos a GitHub (ten en cuenta que el espacio es limitado). Para este primer caso, un comentario breve como “Mi primer commit” será suficiente; en el futuro, es posible que deseesser más descriptivo para ayudarte a localizar cuándo fue realizado un determinado cambio — por ejemplo, escribiendo “Se añade nueva página de contacto”.
+
+   Puedes utilizar el área de texto más grande que se encuentra debajo si deseas escribir un mensaje más largo (*opcional*).
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png)
-5. At the top of the app window, click on the third icon from the left (it will say "Add a branch" if you hover over it). Type *gh-pages* in the "Name" field, then click the "Create branch" button.
+
+5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png)
 
-6. Click on the "Commit to gh-pages" button near the bottom-left of the app window.
+*A partir de este punto el proceso para publicar nuestro sitio en GitHub Pages difiere en Windows y en Mac*
+
+**Para usuarios de Mac**
+
+6. Haze en el botón “Commit to gh-pages” en la sección inferior izquiera de la ventana de la aplicación.
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-25.png)
-7. Click on the "Publish" button in the top-right.
+
+7. Haz click en el botón “Publish” en la sección superior derecha.
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-26.png)
-8. In the popup, leave everything as-is and click the "Publish repository" button in the lower-right (*your window may not show the options related to private repositories shown in the screenshot*).
+
+8. En la ventana emergente, deja todo como está y haz clic en el botón “Publish repository” en la sección inferior derecha (*tu ventana puede no estar mostrando las opciones relativas a repositorios privados que se muestran en la captura de pantalla*).
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-27.png)
-9. Click the "Sync" button in the upper-right
+
+9.  Haz clic en el botón “Sync” que se encuentra en la sección superior derecha.
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-28.png)
-10. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](amandavisconti.github.io/JekyllDemo/).)
 
-### Mini cheatsheet <a id="section6-1"></a>
+**Para usuarios de Windows**
 
-In the future when you want to move changes you've made locally to your live site, just follow these steps:
+6. Haz clic en el botón “Publish repository” que aparece destacado en azul.
 
-1. Open the GitHub Desktop app and type a short description of your changes (and optionally a longer description in the second text box).
-2. Click the "commit" button underneath the text box.
-3. Once the commit has finished, click the "Sync" button in the top-right.
-4. Give GitHub a little time to receive these changes (about 10-90 seconds) before refreshing your live site to see your changes there.
+7. Haz clic en el botón “View on GitHub” que aparece en la parte central de la ventana, en tercer lugar.
 
-## Getting fancy <a id="section7"></a>
+8. Ya en GitHub, debes cambiar las opciones de visibilidad de tu repositorio para hacerlo público, para esto, accede a la sección de “Settings” y baja hasta el recuadro titulado “Danger Zone”. Haz clic en el botón “Change visibility” y seleccionar la opción “Make public”. 
 
-*This lesson won't cover advanced work like changing the visual appearance of your site or adding new functionality, but here is some information to get you started on your own.* 
+9. Arriba del recuadro de Danger Zone se encuentran las opciones de GitHub Pages. Allí debes cambiar la opción “Source” y seleccionar la rama (branch) “gh-pages”.  
 
-### Visual design <a id="section7-1"></a>
+**Ambos**
 
-The visual design of a website is often referred to as its *theme* (more properly, a theme is a set of code and image files that together make a major change to the appearance of a website). 
+10. Ahora ya puedes visitar tu sitio web (¡y compartir el link para que otros lo vean!). La URL sigue la estructura de *tu nombre de usuario de GitHub PUNTO github.io BARRA nombre de tu sitio web BARRA*. (por ejemplo, la URL del sitio de ejemplo de la autora es [amandavisconti.github.io/JekyllDemo/](amandavisconti.github.io/JekyllDemo/)).
 
-You can customize the current theme of your website by making changes to the files in the *_sass* and *css* folders (unfortunately, the most recent version of Jekyll's move to use SASS instead of plain CSS makes learning to customize things a bit more difficult for non-designers).
+## Poniéndonos elegantes <a id="section7"></a>
 
-Or, you can add in (and further customize, if desired) a theme already created by someone else by searching for "Jekyll themes" or trying one of these resources:
+*Esta lección no cubre el trabajo avanzado para personalizar la apariencia de tu sitio web ni la adición de nuevas funcionalidades, sin embargo, aquí te acercamos algo de información para que puedas comenzar a investigar por tu cuenta.* 
 
-- Alex Gil's "Ed" theme for minimal digital editions (https://elotroalex.github.io/ed/, https://elotroalex.github.io/ed/documentation.html; free)
-- Rebecca Sutton Koeser's "Digital Edition" theme (https://github.com/emory-libraries-ecds/digitaledition-jekylltheme; free)
-- The [Jekyll Themes](http://jekyllthemes.org/) directory (free)
-- [JekyllThemes.io](http://jekyllthemes.io/) (free and paid)
+### Diseño visual <a id="section7-1"></a>
 
-### Functionality <a id="section7-2"></a>
+El diseño visual de un sitio web es referido usualmente como su *tema* (aunque propiamente, un tema es el conjunto del código y los archivos de imagen que generan un cambio importante en la apariencia de un sitio web. 
 
-- [Jekyll plugins](http://jekyllrb.com/docs/plugins/) allow you to add small bits of code that add functionality to your site such as [full-text search](https://github.com/PascalW/jekyll_indextank), [emoji support](https://github.com/yihangho/emoji-for-jekyll), and [tag clouds](https://gist.github.com/ilkka/710577). 
+Puedes personalizar el tema de tu sitio realizando cambios en los archivos que se encuentran en las carpetas *_sass* y *css*. (lamentablemente, en sus versiones más recientes, Jekyll comenzó a usar SASS en lugar de CSS, lo que hace que sea un poco más difícil para no-diseñadores aprender personalizarlas). También puedes añadir (y luego personalizar, si lo deseas) un tema creado por alguien más, a los que puedes acceder realizando una búsqueda para “Jekyll themes” o en alguno de los siguientes recursos:  
 
-  - If you want to host your site on GitHub Pages as we did in this lesson, you can only use the Jekyll plugins already included in the GitHub Pages gem we installed (here's [a full list of what you installed](https://pages.github.com/versions/) when adding the GitHub Pages gem to your Gemfile earlier).
+- Tema "Ed" para ediciones digitales mínimas, de Alex Gil (https://elotroalex.github.io/ed/, https://elotroalex.github.io/ed/documentation.html; gratis)
+- Tema "Digital Edition", de Rebecca Sutton Koese(https://github.com/emory-libraries-ecds/digitaledition-jekylltheme; gratis)
+- El directorio de [Jekyll Themes](http://jekyllthemes.org/) (gratis)
+- [JekyllThemes.io](http://jekyllthemes.io/) (gratis y pago)
 
-  - If you choose to host your Jekyll website elsewhere than GitHub Pages, you can use any Jekyll plugin (instructions to self-host vary by web host and won't be covered here, but [this](http://jekyllrb.com/docs/plugins/) is a page about how to install plugins once you've set up your self-hosted Jekyll site). You can search for "Jekyll plugin" plus the functionality you need to see if one is available, or check out the "Available plugins" section near the bottom of [this page](http://jekyllrb.com/docs/plugins/) for a list of plugins.
-- You can keep GitHub Page's free hosting of your Jekyll website, but give the site a **custom domain name** (domain names are purchased for a reasonable yearly fee—usually around $10—from a "domain name registrar" such as [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). For example, the author's LiteratureGeek.com blog is built with Jekyll and hosted on GitHub Pages just like the site you built with this lesson, but it uses a custom domain name I purchased and configured to point to my site. Instructions on setting up a custom domain name can be found [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
+### Funcionalidad <a id="section7-2"></a>
 
-- You can **migrate an existing blog** from many other systems including WordPress, Blogger, Drupal, and Tumblr by following the links on the right side of [this page](https://import.jekyllrb.com/docs/home/). When migrating a site, make sure to back up your original site in case it takes a couple tries to get posts living at the same URL as before (so search engine results and bookmarks don't break).
+- Los [plugins de Jekyll](http://jekyllrb.com/docs/plugins/) te permiten añadir pequeños segmentos de código que permiten sumar funcionalidad a tu sitio, tales como [realizar búsquedas de texto](https://github.com/PascalW/jekyll_indextank), [permitir el uso de emojis](https://github.com/yihangho/emoji-for-jekyll), o [crear nubes de palabras](https://gist.github.com/ilkka/710577). 
 
-## Cheatsheet <a id="section8"></a>
+- Si deseas utilizar GitHub Pages como servidor para tu sitio, como lo hicimos en esta lección, solo podrás utilizar los plugins de Jekyll que ya están incluidos en las gemas de GitHub Pages que instalamos (aquí tienes una [lista completa de lo que hemos instalado](https://pages.github.com/versions/), cuando añadimos la gema de GitHub Pages a nuestro Gemfie anteriormente).
 
-**To test stuff locally** (new plugin, theme, how a new blog post looks):
 
-* *Start local site*: Type `bundle exec jekyll serve --watch` at the command line
-* *Visit local site*: Open **localhost:4000/yourwebfoldername/** in a web browser (e.g. *localhost:4000/JekyllDemo/*). Don't forget the trailing slash!
-* *See changes on the local site as you make them:* While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—**except for the _config.yml file**, for which you must stop running the website and restart running the website to see changes.
-* *Stop local site:* Hit **control-c** on the command line.
+- Si decides hospedar tu sitio de Jekyll en otro servidor que no sea GitHub Pages, puedes utilizar cualquier plugin de Jekyll (las instrucciones para alojar tu sitio varían entre diferentes proveedores de hosting web, y no las desarrollaremos en esta lección, pero [aquí](http://jekyllrb.com/docs/plugins/) tienes una página que explica cómo instalar plugins, una vez que poseas tu sitio con hosting propio). Puedes realizar una búsqueda utilizando “Jekyll plugin” y añadir la funcionalidad que necesites para explorar si hay una herramienta apropiada disponible, o revisar la [documentación sobre plugins](http://jekyllrb.com/docs/plugins/) en el sitio oficial de Jekyll. 
+  
+- También puedes mantener GitHub Pages como hosting gratuito para tu sitio, pero darle un **nombre de dominio personalizado** (los dominios pueden ser adquiridos por un costo razonable -que suele rondar los 10 dólares anuales- a través de un registrador de dominios como [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). Por ejemplo, el blog de la autora de este tutorial, LiteratureGeek.com, fue construido con Jekyll y está alojado en GitHub Pages, al igual que sitio que construiste en esta lección, pero utiliza un dominio personalizado que la autora compró y configuró para que condujera a su sitio web. Las instrucciones para establecer un dominio personalizado pueden ser encontradas [aquí](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).   
 
-**To move local changes to your live site** (new post, settings tweak, etc.):
 
-* Make the desired changes to your website's local files.
-* Open the GitHub Desktop app, make sure your website is chosen in the left sidebar's list of repositories, and write your commit message summary (and description if desired).
-* Click "Commit to gh-pages" in the lower left.
-* After the commit has completed, click "Sync" in the upper right.
-* Allow 10-90 seconds for your changes to reach GitHub's web servers, then visit your website and refresh the page to see your changes live.
+- Además, puedes **migrar un blog existente** desde varias otras plataformas, incluyendo WordPress, Blogger, Drupal, y Tumblr, para lo cual debes seguir el enlace que se encuentra en el sector derecho de [esta página](https://import.jekyllrb.com/docs/home/). Cuando migres un sitio, asegúrate de tener un back up de tu sitio original, en caso de que necesites realizar más de un intento para que las publicaciones del sitio se encuentren en la misma URL que antes (y que de esta forma se mantenga en los resultados de los buscadores y en los marcadores). 
+
+## Guía <a id="section8"></a>
+
+**Para realizer pruebas en el sitio de forma local** (nuevos plugins, temas, o para ver cómo luce una nueva publicación):
+
+* *Correr el sitio en forma local*: Escribe `bundle exec jekyll serve --watch` en la línea de comandos.
+* *Visitar el sitio local*: Abrir **localhost:4000/yourwebfoldername/** en un explorador (por ejemplo: *localhost:4000/JekyllDemo/*). ¡No olvides la barra inclinada al final!
+* *Ver los cambios en el sitio local a medida que los vas realizando*:Para visualizar los cambios en los archivos mientras el sitio está abierto en el explorador, debes guardar los archivos modificados y refrescar la página en el explorador; a menos que el cambio se haya realizado en el archivo **_config.yml**, en cuyo caso debes cerrar el sitio en el navegador y luego volver a entrar para ver los cambios.
+* *Detener el sitio local*: Presiona **control-c** en la línea de comandos.
+
+**Para trasladar los cambios que realizaste en tu sitio local a la versión online**:
+
+* Abre GitHub Desktop y escribe una breve descripción de los cambios realizados (y de forma opcional también puedes escribir una descripción más larga en el segundo cuadro de texto).
+* Haz clic en el botón “commit” que se encuentra debajo del recuadro de texto.
+* Una vez que el commit haya finalizado, haz clic en el botón “Sync” en l asección superior derecha de la pantalla (Mac) o en el botón “Push origin” que aparece destacado en azul (Windows).
+* Espera un poco a que GitHub reciba los cambios (usualmente entre 10 y 90 segundos) y refresca tu sitio online para ver los cambios allí reflejados.
 
 ## Help, credits, & further reading <a id="section9"></a>
 
