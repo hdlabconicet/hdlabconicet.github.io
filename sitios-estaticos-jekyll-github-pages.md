@@ -472,7 +472,7 @@ Si te interesa un software "editor de Markdown" podría ser uno como [Typora](ht
 
 For reference, you can check out [an example of a page](http://amandavisconti.github.io/JekyllDemo/resume/) on my demo site, or see [the file that's behind that page](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
-### Authoring posts <a id="section5-2"></a>
+### Creación de posts <a id="section5-2"></a>
 
 1. In Finder, navigate to your website folder (e.g. *JekyllDemo*) and the *_posts* folder inside it. Open the file inside it with either a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora). The file will be named something like *2016-02-28-welcome-to-jekyll.markdown* (the date will match when you created the Jekyll site).
 
