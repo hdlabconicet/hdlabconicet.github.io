@@ -614,9 +614,9 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 * Una vez que el commit haya finalizado, haz clic en el botón “Sync” en la asección superior derecha de la pantalla (Mac) o en el botón “Push origin” que aparece destacado en azul (Windows).
 * Espera un poco a que GitHub reciba los cambios (usualmente entre 10 y 90 segundos) y refresca tu sitio online para ver los cambios allí reflejados.
 
-## Help, credits, & further reading <a id="section9"></a>
+## Ayuda, créditos, y lecturas <a id="section9"></a>
 
-### Help <a id="section9-1"></a>
+### Ayuda <a id="section9-1"></a>
 
 Run into a problem while using this lesson, or found something that should be written more clearly? You can ask questions or submit suggested additions/edits to this lesson in a variety of ways:
 
