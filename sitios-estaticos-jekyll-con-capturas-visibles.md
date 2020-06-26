@@ -292,8 +292,14 @@ En la línea de comandos, ingresa:
    ![captura-de-pantalla-resultados-lupa](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
-
-{% include figure.html filename="jekyll_0.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña /"Repository/" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando /"show in explorer/"." %}
+<br/> 
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_0.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+  <span>En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña "Repository" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando "show in explorer".</span>
+  </figcaption>
+</figure>
+<br/> 
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
@@ -524,15 +530,37 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 
    Puedes utilizar el área de texto más grande que se encuentra debajo si deseas escribir un mensaje más largo (*opcional*).
 
-{% include figure.html filename="jekyll_1.png" caption="Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit." %}
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_1.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit.</span>
+</figcaption>
+</figure>
+<br/>	
+<figure>
+<img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Captura de pantalla de GitHub Desktop en Mac.</span>
+</figcaption>
+</figure>
+<br/>	
 
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png)	
+5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.
 
-5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.	
-
-{% include figure.html filename="jekyll_2.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
-
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png)
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_2.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Captura de pantalla de GitHub Desktop en Windows.</span>
+</figcaption>
+</figure>
+<br/>	
+<figure>
+<img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Captura de pantalla de GitHub Desktop en Mac.</span>
+</figcaption>
+</figure>
+<br/>	  
 
 *A partir de este punto el proceso para publicar nuestro sitio en GitHub Pages difiere entre Windows y Mac*
 
@@ -558,19 +586,44 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 
 6. Haz clic en el botón “Publish repository” que aparece destacado en azul.
 
-{% include figure.html filename="jekyll_3.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_3.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Captura de pantalla de GitHub Desktop en Windows.</span>
+</figcaption>
+</figure>
+<br/>
 
 7. Haz clic en el botón “View on GitHub” que aparece en la parte central de la ventana, en tercer lugar.
 
 8. Ya en GitHub, debes cambiar las opciones de visibilidad de tu repositorio para hacerlo público, para esto, accede a la sección de “Settings” y baja hasta el recuadro titulado “Danger Zone”. Haz clic en el botón “Change visibility” y seleccionar la opción “Make public”. 
 
-{% include figure.html filename="jekyll_4.png" caption="Ubicación de la opciones (settings) del repositorio en GitHub." %}
-
-{% include figure.html filename="jekyll_5.png" caption="/"Danger zone/" de las opciones de GitHub." %}
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_4.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Ubicacipon de la opciones (settings) del repositorio en GitHub.</span>
+</figcaption>
+</figure>
+<br/>
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_5.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>"Danger zone" de las opciones de GitHub.</span>
+</figcaption>
+</figure>
+<br/>
 
 9. Arriba del recuadro de Danger Zone se encuentran las opciones de GitHub Pages. Allí debes cambiar la opción “Source” y seleccionar la rama (branch) “gh-pages”. 
 
-{% include figure.html filename="jekyll_6.png" caption="Sección de GitHub Pages en las opciones de GitHub." %}
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_6.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Sección de GitHub Pages en las opciones de GitHub.</span>
+</figcaption>
+</figure>
+<br/> 
+
+
 
 **Ambos**
 
@@ -596,7 +649,6 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 - Los [plugins de Jekyll](http://jekyllrb.com/docs/plugins/) te permiten añadir pequeños segmentos de código que permiten sumar funcionalidades a tu sitio, tales como [realizar búsquedas de texto](https://github.com/PascalW/jekyll_indextank), [permitir el uso de emojis](https://github.com/yihangho/emoji-for-jekyll), o [crear nubes de palabras](https://gist.github.com/ilkka/710577). 
 
 - Si deseas alojar tu sitio en GitHub Pages, como lo hicimos en esta lección, solo podrás utilizar los plugins de Jekyll que ya están incluidos en las gemas de GitHub Pages que instalamos (aquí tienes una [lista completa de lo que hemos instalado](https://pages.github.com/versions/), cuando añadimos la gema de GitHub Pages a nuestro Gemfile anteriormente).
-
 
 - Si decides alojar tu sitio de Jekyll en otro servidor que no sea GitHub Pages, puedes utilizar cualquier plugin de Jekyll (las instrucciones para alojar tu sitio varían entre diferentes proveedores de hosting web, y no las desarrollaremos en esta lección, pero [aquí](http://jekyllrb.com/docs/plugins/) tienes una página que explica cómo instalar plugins, una vez que poseas tu sitio con hosting propio). Puedes realizar una búsqueda utilizando “Jekyll plugin” y añadir la funcionalidad que necesites para explorar si hay una herramienta apropiada disponible, o revisar la [documentación sobre plugins](http://jekyllrb.com/docs/plugins/) en el sitio oficial de Jekyll. 
   
