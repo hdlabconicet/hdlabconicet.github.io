@@ -158,6 +158,8 @@ A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac
 
 ![captura-de-pantalla-linea-de-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png)
 
+{% include figure.html filename="jekyll_1.png" caption="Promt de la línea de comandos en Windows." %}
+
 Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e ingresar comandos, ten en cuenta lo siguiente:
 
 1. **Los comandos que debes escribir (o copiar/pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de Enter.
@@ -184,9 +186,7 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
 2. Abre Cmd (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir). Otra forma sencilla de abrir el "Cmd" en Windows, es hacer clic derecho sobre el botón de inicio que se encuentra en la barra de tareas y seleccionar la opción "Ejecutar", lo que abrirá una ventana emergente en la que debes escribir "cmd" y presionar "Aceptar".
 
-{% include figure.html filename="jekyll_1.png" caption="Ejecutar Cmd." %}
-
-{% include figure.html filename="jekyll_2.png" caption="Promt de la línea de comandos en Windows." %}
+{% include figure.html filename="jekyll_2.png" caption="Ejecutar Cmd." %}
 
 3. Chocolatey es un "administrador de paquetes": un programa que te permite descargar e instalar fácilmente software de código abierto en Windows desde la línea de comandos. Ahora vamos a instalar Chocolatey (*asegúrate de resaltar y copiar todo el texto a continuación como un conjunto y no como líneas separadas*). Ingresa el código que se muestra en los pasos a continuación (`el código está formateado como este`), siguiendo [las sugerencias de uso de la línea de comandos vistas arriba](#section1-4):
 

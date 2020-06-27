@@ -157,6 +157,14 @@ El programa de línea de comandos predeterminado se llama "Terminal" en Mac (ubi
 A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario actualmente conectada (el prompt usará diferentes nombres para su computadora y nombre de usuario).
 
 ![captura-de-pantalla-linea-de-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png)
+<br/>
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_1.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Promt de la línea de comandos en Windows.</span>
+</figcaption>
+</figure>
+<br/> 
 
 Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e ingresar comandos, ten en cuenta lo siguiente:
 
@@ -182,7 +190,15 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
 1. Antes que nada, necesitamos una herramienta de línea de comandos que reconozca los mismos comandos que las computadoras Mac y Linux (es decir, los sistemas operativos Unix). Visita [https://git-scm.com/downloads](https://git-scm.com/downloads) y haz clic en el enlace "Windows". Una vez que hayas terminado la descarga, haz doble clic en el archivo descargado y sigue los pasos para instalar Git Bash (deja todas las opciones como están).
 
-2. Abre Cmd (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir).
+2. Abre Cmd (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir). Otra forma sencilla de abrir el "Cmd" en Windows, es hacer clic derecho sobre el botón de inicio que se encuentra en la barra de tareas y seleccionar la opción "Ejecutar", lo que abrirá una ventana emergente en la que debes escribir "cmd" y presionar "Aceptar".
+
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_2.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>Ejecutar Cmd.</span>
+</figcaption>
+</figure>
+<br/> 
 
 3. Chocolatey es un "administrador de paquetes": un programa que te permite descargar e instalar fácilmente software de código abierto en Windows desde la línea de comandos. Ahora vamos a instalar Chocolatey (*asegúrate de resaltar y copiar todo el texto a continuación como un conjunto y no como líneas separadas*). Ingresa el código que se muestra en los pasos a continuación (`el código está formateado como este`), siguiendo [las sugerencias de uso de la línea de comandos vistas arriba](#section1-4):
 
@@ -294,7 +310,7 @@ En la línea de comandos, ingresa:
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 <br/> 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_0.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_3.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
   <span>En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña "Repository" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando "show in explorer".</span>
   </figcaption>
@@ -531,7 +547,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
    Puedes utilizar el área de texto más grande que se encuentra debajo si deseas escribir un mensaje más largo (*opcional*).
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_1.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_4.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit.</span>
 </figcaption>
@@ -548,7 +564,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_2.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_5.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Captura de pantalla de GitHub Desktop en Windows.</span>
 </figcaption>
@@ -587,7 +603,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 6. Haz clic en el botón “Publish repository” que aparece destacado en azul.
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_3.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_6.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Captura de pantalla de GitHub Desktop en Windows.</span>
 </figcaption>
@@ -599,14 +615,14 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 8. Ya en GitHub, debes cambiar las opciones de visibilidad de tu repositorio para hacerlo público, para esto, accede a la sección de “Settings” y baja hasta el recuadro titulado “Danger Zone”. Haz clic en el botón “Change visibility” y seleccionar la opción “Make public”. 
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_4.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_7.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Ubicacipon de la opciones (settings) del repositorio en GitHub.</span>
 </figcaption>
 </figure>
 <br/>
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_5.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_8.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>"Danger zone" de las opciones de GitHub.</span>
 </figcaption>
@@ -616,7 +632,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 9. Arriba del recuadro de Danger Zone se encuentran las opciones de GitHub Pages. Allí debes cambiar la opción “Source” y seleccionar la rama (branch) “gh-pages”. 
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_6.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_9.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Sección de GitHub Pages en las opciones de GitHub.</span>
 </figcaption>
