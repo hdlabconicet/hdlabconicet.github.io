@@ -293,7 +293,12 @@ En la línea de comandos, ingresa:
 
    Tenga en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, vaya a Biblioteca> Soporte de aplicaciones en Finder y verifique si la carpeta "GitHub para Mac" está allí.
 
-   ![captura-de-pantalla-resultados-lupa](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
+   	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png" alt="captura-de-pantalla-resultados-lupa" />
+	<figcaption>
+	    <span>Luego de buscar 'GitHub', aparece la opción "GitHub" entre las carpetas; haz doble click en 'GitHub' para abrir la carpeta GitHub en el explorador de archivos</span>
+	</figcaption>
+	</figure>
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
@@ -301,7 +306,13 @@ En la línea de comandos, ingresa:
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
+   	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png" alt="captura-de-pantalla-terminal-cd" />
+	<figcaption>
+	    <span>Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub</span>
+	</figcaption>
+	</figure>
+
 
    El comando *cd* (**c**hange **d**irectory) le indica a la computadora que se localice en el lugar especificado por la ruta indicada, en este caso, la ruta a la carpeta GitHub creada por la instalación de GitHub Desktop.
 
@@ -325,9 +336,13 @@ En la línea de comandos, ingresa:
 
    Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archvos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png)
-
-
+    <figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png" alt="captura-de-pantalla-archivos-nuevos" />
+	<figcaption>
+	    <span>En el explorador de archivos, se pueden ver los nuevos archivos que han sido instalados y que servirán para ejecutar nuestro sitio web</span>
+	</figcaption>
+	</figure>
+   
 ## Ejecutar un sitio web localmente <a id="section3a"></a>
 
 *Esta sección describe cómo ejecutar un sitio web ***localmente***. Esto significa que podrás cómo se ve tu sitio web en un navegador pero únicamente en tu computadora (esto es, localmente). Trabajar en una versión local de un sitio web quiere decir que el sitio es privado, nadie puede verlo todavía (el sitio no es público, nadie puede escribir la URL y verlo en su computadora).*
@@ -354,93 +369,120 @@ En la línea de comandos, ingresa:
 	</figure>
 
 
-3. Para detener la ejecución local de nuestro sitio, debemos presionar **control-c** (esto libera la línea de comandos para usarla nuevaente). Basta con ingresar `bundle exec jekyll serve --watch` nuevamente para volver a ejecutar el sitio localmente.
+3. Para detener la ejecución local de nuestro sitio, debemos presionar **control-c** (esto libera la línea de comandos para usarla nuevamente). Basta con ingresar `bundle exec jekyll serve --watch` nuevamente para volver a ejecutar el sitio localmente.
 
 4. Para visualizar el sitio que se está ejecutando localmente, visita **localhost:4000** en tu navegador. Verás un sitio web Jekyll básico con texto predefinido:
 
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png)
+ 	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png" alt="captura-de-pantalla-sitio-basico-jekyll" />
+	<figcaption>
+	    <span>Un sitio web Jekyll básico con texto predefinido</span>
+	</figcaption>
+	</figure>
+   
 
-### Mini cheatsheet <a id="section3a-1"></a>
+### Mini ayudamemoria <a id="section3a-1"></a>
 
-- Type `bundle exec jekyll serve --watch` at the command line to start running your website locally. You'd visit **localhost:4000** in a browser to see your local site now, but in the next section we'll be changing things such that you'll need to visit **localhost:4000/JekyllDemo/** to see the site from then on (filling in your website folder name for *JekyllDemo*, and making sure to include the last slash).
+- Escribe `bundle exec jekyll serve --watch` en la línea de comandos para ejecutar el sitio web localmente. Visita **localhost:4000** en un navegador para visualizar el sitio localmente. En la próxima sección haremos modificaciones que nos obligarán a visitar **localhost:4000/JekyllDemo/** para poder visualizar el sitio (completando con el nombre de la carpeta de tu sitio web en lugar de *JekyllDemo* y asegurándote de incluir la barra final).
 
-- Hit **control-c** at the command line to stop running the website locally.
+- Presiona **control-c** en la línea de comandos para detener la ejecución local del sitio web.
 
-- While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—**except for the _config.yml file**, for which you must stop running the website and restart running the website to see changes.
+- Cuando hagas cambios en los archivos del sitio web mientras éste se está ejecutando, asegúrate de guardar los archivos y refrescar la página (F5 o ⌘+R) en el navegador para poder ver las modificaciones. *Pero si realizas cambios en _config.yml*, deberás detener la ejecución del sitio y reiniciarla para poder ver los cambios.
 
-- Typing or pasting in `bundle exec jekyll serve --watch` a lot? Instead, you can type the ↑ (up arrow) at the command line to scroll through recently typed commands; just press enter after the command you want to use appears.
+- ¿Mucho escribir o copiar y pegar `bundle exec jekyll serve --watch`? Puedes presionar la tecla **↑** (flecha hacia arriba) en la línea de comandos para hacer desfilar los comandos ingresados recientemente. Presiona Enter cuando aparezca el comando que deseas ejecutar.
 
-## Tweaking the settings <a id="section4"></a>
+## Modificar la configuración del sitio <a id="section4"></a>
 
-*You now have a basic, private website accessible only on your computer. In this section, we'll begin to customize your site by changing the website title and author information, and giving a brief overview of what the different website files do.*
+*Ya tenemos un sitio web básico privado, accesible únicamente en nuestra computadora. En esta sección, vamos a personalizar el sitio cambiando el título y el autor. También vamos a dar un panorama de lo que hacen los diferentes archivos del sitio web.*
 
-### Basic site settings via _config.yml <a id="section4-1"></a>
+### Configuración básica del sitio con _config.yml <a id="section4-1"></a>
 
-1. Navigate to your website folder in Finder (Macs) or the directory folder (Windows. The author's website at */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* is my logged in username, and *JekyllDemo* is the name of my website folder). [Return to the "Setting up Jekyll" section](#section3) if you need help locating your website folder.
+1. Abre la carpeta de tu sitio web en el explorador de archivos. El sitio de la autora del tutorial se encuentra en */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* es el nombre de usuario de la autora y *JekyllDemo* es el nombre de la carpeta del sitio web de este tutorial). Visita la [sección "Configuración de Jekyll"](#section3) si necesitas ayuda para encontrar la carpeta de tu sitio web.
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
+	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png" alt="captura-de-pantalla-explorador-archivos" />
+	<figcaption>
+	    <span>Contenido de la carpeta del sitio web</span>
+	</figcaption>
+	</figure>
 
-2. We'll start by customizing the main settings file, **_config.yml**. You'll want to open this and any future website files using your text editor (e.g. TextWrangler on Macs or Notepad++ on Windows).
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
+2. Comenzaremos por personalizar el archivo de configuración principal **_config.yml**. Deberás abrir este archivo y los demás archivos del sitio web usando un editor de texto (por ej., Notepad++ en Windows o BBedit en Mac).
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
+	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png" alt="captura-de-pantalla-abrir-editor-de-texto" />
+	<figcaption>
+	    <span>Abrir un archivo con un editor de texto</span>
+	</figcaption>
+	</figure>
 
-   The *_config.yml* file is a file "meant for settings that affect your whole blog, values for which your are expected to set up once and rarely need to edit after that" (as it says inside the file!). *_config.yml* is the place where you can set the title of your site, share information like your email address that you want associated with the site, or add other "basic settings"-type information you want available across your website. 
+	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png" alt="captura-de-pantalla-sitio-archivo-config" />
+	<figcaption>
+	    <span>El archivo _config.yml</span>
+	</figcaption>
+	</figure>
+   
+   El archivo *_config.yml* es un archivo "destinado a configuraciones que afectan a todo tu blog, valores que se espera que configures una sola vez y rara vez necesites volver editar más tarde" (como dice en el archivo). *_config.yml* es donde se puede definir el nombre del sitio web y compartir información como la dirección de email que queremos asociar al sitio y otras configuraciones básicas que desees que estén disponibles en todo el sitio web (cuentas de redes sociales, por ejemplo).
 
-   The *.yml* file type refers to how the file is written using [YAML](https://en.wikipedia.org/wiki/YAML) (the acronym standing for "YAML Ain't Markup Language"); YAML is a way of writing data that is both easy for humans to write and read, and easy for machines to interpret. You won't need to learn much about YAML, besides keeping the *_config.yml* formatted the way it originally is even as you customize the text it contains (e.g. the title information is on a separate line from your email).
+   La extensión *.yml* refiere a cómo fue escrito usando [YAML](https://es.wikipedia.org/wiki/YAML) (acrónimo de _YAML Ain't Markup Language_, "YAML no es un lenguaje de marcado"). YAML es modo de escribir datos que es a la vez fácil de escribir y de leer para los humanos y fácil de interpretar para las máquinas. No es necesario profundizar en YAML aquí, pero es importante respetar el formato del archivo *_config.yml* tal como estaba originalmente aunque modifiquemos el contenido (por ej., el título del sitio debe quedar en una línea diferente del email).
 
-3. You can change the text in this file, save the file, and then visit your local website in a browser to see the changes. **Note that changes to _config.yml**, unlike the rest of your website files, will not show up if made while the website is already running; you need to make them while the website isn't running, *or* after making changes to _config.yml stop then start running the website, to see changes made to this particular file. (*Changes to the _config.yml file were left out of the ability to refresh because this file can be used to declare things like the structure of site links, and altering these while the site is running could badly break things.*)
+3. Puedes cambiar el texto en este archivo, guardarlo y luego ver tu sitio web local en un navegador para ver los cambios. **Es necesario tener en cuenta que los cambios en _config.yml**, a diferencia del resto de los archivos del sitio web, no se mostrarán si se realizan mientras el sitio web se está ejecutando. Para ver los cambios realizados en este archivo en particular, debes realizarlos mientras el sitio web no se está ejecutando *o* después de realizar cambios en _config.yml, detener y luego ejecutar el sitio de vuelta. (*Los cambios en el archivo _config.yml quedan fuera de la capacidad de refrescar el sitio porque este archivo se puede usar para declarar la estructura de los enlaces del sitio y alterarlos mientras el sitio se está ejecutando podría provocar daños.*)
 
-   Making small changes to website files (one at a time to start with), saving, and then refreshing to see the effect on your site means if you mess anything up, it will be clear what caused the issue and how to undo it.
+	Hacer pequeños cambios en los archivos del sitio (comenzar por uno solo), guardar y refrescar el navegador para visualizar los efectos en el sitio permite identificar la causa con más claridad si se produce algún error. 
 
-   - Note that any line that starts with a **#** sign is a *comment*: comments aren't read as code, and instead serve as a way to leave notes about how to do something or why you made a change to the code. 
+   - Las líneas que comienzan con el signo **#** son *comentarios*: los comentarios no son interpretados como código sino que sirven para dejar notas sobre cómo hacer algo o sobre modificaciones realizadas en el código.
+   
+   - Es posible borrar los comentarios sin consecuencias para el sitio web (por ejemplo, puedes borrar las líneas comentadas 1-6 en *_config.yml* si no deseas ver esa información acerca del uso de Jekyll).
 
-   - Comments can always be deleted without effect to your website (e.g. you can delete the commented lines 1-6 in *_config.yml* if you don't want to always see this info about Jekyll use).
+4. Modifica el arhivo *_config.yml* siguiendo estas intrucciones:
 
-4. Change the *_config.yml* file according to these instructions:
+   - **title**: el título de tu sitio web como deseas que aparezca en el encabezado del sitio web.
+   - **email**: tu dirección de email.
+   - **description**: la descripción del sitio web que será usada por los motores de búsqueda y que será utilizada por RSS.
+   - **baseurl**: completa entre las comillas con una barra oblicua seguida del nombre de la carpeta de tu sitio web (por ej., "/JekyllDemo") para que el sitio tome la URL correcta.
+   - **url**: reemplaza "http://yourdomain.com" por "localhost:4000" para que el navegador tome la versión local de tu sitio en la URL correcta.
+   - **twitter_username**: tu nombre de usuario de Twitter (no incluir @).
+   - **github_username**: tu nombre de usuario de GitHub.
 
-   - **title**: The title of your website, as you want it to appear in the header of the webpage.
-   - **email**: Your email address.
-   - **description**: A description of your website that will be used in search engine results and the site's RSS feed.
-   - **baseurl**: Fill in the quotation marks with a forward slash followed by the name of your website folder (e.g. "/JekyllDemo") to help locate the site at the correct URL.
-   - **url**: Replace "http://yourdomain.com" with "localhost:4000" to help locate your local version of the site at the correct URL.
-   - **twitter_username**: Your Twitter username (do not include @ symbol).
-   - **github_username**: Your GitHub username.
+   Los cambios realizados en las líneas *baseurl* y *url* permitirán que tu sitio se ejecute desde los mismos archivos tanto localmente en tu computadora como en vivo en la Web, pero **al hacer esto ha cambiado la URL en donde puedes visualizar tu sitio localmente**. De ahora en adelante, en lugar de ser localhost:4000, es **localhost:4000/JekyllDemo/** (debes cambiar *JekyllDemo* por el nombre de la carpeta de tu sitio web y no olvides incluir la última barra oblicua)
 
-   The changes you made to the *baseurl* and *url* lines will let your site run from the same files both locally on your computer and live on the Web, but **doing this changed the URL where you'll see your local site from now on** (while [Jekyll is running](#section3-1)) from localhost:4000 to **localhost:4000/JekyllDemo/** (substitute your website folder name for *JekyllDemo* and remembering the last slash mark).
+   En la captura de pantalla que está debajo, la autora ha borrado las líneas comentadas 1-6 y el comentario que explicaba lo que hace "description" (no es obligatorio, es sólo para demostrar que es posible borrar los comentarios). También modificó el resto del archivo según los cambios antes mencionados:
 
-   In the screenshot below, I have deleted the initial commented lines 1-6 as well as the commented text stating what "description" does (not necessary, just to show you can delete comments that you don't care about seeing!) as customized the rest of the file as instructed above:
+	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png" alt="captura-de-pantalla-archivo-config" />
+	<figcaption>
+	    <span>El archivo _config.yml modificado</span>
+	</figcaption>
+	</figure>   
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png)
 
-5. Save the file, and start (or stop and restart if it's currently running) the website, then visit **localhost:4000/JekyllDemo/** (substituting your website folder name for *JekyllDemo* and remembering the last slash mark) to see your customized local site:
+5. Guarda el archivo y ejecuta el sitio web (o detenlo y vuelve a ejecutarlo si estaba en ejecución) y luego visita **localhost:4000/JekyllDemo/** en tu navegador (cambiando *JekyllDemo* por el nombre de la carpeta de tu sitio web e incluyendo la barra oblicua final) para ver localmente los cambios en tu sitio:
 
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png)
+	<figure>
+	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png" alt="captura-de-pantalla-sitio-basico-jekyll" />
+	<figcaption>
+	    <span>El sitio web modificado</span>
+	</figcaption>
+	</figure>
 
-### Where (and what) is everything? <a id="section4-2"></a>
 
-To get a sense of how your site works and what files you'd experiment with to do more advanced things, here are some notes on what each folder or file in your current website folder does. Remember to always open and edit any files with a text editor (e.g. TextWrangler) and not a word processor (e.g. not Microsoft Word or anything that lets you add formatting like italic and bold); this prevents invisible formatting characters from being saved in the file and messing up the website. If you just want to start adding content to your site and make it public, you can [skip to the next section](#section5).
+### ¿Dónde está (y qué es) cada cosa? <a id="section4-2"></a>
+
+Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de su sitio web. Recuerde siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no un procesador de textos (no use Microsoft Word ni nada que le permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#section5).
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
 
-- **_config.yml** is discussed [above](#section4-1); it provides basic settings information about your site, such as the site's title and additional possibilities we won't cover here, like how to structure links to posts (e.g. should they follow the pattern MySite.com/year/month/day/post-title?).
-- **_includes** folder has files that get included on all or certain pages (e.g. code to make the header contain your site title and main menu on every page of the site)
-- **_layouts** folder contains code that controls how the pages on your site look (default.html), as well as customizations of that code to further style blog posts (post.html) and pages (page.html)
-- **_posts** folder holds the individual files that each represent a blog post on your website. Adding a new post to this folder will make a new blog post appear on your website, in reverse chronological order (newest post to oldest). We'll cover adding blog posts in the [next section](#section5-2).
-- **_sass** folder holds SCSS files that control the visual design of the site
-- **_site** folder is where the HTML pages that appear on the web are generated and stored (e.g. you'll write and save posts as Markdown files, but Jekyll will convert these to HTML for display in a web browser)
-- **about.md** is an example of a Jekyll *page*. It's already linked in the header of your website, and you can customize its text by opening and writing in that file. We'll cover adding more site pages in the [next section](#section5-3).
-- **css** folder holds CSS converted from SCSS that controls the visual design of the site
-- **feed.xml** lets people follow the RSS feed of your blog posts
-- **index.html** controls the structuring of content on your site's homepage
-
-
-=============================================
-
-
-
-
+- **_config.yml** fue explicado [más arriba](#section4-1); contiene información básica de la configuración del sitio, como ser título y otras posibilidades que no abordaremos aquí (por ej., cómo estructurar los links)
+- la carpeta **_includes** contiene archivos que son incluídos en todas o varias páginas (por ej., el código para que el encabezado del sitio tenga el título y el menú principal en todas las páginas del sitio)
+- la carpeta **_layouts** contiene código que controla cómo se ven las páginas de nuestro sitio web (default.html), así como también modificaciones de ese código para darle un estilo más específico a las entradas (post.html) y las páginas (page.html)
+- la carpeta **_posts** contiene los archivos que representan cada una de las entradas de nuestro sitio web. Si creamos un nuevo archivo en esta carpeta aparecerá una nueva entrada de blog en el sitio web en orden cronológico inverso (de la más reciente a la más vieja). Detallaremos cómo crear entradas de blog en la [próxima sección](#section5-2)
+- la carpeta **_sass** contiene archivos SCSS que controlan el diseño visual del sitio web
+- la carpeta **_site** almacena las páginas HTML que aparecen en Internet (por ej., nuestras entradas de blog serán escritas como archivos Markdown pero Jekyll las convertirá a HTML para mostrarlas en Internet)
+- **about.md** es un ejemplo de *página de Jekyll*. Ya se encuentra linkeada en el encabezado de nuestro sitio web y podemos cambiar el contenido de esta página abriendo el archivo about.md y modificando el texto. Detallaremos cómo crear nuevas páginas en la [próxima sección](#section5-3)
+- la carpeta **css** contiene CSS obtenido a partir del SCSS que controla el diseño visual del sitio
+- **feed.xml** permite que el público siga el feed RSS de las entradas de nuestro blog
+- **index.html** controla la estructura de la página de inicio del sitio
 
 ## Writing pages and posts <a id="section5"></a>
 
@@ -625,9 +667,9 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 * Una vez que el commit haya finalizado, haz clic en el botón “Sync” en la asección superior derecha de la pantalla (Mac) o en el botón “Push origin” que aparece destacado en azul (Windows).
 * Espera un poco a que GitHub reciba los cambios (usualmente entre 10 y 90 segundos) y refresca tu sitio online para ver los cambios allí reflejados.
 
-## Help, credits, & further reading <a id="section9"></a>
+## Ayuda, créditos, y lecturas <a id="section9"></a>
 
-### Help <a id="section9-1"></a>
+### Ayuda <a id="section9-1"></a>
 
 Run into a problem while using this lesson, or found something that should be written more clearly? You can ask questions or submit suggested additions/edits to this lesson in a variety of ways:
 
