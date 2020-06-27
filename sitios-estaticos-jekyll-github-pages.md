@@ -152,7 +152,7 @@ La línea de comandos puede ser definida como una forma de interactuar con la co
 
 Mientras la línea de comandos usa comandos de texto, la mayoría de los usuarios de computadora utilizan una "interfaz gráfica de usuario" (también conocida como GUI, "graphical user interface"). Cualquier programa en el que las interacciones usuario-computadora se dan a través de una interfaz visual que contiene íconos, imágenes, hacer clic con el mouse, etc. es una GUI. ¿Por qué usaríamos la línea de comandos si existen las GUI? Muchas veces es más simple y rápido escribir (o cortar y pegar de un tutorial) una serie de comandos en la línea de comandos que hacer lo mismo usando una GUI. Otras veces, hay cosas para las cuales nadie ha creado una GUI y solo es posible hacerlas a través de la línea de comandos.
 
-El programa de línea de comandos predeterminado se llama "Terminal" en Mac (ubicado en *Aplicaciones > Utilidades*) y "Cmd" (o "Símbolo del sistema"), "Windows Power Shell" o "Git Bash" en Windows (estas son tres opciones diferentes que difieren cada una en el tipo de comandos que aceptan).
+El programa de línea de comandos predeterminado se llama "Terminal" en Mac (ubicado en *Aplicaciones > Utilidades*) y "Cmd" (o "Símbolo del sistema"), "Windows Power Shell" o "Git Bash" en Windows (estas son tres opciones diferentes que difieren cada una en el tipo de comandos que aceptan). 
 
 A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario actualmente conectada (el prompt usará diferentes nombres para su computadora y nombre de usuario).
 
@@ -182,7 +182,11 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
 1. Antes que nada, necesitamos una herramienta de línea de comandos que reconozca los mismos comandos que las computadoras Mac y Linux (es decir, los sistemas operativos Unix). Visita [https://git-scm.com/downloads](https://git-scm.com/downloads) y haz clic en el enlace "Windows". Una vez que hayas terminado la descarga, haz doble clic en el archivo descargado y sigue los pasos para instalar Git Bash (deja todas las opciones como están).
 
-2. Abre Cmd (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir).
+2. Abre Cmd (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir). Otra forma sencilla de abrir el "Cmd" en Windows, es hacer clic derecho sobre el botón de inicio que se encuentra en la barra de tareas y seleccionar la opción "Ejecutar", lo que abrirá una ventana emergente en la que debes escribir "cmd" y presionar "Aceptar".
+
+{% include figure.html filename="jekyll_1.png" caption="Ejecutar Cmd." %}
+
+{% include figure.html filename="jekyll_2.png" caption="Promt de la línea de comandos en Windows." %}
 
 3. Chocolatey es un "administrador de paquetes": un programa que te permite descargar e instalar fácilmente software de código abierto en Windows desde la línea de comandos. Ahora vamos a instalar Chocolatey (*asegúrate de resaltar y copiar todo el texto a continuación como un conjunto y no como líneas separadas*). Ingresa el código que se muestra en los pasos a continuación (`el código está formateado como este`), siguiendo [las sugerencias de uso de la línea de comandos vistas arriba](#section1-4):
 
@@ -293,7 +297,7 @@ En la línea de comandos, ingresa:
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
-{% include figure.html filename="jekyll_0.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña /"Repository/" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando /"show in explorer/"." %}
+{% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña /"Repository/" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando /"show in explorer/"." %}
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
@@ -524,13 +528,13 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 
    Puedes utilizar el área de texto más grande que se encuentra debajo si deseas escribir un mensaje más largo (*opcional*).
 
-{% include figure.html filename="jekyll_1.png" caption="Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit." %}
+{% include figure.html filename="jekyll_4.png" caption="Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit." %}
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png)	
 
 5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.	
 
-{% include figure.html filename="jekyll_2.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
+{% include figure.html filename="jekyll_5.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png)
 
@@ -558,19 +562,19 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 
 6. Haz clic en el botón “Publish repository” que aparece destacado en azul.
 
-{% include figure.html filename="jekyll_3.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
+{% include figure.html filename="jekyll_6.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
 
 7. Haz clic en el botón “View on GitHub” que aparece en la parte central de la ventana, en tercer lugar.
 
 8. Ya en GitHub, debes cambiar las opciones de visibilidad de tu repositorio para hacerlo público, para esto, accede a la sección de “Settings” y baja hasta el recuadro titulado “Danger Zone”. Haz clic en el botón “Change visibility” y seleccionar la opción “Make public”. 
 
-{% include figure.html filename="jekyll_4.png" caption="Ubicación de la opciones (settings) del repositorio en GitHub." %}
+{% include figure.html filename="jekyll_7.png" caption="Ubicación de la opciones (settings) del repositorio en GitHub." %}
 
-{% include figure.html filename="jekyll_5.png" caption="/"Danger zone/" de las opciones de GitHub." %}
+{% include figure.html filename="jekyll_8.png" caption="/"Danger zone/" de las opciones de GitHub." %}
 
 9. Arriba del recuadro de Danger Zone se encuentran las opciones de GitHub Pages. Allí debes cambiar la opción “Source” y seleccionar la rama (branch) “gh-pages”. 
 
-{% include figure.html filename="jekyll_6.png" caption="Sección de GitHub Pages en las opciones de GitHub." %}
+{% include figure.html filename="jekyll_9.png" caption="Sección de GitHub Pages en las opciones de GitHub." %}
 
 **Ambos**
 
