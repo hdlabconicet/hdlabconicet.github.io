@@ -302,7 +302,7 @@ En la línea de comandos, ingresa:
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
-{% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña /"Repository/" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando /"show in explorer/"." %}
+{% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña /"Repository/" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionar /"show in explorer/"." %}
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 

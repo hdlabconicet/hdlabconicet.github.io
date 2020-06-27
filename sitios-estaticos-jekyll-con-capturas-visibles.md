@@ -312,7 +312,7 @@ En la línea de comandos, ingresa:
 <figure>
 <img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_3.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
-  <span>En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña "Repository" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionando "show in explorer".</span>
+  <span>En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña "Repository" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionar "show in explorer".</span>
   </figcaption>
 </figure>
 <br/> 
