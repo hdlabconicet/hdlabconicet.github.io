@@ -441,9 +441,9 @@ Para tener una idea de cómo funciona el sitio y con qué archivos se puede expe
 - **feed.xml** permite que el público siga el feed RSS de las entradas de nuestro blog
 - **index.html** controla la estructura de la página de inicio del sitio
 
-## Writing pages and posts <a id="section5"></a>
+## Redacción de páginas (page) y entradas de blog (posts) <a id="section5"></a>
 
-*Esta sección describirá como crear páginas o entradas de blog (o posts) en tu sitio web.*
+*Esta sección describirá como crear páginas o entradas de blog en tu sitio web.*
 
 **Páginas** y **entradas de blog** son dos tipos de contenido escrito pero con estilos diferentes. Las páginas son un tipo de contenido (como "Acerca de") que no están organizadas ni se muestran cronológicamente, sin embargo, pueden ser incluidas en el menú principal de tu sitio web; las entradas de blog están pensadas para ser utilizadas como contenido organizado por fecha de publicación. Los URLs (enlaces) para páginas y posts también son diferentes en forma predeterminada (pero tú puedes cambiar eso): la URLs de página se ven como *MySite.com/about/*, mientras que la URLs de entradas se ven como *MySite.com/2016/02/29/my-post-title.html*.
 
@@ -453,7 +453,7 @@ Markdown es un lenguaje de marcado para dar formato a tus escritos para su lectu
 
 En esta lección no cubriremos Markdown; si no estás familiarizado con él, puedes crear posts y páginas sin formato (es decir, sin negrita/italica, encabezados, lista enumeradas o viñetas). Pero es sencillo aprender a agregarlos: aquí hay una [guía de referencias kramdown](http://kramdown.gettalong.org/quickref.html) de markdown en inglés, también puedes consultar esta guía en [español](https://joedicastro.com/pages/markdown.html), así como la lección en [Programming Historian de Sarah Simpkin sobre el cómo y porque escribir con Markdown](https://programminghistorian.org/es/lecciones/introduccion-a-markdown). Consulta estos enlaces si quieres dar formato al texto(italica, , negrita, encabezados, listas enumeradas o viñetas), añadir hipervínculos, incrustar imágenes u otros archivos.
 
-Asegúrate que la guía de referencias de Markdown que mires sea similar a "[kramdown](http://kramdown.gettalong.org/quickref.html)", porque es lo que admite GitHub Pages (donde alojaremos nuestro sitio web). (*There are [various "flavors" of Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) that have subtle differences in what various symbols do, but for the most part frequently used symbols like those that create heading formatting are the same—so you're actually probably okay using a markdown cheatsheet that doesn't specify it's kramdown, but if you're getting errors on your site using symbols that aren't included in kramdown might be why*).
+Asegúrate que la guía de referencias de Markdown que consultes sea similar a "[kramdown](http://kramdown.gettalong.org/quickref.html)", porque es lo que admite GitHub Pages (donde alojaremos nuestro sitio web). (*Hay [varios "tipos" de Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) con sutiles diferencias en lo que respecta a símbolos, pero en su mayoría los que se usan con mayor frecuencia, como los que crean el formato de encabezados, son los mismos— por lo tanto, puedes utilizar una hoja de referencia Markdown que no especifique que se trate de kramdown, pero si recibes errores en tu sitio web usando símbolos que no están incluidos en el kramdown podría ser el motivo*).
 
 Si te interesa un software "editor de Markdown" podría ser uno como [Typora](http://www.typora.io/) (OS X y Windows; de descarga gratuita), que te permitirá utilizar atajos de teclado (por ejemplo, resaltar texto y presionar el cmd-B o Ctrl-B para ponerlo en negrita) y/o hacer que se muestre tal y como se verá la web (ver los encabezados con el estilo de los encabezados, en lugar del texto normal con un # delante de ellos).
 
@@ -461,21 +461,21 @@ Si te interesa un software "editor de Markdown" podría ser uno como [Typora](ht
 
 1. Para ver una página existente en tu sitio web (creada por defecto en un sitio web de Jekyll [se crearon con el resto de los archivos de su sitio web](#sección3)), navega hasta la carpeta de tu sitio web y abre el archivo **about.md**, en un editor de texto (p. ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de". Asimismo, haz clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, podrá observar cómo se visualiza la página web que crea el archivo en un navegador.
 
-2. The stuff between the \--- dashes is called "front matter" (*note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes*). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you'd like the post or page listed under.
+2. El material entre guiones \--- se llama "front matter" (*al abrir el archivo en un editor de Markdown este puede aparecer sobre un fondo gris en lugar de entre guiones*). Este apartado le dice a tu sitio si debe formatear el contenido posterior, como página o entrada de blog, el título de la entrada, la fecha y la hora en que fue publicada, y cualquier categoría que quieras que aparezca en la entrada o la página.
 
-   You can change things in the front matter of a page:
+   Puedes cambiar las cosas en el front matter de una página:
 
-   - **layout:** Keep this as-is (it should say page).
-   - **title:** Change this to the desired page title (unlike posts, no quotation marks around the title). In the screenshot below, I added a page with the title "Resume".
-   - **permalink:** change the text between the two forward slash marks to the word (*or phrase—but you'll need to use hyphens and not spaces!*) that you want to follow your site's main URL to reach the page. For example, **permalink: /about/** locates a page at **localhost:4000/yourwebsitefoldername/about/**
+   - **layout:** Mantén esto de igual manera (debería decir "page").
+   - **title:** Cambia al título deseado (a diferencia de las entradas, no hay comillas alrededor del título). En siguiente captura de pantalla, agregué una página con el título "Resumen".
+   - **permalink:** cambia el texto entre las dos barras diagonales por la palabra (*o frase, ¡pero necesitarás usar guiones y no espacios!*) que desees que continúe la URL principal de tu sitio para llegar a la página. Por ejemplo, **enlace permanente: /about/** ubica la página en **localhost:4000/yourwebsitefoldername/about/**
 
-3. The space below the front matter's second — dashes (or below the front matter's gray box, if using a Markdown editor) is where you write the content of your page, using [the Markdown formatting described above](#section5-1).
+3. El espacio debajo del segundo guión del "front matter" (o debajo del recuadro gris si usa un editor Markdown) es donde debes escribir el contenido de tu página, usando [el formato Markdown descrito anteriormente](#sección5-1)
 
-4. To create a new page in addition to the "About" page that already exists on the site (and can be customized or deleted), create a copy of the *about.md* file in the same folder (the main website folder) and change its filename to the title you wish, using hyphens instead of spaces (e.g. *resume.md* or *contact-me.md*). Also change the title and permalink in the file's front matter, and the content of the file. The new page should automatically appear in the main menu in the site's header:
+4. Para crear una nueva página además de la existente "Acerca de (About)" (que puede ser personalizada o eliminada), crea una copia del archivo *about.md* en la misma carpeta (la principal del sitio web) y cambia el nombre al título que desees, utilizando guiones en lugar de espacios (por ejemplo, *resume.md* o *contact-me.md*). También cambia el título, el enlace permanente en el front matter del archivo, y el contenido. La nueva página debería aparecer automáticamente en el menú principal en el encabezado del sitio:
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-22.png)
 
-For reference, you can check out [an example of a page](http://amandavisconti.github.io/JekyllDemo/resume/) on my demo site, or see [the file that's behind that page](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
+Como referencia, puedes consultar [un ejemplo de página](http://amandavisconti.github.io/JekyllDemo/resume/) en mi sitio de demostración, o ver [el archivo que está detrás de esa página](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
 ### Creación de posts <a id="section5-2"></a>
 
