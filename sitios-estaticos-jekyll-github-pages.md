@@ -282,23 +282,15 @@ En la línea de comandos, ingresa:
 
 1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoce la ruta de la carpeta GitHub, haga click en la lupa ubicada en la esquina superior derecha de la pantalla (en Mac) o en el campo de búsqueda del Menú de Inicio (en Windows).
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png" alt="captura-de-pantalla-lupa" />
-	<figcaption>
-	    <span>El ícono de lupa que le permite buscar en una Mac, está en la esquina superior derecha de la pantalla</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="El ícono de lupa que le permite buscar en una Mac, está en la esquina superior derecha de la pantalla" %}
 
    En Mac, aparecerá un cuadro de búsqueda en el medio de la pantalla;escribe"GitHub", luego haga doble clic en la opción "GitHub" que aparece debajo de "Carpetas" para revelar la carpeta GitHub en Finder (esto puede verse ligeramente diferente en Windows, pero debería funcionar igual).
 
    Tenga en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, vaya a Biblioteca> Soporte de aplicaciones en Finder y verifique si la carpeta "GitHub para Mac" está allí.
 
-   	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png" alt="captura-de-pantalla-resultados-lupa" />
-	<figcaption>
-	    <span>Luego de buscar 'GitHub', aparece la opción "GitHub" entre las carpetas; haz doble click en 'GitHub' para abrir la carpeta GitHub en el explorador de archivos</span>
-	</figcaption>
-	</figure>
+  ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar 'GitHub', aparece la opción "GitHub" entre las carpetas; haz doble click en 'GitHub' para abrir la carpeta GitHub en el explorador de archivos" %}
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
@@ -306,12 +298,8 @@ En la línea de comandos, ingresa:
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
-   	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png" alt="captura-de-pantalla-terminal-cd" />
-	<figcaption>
-	    <span>Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub</span>
-	</figcaption>
-	</figure>
+  ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub" %}
 
 
    El comando *cd* (**c**hange **d**irectory) le indica a la computadora que se localice en el lugar especificado por la ruta indicada, en este caso, la ruta a la carpeta GitHub creada por la instalación de GitHub Desktop.
@@ -336,12 +324,8 @@ En la línea de comandos, ingresa:
 
    Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archvos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
 
-    <figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png" alt="captura-de-pantalla-archivos-nuevos" />
-	<figcaption>
-	    <span>En el explorador de archivos, se pueden ver los nuevos archivos que han sido instalados y que servirán para ejecutar nuestro sitio web</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="En el explorador de archivos, se pueden ver los nuevos archivos que han sido instalados y que servirán para ejecutar nuestro sitio web" %}
    
 ## Ejecutar un sitio web localmente <a id="section3a"></a>
 
@@ -361,24 +345,16 @@ En la línea de comandos, ingresa:
 
 2. Luego de escribir el comando previo, aparecerá en el terminal un proceso que no se detiene. ¿Recuerdas que si escribes algo en la línea de comandos mientras todavía se está ejecutando el comando previo se pueden ocasionar problemas? Ahora Jekyll está corriendo en esta línea de comandos, de manera que si deseas ejecutar comandos mientras visualizas tu sitio local, deberás abrir una nueva ventana de línea de comandos (ver la sección acerca del uso de la [línea de comandos](#section1-4))
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png" alt="captura-de-pantalla-errores-consola" />
-	<figcaption>
-	    <span>Las advertencias y mensajes de error provocados por cambios realizados por el usuario aparecen en la línea de comandos y son la mejor referencia a consultar cuando algo no funciona en nuestro sitio.</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="Las advertencias y mensajes de error provocados por cambios realizados por el usuario aparecen en la línea de comandos y son la mejor referencia a consultar cuando algo no funciona en nuestro sitio." %}
 
 
 3. Para detener la ejecución local de nuestro sitio, debemos presionar **control-c** (esto libera la línea de comandos para usarla nuevamente). Basta con ingresar `bundle exec jekyll serve --watch` nuevamente para volver a ejecutar el sitio localmente.
 
 4. Para visualizar el sitio que se está ejecutando localmente, visita **localhost:4000** en tu navegador. Verás un sitio web Jekyll básico con texto predefinido:
 
- 	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png" alt="captura-de-pantalla-sitio-basico-jekyll" />
-	<figcaption>
-	    <span>Un sitio web Jekyll básico con texto predefinido</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="Un sitio web Jekyll básico con texto predefinido" %}
    
 
 ### Mini ayudamemoria <a id="section3a-1"></a>
@@ -399,29 +375,18 @@ En la línea de comandos, ingresa:
 
 1. Abre la carpeta de tu sitio web en el explorador de archivos. El sitio de la autora del tutorial se encuentra en */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* es el nombre de usuario de la autora y *JekyllDemo* es el nombre de la carpeta del sitio web de este tutorial). Visita la [sección "Configuración de Jekyll"](#section3) si necesitas ayuda para encontrar la carpeta de tu sitio web.
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png" alt="captura-de-pantalla-explorador-archivos" />
-	<figcaption>
-	    <span>Contenido de la carpeta del sitio web</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="Contenido de la carpeta del sitio web" %}
 
 
 2. Comenzaremos por personalizar el archivo de configuración principal **_config.yml**. Deberás abrir este archivo y los demás archivos del sitio web usando un editor de texto (por ej., Notepad++ en Windows o BBedit en Mac).
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png" alt="captura-de-pantalla-abrir-editor-de-texto" />
-	<figcaption>
-	    <span>Abrir un archivo con un editor de texto</span>
-	</figcaption>
-	</figure>
+ 
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="Abrir un archivo con un editor de texto" %}
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png" alt="captura-de-pantalla-sitio-archivo-config" />
-	<figcaption>
-	    <span>El archivo _config.yml</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml" %}
    
    El archivo *_config.yml* es un archivo "destinado a configuraciones que afectan a todo tu blog, valores que se espera que configures una sola vez y rara vez necesites volver editar más tarde" (como dice en el archivo). *_config.yml* es donde se puede definir el nombre del sitio web y compartir información como la dirección de email que queremos asociar al sitio y otras configuraciones básicas que desees que estén disponibles en todo el sitio web (cuentas de redes sociales, por ejemplo).
 
@@ -449,22 +414,14 @@ En la línea de comandos, ingresa:
 
    En la captura de pantalla que está debajo, la autora ha borrado las líneas comentadas 1-6 y el comentario que explicaba lo que hace "description" (no es obligatorio, es sólo para demostrar que es posible borrar los comentarios). También modificó el resto del archivo según los cambios antes mencionados:
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png" alt="captura-de-pantalla-archivo-config" />
-	<figcaption>
-	    <span>El archivo _config.yml modificado</span>
-	</figcaption>
-	</figure>   
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml modificado" %}
 
 
 5. Guarda el archivo y ejecuta el sitio web (o detenlo y vuelve a ejecutarlo si estaba en ejecución) y luego visita **localhost:4000/JekyllDemo/** en tu navegador (cambiando *JekyllDemo* por el nombre de la carpeta de tu sitio web e incluyendo la barra oblicua final) para ver localmente los cambios en tu sitio:
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png" alt="captura-de-pantalla-sitio-basico-jekyll" />
-	<figcaption>
-	    <span>El sitio web modificado</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png)
+{% include figure.html filename="IMAGE-FILENAME" caption="El sitio web modificado" %}
 
 
 ### ¿Dónde está (y qué es) cada cosa? <a id="section4-2"></a>
