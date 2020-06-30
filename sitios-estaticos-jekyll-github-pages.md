@@ -290,7 +290,7 @@ En la línea de comandos, ingresa:
    Tenga en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, vaya a Biblioteca> Soporte de aplicaciones en Finder y verifique si la carpeta "GitHub para Mac" está allí.
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
-{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar 'GitHub', aparece la opción "GitHub" entre las carpetas; haz doble click en 'GitHub' para abrir la carpeta GitHub en el explorador de archivos" %}
+{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar \"GitHub\", aparece la opción \"GitHub\" entre las carpetas; haz doble click en \"GitHub\"" para abrir la carpeta GitHub en el explorador de archivos" %}
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
