@@ -54,7 +54,7 @@ permalink: /traduccion-proghist/
 
 *Tanto los sitios web dinámicos*, como los creados y administrados por sistemas de administración de contenidos tales como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.org/) y [Omeka](https://omeka.org/), extraen información de una base de datos para completar el contenido de una página web. Cuando buscamos un libro en Amazon.com, por ejemplo, la página de resultados de búsqueda no existe como una página HTML completa; en cambio, Amazon.com tiene una plantilla para la página de resultados de búsqueda, que incluye elementos que comparten todas las páginas de resultados (como el menú principal y el logotipo de Amazon) y consulta una base de datos para insertar en esa plantilla los resultados de la búsqueda que nosotros realizamos.
 
-*Los sitios web estáticos* no usan una base de datos para almacenar información; por el contrario, toda la información que se muestra en cada página web ya está contenida en su correspondiente archivo HTML. Las páginas HTML que componen un sitio estático se pueden escribir completamente a mano o se puede delegar parte de este trabajo usando una herramienta como Jekyll.
+*Los sitios web estáticos* no usan una base de datos para almacenar información; por el contrario, toda la información que se muestra en cada página web ya está contenida en tu correspondiente archivo HTML. Las páginas HTML que componen un sitio estático se pueden escribir completamente a mano o se puede delegar parte de este trabajo usando una herramienta como Jekyll.
 
 *Jekyll* es un software que nos ayuda a "generar" o crear un *sitio web estático* (Jekyll muchas veces es caracterizado como un "generador de sitios estáticos"). Jekyll utiliza plantillas de página para aquellos elementos como menús principales y pies de página que normalmente se repiten en todas las páginas que componen un sitio y por ende consumen mucho tiempo si escribimos manualmente el HTML para incluirlos en cada página web. Con Jekyll, estas plantillas se combinan con otros archivos con información específica (por ejemplo, un archivo para cada post de un blog) para generar páginas HTML completas para los visitantes de un sitio web. Jekyll no necesita consultar bases de datos y crear una nueva página HTML (o completar una parcial) cuando los usuarios visitan una página web, sino que ya cuenta con las páginas HTML completas y solo las actualiza cuando/si alguna vez cambian.
 
@@ -93,11 +93,11 @@ Opciones como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.o
 
 La creación de un sitio web estático con Jekyll ofrece aún más ventajas, sin perder las de un sitio web estático HTML codificado a mano:
 
-- **Aprendizaje:** Es más fácil comenzar a personalizar tu sitio y escribir su contenido, ya que no necesitarás aprender o usar HTML.
+- **Aprendizaje:** Es más fácil comenzar a personalizar tu sitio y escribir tu contenido, ya que no necesitarás aprender o usar HTML.
 
 - **Creado para bloguear:** Jekyll fue creado para permitir publicaciones de blog, por lo que es fácil bloguear (agregar contenido nuevo, ordenado por fecha) y realizar tareas relacionadas, como mostrar un archivo de todas las publicaciones de blog por mes, o incluir un enlace a las tres publicaciones de blog más recientes al final de cada publicación.
 
-- **La plantilla automatiza las tareas repetidas:** Jekyll facilita la automatización de las tareas repetidas del sitio web a través de su sistema de "plantillas": puede crear contenido que, por ejemplo, debe aparecer en el encabezado y pie de página de cada página (por ejemplo, imagen del logotipo o menú principal), o repetir información en cada publicación de blog (por ejemplo, nombre del autor y fecha de publicación). Esta información con plantilla se repetirá automáticamente en las páginas web que desees, en lugar de obligarte a reescribir manualmente esa información. Esto no solo ahorra mucha copia y pegado, si alguna vez deseas cambiar algo que aparece en cada página de tu sitio web (por ejemplo, un nuevo logotipo del sitio o un nuevo elemento en el menú principal), si lo cambias una vez en una plantilla, lo cambiarás en cada lugar que aparece en tu sitio web.
+- **La plantilla automatiza las tareas repetidas:** Jekyll facilita la automatización de las tareas repetidas del sitio web a través de tu sistema de "plantillas": puede crear contenido que, por ejemplo, debe aparecer en el encabezado y pie de página de cada página (por ejemplo, imagen del logotipo o menú principal), o repetir información en cada publicación de blog (por ejemplo, nombre del autor y fecha de publicación). Esta información con plantilla se repetirá automáticamente en las páginas web que desees, en lugar de obligarte a reescribir manualmente esa información. Esto no solo ahorra mucha copia y pegado, si alguna vez deseas cambiar algo que aparece en cada página de tu sitio web (por ejemplo, un nuevo logotipo del sitio o un nuevo elemento en el menú principal), si lo cambias una vez en una plantilla, lo cambiarás en cada lugar que aparece en tu sitio web.
 
 ## Antes de la instalación <a id="section1"></a>
 ¡Estamos listos para trabajar! En el resto de esta lección, vamos a instalar algunos programas en nuestras computadora, usar la línea de comandos para instalar algunas cosas que solo se pueden instalar de esa manera, ver y personalizar una versión privada de tu sitio web, y finalmente, hacer que tu sitio web esté accesible públicamente en la web. Si tienes problemas en algún momento de esta lección, consulta la [sección de ayuda sobre cómo hacer preguntas o informar problemas](#section1-9)
@@ -115,14 +115,14 @@ Todos los elementos que vamos a instalar son herramientas de desarrollo web est�
 
 Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza para línea de comandos el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git](https://git-scm.com/docs/gittutorial) para ello (no abordado en este tutorial).
 
-Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. El resto del tutorial debería funcionar igual para los usuarios de Windows y Mac, aunque las capturas de pantalla que mostramos son todas de una Mac (por lo que pueden verse un poco diferentes en Windows).
+Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican tu funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. El resto del tutorial debería funcionar igual para los usuarios de Windows y Mac, aunque las capturas de pantalla que mostramos son todas de una Mac (por lo que pueden verse un poco diferentes en Windows).
 
 ### Cuenta de usuario de GitHub <a id="section1-1"></a>
 
-*La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en GitHub. Como beneficio adicional, también nos permite hacer un seguimiento de las versiones de nuestro sitio y su escritura a medida que crece o cambia con el tiempo.*
+*La cuenta de usuario de GitHub nos permite alojar nuestro sitio web (ponerlo a disposición para que otros lo visiten) de forma gratuita en GitHub. Como beneficio adicional, también nos permite hacer un seguimiento de las versiones de nuestro sitio y tu escritura a medida que crece o cambia con el tiempo.*
 
 1. Visita [GitHub.com](https://github.com/) y haz clic en el botón verde "Sign up" (Registrarse). 
-2. En la página siguiente, define el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio de será http://hdcaicyt.github.io/. (*Tenga en cuenta que uno también puede comprar su propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial*). Escribe una dirección de correo electrónico de uso habitual y define una contraseña que contenga al menos un número y una letra minúscula. 
+2. En la página siguiente, define el nombre de usuario deseado. El nombre de usuario es visible para otros usuarios, nos identifica en GitHub y también es parte de la URL de nuestro sitio. Por ejemplo, si el nombre de usuario de GitHub es *hdcaicyt*, la URL del sitio de será http://hdcaicyt.github.io/. (*Tenga en cuenta que uno también puede comprar tu propio nombre de dominio y usarlo para este sitio, pero eso no se tratará en este tutorial*). Escribe una dirección de correo electrónico de uso habitual y define una contraseña que contenga al menos un número y una letra minúscula. 
 3. En el recuadro "Verify your account", presiona el botón "Verify" (Verificar). Usa las flechas para poner la imagen en el sentido correcto. Finalmente haga clic en "Select a plan" (Seleccionar un plan).
 4. En la página siguiente, haz clic en el botón "Choose Free" (Seleccionar gratis).
 5. Baja hasta el final de la siguiente página y haz clic en "Complete Setup" (Completar configuración).
@@ -154,7 +154,7 @@ Mientras la línea de comandos usa comandos de texto, la mayoría de los usuario
 
 El programa de línea de comandos predeterminado se llama "Terminal" en Mac (ubicado en *Aplicaciones > Utilidades*) y "Cmd" (o "Símbolo del sistema"), "Windows Power Shell" o "Git Bash" en Windows (estas son tres opciones diferentes que difieren cada una en el tipo de comandos que aceptan). 
 
-A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario actualmente conectada (el prompt usará diferentes nombres para su computadora y nombre de usuario).
+A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario actualmente conectada (el prompt usará diferentes nombres para tu computadora y nombre de usuario).
 
 ![captura-de-pantalla-linea-de-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png)
 
@@ -165,7 +165,7 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 1. **Los comandos que debes escribir (o copiar/pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de Enter.
 
 2. **Debes dejar que los procesos de instalación se ejecuten *completamente* antes de ingresar nuevos comandos.** A veces, escribir un comando y presionar "Enter" produce un resultado instantáneo; otras veces, una gran cantidad de texto comenzará a llenar la ventana de la línea de comandos o parecerá que la línea de comandos no está haciendo nada pero algo está sucediendo detrás de escena, como descargar un archivo. Por eso es importante que **al escribir un comando y presionar Enter, esperemos que ese comando termine por completo *antes de escribir otra cosa***, de lo contrario, podríamos detener un proceso por la mitad y generar problemas. 
-    {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de ingreso de un comando, seguido de un texto que le muestra lo que estaba sucediendo mientras se procesaba ese comando (y a veces le pedía que hiciera algo, como ingresar su contraseña) y finalmente la reaparición del prompt para hacerle saber que ya puede escribir algo más.
+    {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de ingreso de un comando, seguido de un texto que le muestra lo que estaba sucediendo mientras se procesaba ese comando (y a veces le pedía que hiciera algo, como ingresar tu contraseña) y finalmente la reaparición del prompt para hacerle saber que ya puede escribir algo más.
 
     ![captura-de-pantalla-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
 
@@ -282,23 +282,17 @@ En la línea de comandos, ingresa:
 
 1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoce la ruta de la carpeta GitHub, haga click en la lupa ubicada en la esquina superior derecha de la pantalla (en Mac) o en el campo de búsqueda del Menú de Inicio (en Windows).
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png" alt="captura-de-pantalla-lupa" />
-	<figcaption>
-	    <span>El ícono de lupa que le permite buscar en una Mac, está en la esquina superior derecha de la pantalla</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="El ícono de lupa que le permite buscar en una Mac, está en la esquina superior derecha de la pantalla" %}
 
    En Mac, aparecerá un cuadro de búsqueda en el medio de la pantalla;escribe"GitHub", luego haga doble clic en la opción "GitHub" que aparece debajo de "Carpetas" para revelar la carpeta GitHub en Finder (esto puede verse ligeramente diferente en Windows, pero debería funcionar igual).
 
    Tenga en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, vaya a Biblioteca> Soporte de aplicaciones en Finder y verifique si la carpeta "GitHub para Mac" está allí.
 
-   	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png" alt="captura-de-pantalla-resultados-lupa" />
-	<figcaption>
-	    <span>Luego de buscar 'GitHub', aparece la opción "GitHub" entre las carpetas; haz doble click en 'GitHub' para abrir la carpeta GitHub en el explorador de archivos</span>
-	</figcaption>
-	</figure>
+  ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar \"GitHub\", aparece la opción \"GitHub\" entre las carpetas; haz doble click en \"GitHub\" para abrir la carpeta GitHub en el explorador de archivos" %}
 
    Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
@@ -306,12 +300,9 @@ En la línea de comandos, ingresa:
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
-   	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png" alt="captura-de-pantalla-terminal-cd" />
-	<figcaption>
-	    <span>Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub</span>
-	</figcaption>
-	</figure>
+  ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub" %}
 
 
    El comando *cd* (**c**hange **d**irectory) le indica a la computadora que se localice en el lugar especificado por la ruta indicada, en este caso, la ruta a la carpeta GitHub creada por la instalación de GitHub Desktop.
@@ -322,9 +313,9 @@ En la línea de comandos, ingresa:
 
 	Es necesario esperar a que vuelva a aparecer el prompt para continuar con el siguiente paso.
 
-4. La URL pública de su sitio tendrá la siguiente forma: http://amandavisconti.github.io/JekyllDemo/ (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar su propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escribe correctamente.
+4. La URL pública de tu sitio tendrá la siguiente forma: http://amandavisconti.github.io/JekyllDemo/ (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escribe correctamente.
 
-   En la línea de comandos, escribe lo siguiente (reemplace *JekyllDemo* con el nombre que desee para su sitio):
+   En la línea de comandos, escribe lo siguiente (reemplace *JekyllDemo* con el nombre que desee para tu sitio):
 
    `jekyll new JekyllDemo`
 
@@ -336,16 +327,13 @@ En la línea de comandos, ingresa:
 
    Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archvos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
 
-    <figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png" alt="captura-de-pantalla-archivos-nuevos" />
-	<figcaption>
-	    <span>En el explorador de archivos, se pueden ver los nuevos archivos que han sido instalados y que servirán para ejecutar nuestro sitio web</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="En el explorador de archivos, se pueden ver los nuevos archivos que han sido instalados y que servirán para ejecutar nuestro sitio web" %}
    
 ## Ejecutar un sitio web localmente <a id="section3a"></a>
 
-*Esta sección describe cómo ejecutar un sitio web ***localmente***. Esto significa que podrás cómo se ve tu sitio web en un navegador pero únicamente en tu computadora (esto es, localmente). Trabajar en una versión local de un sitio web quiere decir que el sitio es privado, nadie puede verlo todavía (el sitio no es público, nadie puede escribir la URL y verlo en su computadora).*
+*Esta sección describe cómo ejecutar un sitio web ***localmente***. Esto significa que podrás cómo se ve tu sitio web en un navegador pero únicamente en tu computadora (esto es, localmente). Trabajar en una versión local de un sitio web quiere decir que el sitio es privado, nadie puede verlo todavía (el sitio no es público, nadie puede escribir la URL y verlo en tu computadora).*
 
 *Así que puedes experimentar todo lo que desees y publicarlo al mundo cuando esté listo. Además, una vez que el sitio esté publicado, puedes seguir experimentando localmente con nuevos contenidos, diseños, etc. y agregar estos cambios una vez que estés conforme con cómo se ven en el sitio local.*
 
@@ -361,24 +349,18 @@ En la línea de comandos, ingresa:
 
 2. Luego de escribir el comando previo, aparecerá en el terminal un proceso que no se detiene. ¿Recuerdas que si escribes algo en la línea de comandos mientras todavía se está ejecutando el comando previo se pueden ocasionar problemas? Ahora Jekyll está corriendo en esta línea de comandos, de manera que si deseas ejecutar comandos mientras visualizas tu sitio local, deberás abrir una nueva ventana de línea de comandos (ver la sección acerca del uso de la [línea de comandos](#section1-4))
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png" alt="captura-de-pantalla-errores-consola" />
-	<figcaption>
-	    <span>Las advertencias y mensajes de error provocados por cambios realizados por el usuario aparecen en la línea de comandos y son la mejor referencia a consultar cuando algo no funciona en nuestro sitio.</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="Las advertencias y mensajes de error provocados por cambios realizados por el usuario aparecen en la línea de comandos y son la mejor referencia a consultar cuando algo no funciona en nuestro sitio." %}
 
 
 3. Para detener la ejecución local de nuestro sitio, debemos presionar **control-c** (esto libera la línea de comandos para usarla nuevamente). Basta con ingresar `bundle exec jekyll serve --watch` nuevamente para volver a ejecutar el sitio localmente.
 
 4. Para visualizar el sitio que se está ejecutando localmente, visita **localhost:4000** en tu navegador. Verás un sitio web Jekyll básico con texto predefinido:
 
- 	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png" alt="captura-de-pantalla-sitio-basico-jekyll" />
-	<figcaption>
-	    <span>Un sitio web Jekyll básico con texto predefinido</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="Un sitio web Jekyll básico con texto predefinido" %}
    
 
 ### Mini ayudamemoria <a id="section3a-1"></a>
@@ -399,29 +381,21 @@ En la línea de comandos, ingresa:
 
 1. Abre la carpeta de tu sitio web en el explorador de archivos. El sitio de la autora del tutorial se encuentra en */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* es el nombre de usuario de la autora y *JekyllDemo* es el nombre de la carpeta del sitio web de este tutorial). Visita la [sección "Configuración de Jekyll"](#section3) si necesitas ayuda para encontrar la carpeta de tu sitio web.
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png" alt="captura-de-pantalla-explorador-archivos" />
-	<figcaption>
-	    <span>Contenido de la carpeta del sitio web</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="Contenido de la carpeta del sitio web" %}
 
 
 2. Comenzaremos por personalizar el archivo de configuración principal **_config.yml**. Deberás abrir este archivo y los demás archivos del sitio web usando un editor de texto (por ej., Notepad++ en Windows o BBedit en Mac).
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png" alt="captura-de-pantalla-abrir-editor-de-texto" />
-	<figcaption>
-	    <span>Abrir un archivo con un editor de texto</span>
-	</figcaption>
-	</figure>
+ 
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png" alt="captura-de-pantalla-sitio-archivo-config" />
-	<figcaption>
-	    <span>El archivo _config.yml</span>
-	</figcaption>
-	</figure>
+{% include figure.html filename="IMAGE-FILENAME" caption="Abrir un archivo con un editor de texto" %}
+
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml" %}
    
    El archivo *_config.yml* es un archivo "destinado a configuraciones que afectan a todo tu blog, valores que se espera que configures una sola vez y rara vez necesites volver editar más tarde" (como dice en el archivo). *_config.yml* es donde se puede definir el nombre del sitio web y compartir información como la dirección de email que queremos asociar al sitio y otras configuraciones básicas que desees que estén disponibles en todo el sitio web (cuentas de redes sociales, por ejemplo).
 
@@ -449,27 +423,21 @@ En la línea de comandos, ingresa:
 
    En la captura de pantalla que está debajo, la autora ha borrado las líneas comentadas 1-6 y el comentario que explicaba lo que hace "description" (no es obligatorio, es sólo para demostrar que es posible borrar los comentarios). También modificó el resto del archivo según los cambios antes mencionados:
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png" alt="captura-de-pantalla-archivo-config" />
-	<figcaption>
-	    <span>El archivo _config.yml modificado</span>
-	</figcaption>
-	</figure>   
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml modificado" %}
 
 
 5. Guarda el archivo y ejecuta el sitio web (o detenlo y vuelve a ejecutarlo si estaba en ejecución) y luego visita **localhost:4000/JekyllDemo/** en tu navegador (cambiando *JekyllDemo* por el nombre de la carpeta de tu sitio web e incluyendo la barra oblicua final) para ver localmente los cambios en tu sitio:
 
-	<figure>
-	    <img src="https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png" alt="captura-de-pantalla-sitio-basico-jekyll" />
-	<figcaption>
-	    <span>El sitio web modificado</span>
-	</figcaption>
-	</figure>
+![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png)
+
+{% include figure.html filename="IMAGE-FILENAME" caption="El sitio web modificado" %}
 
 
 ### ¿Dónde está (y qué es) cada cosa? <a id="section4-2"></a>
 
-Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de su sitio web. Recuerde siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no un procesador de textos (no use Microsoft Word ni nada que le permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#section5).
+Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de tu sitio web. Recuerde siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no un procesador de textos (no use Microsoft Word ni nada que le permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#section5).
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
 
@@ -484,75 +452,75 @@ Para tener una idea de cómo funciona el sitio y con qué archivos se puede expe
 - **feed.xml** permite que el público siga el feed RSS de las entradas de nuestro blog
 - **index.html** controla la estructura de la página de inicio del sitio
 
-## Writing pages and posts <a id="section5"></a>
+## Redacción de páginas (page) y entradas de blog (posts) <a id="section5"></a>
 
-*Esta sección describirá como crear páginas o entradas de blog (o posts) en tu sitio web.*
+*Esta sección describirá como crear páginas o entradas de blog en tu sitio web.*
 
-**Páginas** y **entradas de blog** son dos tipos de contenido escrito pero con estilos diferentes. Las páginas son un tipo de contenido (como "Acerca de") que no están organizadas ni se muestran cronológicamente, sin embargo, pueden ser incluidas en el menú principal de tu sitio web; las entradas de blog están pensadas para ser utilizadas como contenido organizado por fecha de publicación. Los URLs (enlaces) para páginas y posts también son diferentes en forma predeterminada (pero tú puedes cambiar eso): la URLs de página se ven como *MySite.com/about/*, mientras que la URLs de entradas se ven como *MySite.com/2016/02/29/my-post-title.html*.
+**Páginas** y **entradas de blog** son dos tipos de contenidos escritos pero con estilos diferentes. Las páginas (como "Acerca de") no están organizadas ni se muestran cronológicamente, sin embargo, pueden ser incluidas en el menú principal de tu sitio web; las entradas de blog están pensadas para ser utilizadas como contenido organizado por fecha de publicación. Los URLs (enlaces) para páginas y posts también son diferentes en forma predeterminada (pero tú puedes cambiar eso): la URLs de página se ven como *MySite.com/about/*, mientras que la URLs de entradas se ven como *MySite.com/2016/02/29/my-post-title.html*.
 
 #### Creación en Markdown <a id="section5-1"></a>
 
-Markdown es un lenguaje de marcado para dar formato a tus escritos para su lectura en la web: es un conjunto de símbolos, fáciles de recordar, que muestran dónde debe añadirse el formato del texto (por ejemplo, un # delante del texto significa que se le da formato como encabezado, mientras que un * significa que tendrá formato como elemento de lista con viñetas). Para Jekyll en particular, Markdown permite escribir páginas web y entradas de blog de una manera cómoda para los autores (por ejemplo, no es necesario buscar/añadir etiquetas HTML mientras se intenta escribir un ensayo), pero ese escrito se visualizará bien formateado en la web (es decir, convertido de texto a HTML).
+Markdown es un lenguaje de marcado para dar formato a tus escritos para tu lectura en la web: es un conjunto de símbolos, fáciles de recordar, que muestran dónde debe añadirse el formato del texto (por ejemplo, un # delante del texto significa que se le da formato como encabezado, mientras que un * significa que tendrá formato como elemento de lista con viñetas). Para Jekyll en particular, Markdown permite escribir páginas web y entradas de blog de una manera cómoda para los autores (por ejemplo, no es necesario buscar/añadir etiquetas HTML mientras se intenta escribir un ensayo), pero ese escrito se visualizará con buen formato en la web (es decir, convertido de texto a HTML).
 
-En esta lección no cubriremos Markdown; si no estás familiarizado con él, puedes crear posts y páginas sin formato (es decir, sin negrita/italica, encabezados, lista enumeradas o viñetas). Pero es sencillo aprender a agregarlos: aquí hay una [guía de referencias kramdown](http://kramdown.gettalong.org/quickref.html) de markdown en inglés, también puedes consultar esta guía en [español](https://joedicastro.com/pages/markdown.html), así como la lección en [Programming Historian de Sarah Simpkin sobre el cómo y porque escribir con Markdown](https://programminghistorian.org/es/lecciones/introduccion-a-markdown). Consulta estos enlaces si quieres dar formato al texto(italica, , negrita, encabezados, listas enumeradas o viñetas), añadir hipervínculos, incrustar imágenes u otros archivos.
+En esta lección no cubriremos Markdown; si no estás familiarizado con él, puedes crear posts y páginas sin formato (es decir, sin negrita/italica, encabezados, lista enumeradas o viñetas). Pero es sencillo aprender a agregarlos: aquí hay una guía de referencias [kramdown](http://kramdown.gettalong.org/quickref.html) de markdown en inglés, también puedes consultar esta guía en [español](https://joedicastro.com/pages/markdown.html), así como la lección en [Programming Historian de Sarah Simpkin sobre el cómo y porque escribir con Markdown](https://programminghistorian.org/es/lecciones/introduccion-a-markdown). Consulta estos enlaces si quieres dar formato al texto (italica, negrita, encabezados, listas enumeradas o viñetas), añadir hipervínculos, incrustar imágenes u otros archivos.
 
-Asegúrate que la guía de referencias de Markdown que mires sea similar a "[kramdown](http://kramdown.gettalong.org/quickref.html)", porque es lo que admite GitHub Pages (donde alojaremos nuestro sitio web). (*There are [various "flavors" of Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) that have subtle differences in what various symbols do, but for the most part frequently used symbols like those that create heading formatting are the same—so you're actually probably okay using a markdown cheatsheet that doesn't specify it's kramdown, but if you're getting errors on your site using symbols that aren't included in kramdown might be why*).
+Asegúrate que la guía de referencias de Markdown que consultes sea similar a "[kramdown](http://kramdown.gettalong.org/quickref.html)", porque es lo que admite GitHub Pages (donde alojaremos nuestro sitio web). (*Hay [varios "tipos" de Markdown](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors) con sutiles diferencias en lo que respecta a símbolos, pero en tu mayoría los que se usan más frecuentemente, como los que crean el formato de encabezados, son los mismos—por lo tanto, puedes utilizar una hoja de referencia Markdown que no especifique que se trate de kramdown, pero si recibes errores en tu sitio web usando símbolos que no están incluidos en el kramdown podría ser el motivo*).
 
-Si te interesa un software "editor de Markdown" podría ser uno como [Typora](http://www.typora.io/) (OS X y Windows; de descarga gratuita), que te permitirá utilizar atajos de teclado (por ejemplo, resaltar texto y presionar el cmd-B o Ctrl-B para ponerlo en negrita) y/o hacer que se muestre tal y como se verá la web (ver los encabezados con el estilo de los encabezados, en lugar del texto normal con un # delante de ellos).
+Si te interesa un software "editor de Markdown" podría ser uno como [Typora](http://www.typora.io/) (OS X y Windows; de descarga gratuita), que te permitirá utilizar atajos de teclado (por ejemplo, resaltar texto y presionar el cmd-B o Ctrl-B para ponerlo en negrita) y/o hacer que se muestre tal y como se verá en la web (ver los encabezados con el estilo de los encabezados, en lugar del texto normal con un # delante de ellos).
 
 ### Creación de páginas <a id="section5-3"></a>
 
-1. Para ver una página existente en tu sitio web (creada por defecto en un sitio web de Jekyll [se crearon con el resto de los archivos de su sitio web](#sección3)), navega hasta la carpeta de tu sitio web y abre el archivo **about.md**, en un editor de texto (p. ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de". Asimismo, haz clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, podrá observar cómo se visualiza la página web que crea el archivo en un navegador.
+1. Para ver una página existente en tu sitio web (creada por defecto en tu sitio web de Jekyll [se crearon con el resto de los archivos](#sección3)), navega hasta la carpeta de tu sitio web y abre el archivo **about.md**, en un editor de texto (p. ej. TextWrangler) o en un editor de Markdown (p. ej. Typora). Allí verás el archivo creado como "Acerca de (About)". Puede hacer clic en el enlace "Acerca de", situado en la parte superior derecha de la página web, y podrás observar cómo se visualiza la página web que crea el archivo en un navegador.
 
-2. The stuff between the \--- dashes is called "front matter" (*note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes*). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you'd like the post or page listed under.
+2. El material entre guiones \--- se llama "front matter" (*al abrir el archivo en un editor de Markdown este puede aparecer sobre un fondo gris en lugar de entre guiones*). Este apartado le dice a tu sitio si debe formatear el contenido posterior, como página o entrada de blog, el título de la entrada, la fecha y la hora en que fue publicada, y cualquier categoría que quieras que aparezca en la entrada o la página.
 
-   You can change things in the front matter of a page:
+   Puedes cambiar las cosas en el front matter de una página:
 
-   - **layout:** Keep this as-is (it should say page).
-   - **title:** Change this to the desired page title (unlike posts, no quotation marks around the title). In the screenshot below, I added a page with the title "Resume".
-   - **permalink:** change the text between the two forward slash marks to the word (*or phrase—but you'll need to use hyphens and not spaces!*) that you want to follow your site's main URL to reach the page. For example, **permalink: /about/** locates a page at **localhost:4000/yourwebsitefoldername/about/**
+   - **layout:** Mantén esto de igual manera (debería decir "page").
+   - **title:** Cambia al título deseado (a diferencia de las entradas o post, no hay comillas alrededor del título). En la siguiente captura de pantalla, agregué una página con el título "Resumen".
+   - **permalink:** cambia el texto entre las dos barras diagonales por la palabra (*o frase, ¡pero necesitarás usar guiones y no espacios!*) que desees que continúe la URL principal de tu sitio para llegar a la página. Por ejemplo, **enlace permanente:/about/** ubica la página en **localhost:4000/yourwebsitefoldername/about/**.
 
-3. The space below the front matter's second — dashes (or below the front matter's gray box, if using a Markdown editor) is where you write the content of your page, using [the Markdown formatting described above](#section5-1).
+3. El espacio debajo del segundo guión del "front matter" (o debajo del recuadro gris si usa un editor Markdown) es donde debes escribir el contenido de tu página, usando [el formato Markdown descrito anteriormente](#sección5-1)
 
-4. To create a new page in addition to the "About" page that already exists on the site (and can be customized or deleted), create a copy of the *about.md* file in the same folder (the main website folder) and change its filename to the title you wish, using hyphens instead of spaces (e.g. *resume.md* or *contact-me.md*). Also change the title and permalink in the file's front matter, and the content of the file. The new page should automatically appear in the main menu in the site's header:
+4. Para crear una nueva página además de la existente "Acerca de (About)" (que puede ser personalizada o eliminada), crea una copia del archivo *about.md* en la misma carpeta (la principal del sitio web) y cambia el nombre al título que desees, utilizando guiones en lugar de espacios (por ejemplo, *resume.md* o *contact-me.md*). También cambia el título, el enlace permanente en el front matter del archivo, y el contenido. La nueva página debería aparecer automáticamente en el menú principal en el encabezado del sitio:
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-22.png)
 
-For reference, you can check out [an example of a page](http://amandavisconti.github.io/JekyllDemo/resume/) on my demo site, or see [the file that's behind that page](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
+Como referencia, puedes consultar [un ejemplo de página](http://amandavisconti.github.io/JekyllDemo/resume/) en mi sitio de demostración, o ver [el archivo que está detrás de esa página](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
 ### Creación de posts <a id="section5-2"></a>
 
-1. In Finder, navigate to your website folder (e.g. *JekyllDemo*) and the *_posts* folder inside it. Open the file inside it with either a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora). The file will be named something like *2016-02-28-welcome-to-jekyll.markdown* (the date will match when you created the Jekyll site).
+1. En el Finder (en macOS, en Windows en *Explorador de archivos*), navega hasta la carpeta de tu sitio web (por ejemplo, *JekyllDemo*) y luego dentro de ella, ingresa a la carpeta *_posts*. Abre el archivo que se encuentra allí con un editor de texto (p. ej. TextWrangler) o un editor de Markdown (p. ej. Typora). El archivo se llamará algo así como *2016-02-28-welcome-to-jekyll.markdown* (la fecha coincidirá con la de creación del sitio de Jekyll).
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-19.png)
 
-   As with pages, with posts the stuff between the \--- lines is called "front matter" (*note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes*). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you'd like the post or page listed under.
+   Al igual que en las páginas, en los post el material entre las líneas \--- se llama "front matter" (*al abrir el archivo en un editor de Markdown este puede aparecer sobre un fondo gris en lugar de entre guiones*). Este apartado le dice a tu sitio si debe formatear el contenido posterior, como página o entrada de blog, el título de la entrada, la fecha y la hora en que fue publicada, y cualquier categoría que quieras que aparezca en la entrada o la página.
 
-2. We're going to write a second post so you can see how multiple posts look on your site. Close the *20xx-xx-xx-welcome-to-jekyll.markdown* file that was open, then right-click on that file in Finder and choose "Duplicate". A second file named *20xx-xx-xx-welcome-to-jekyll copy.markdown* will appear in the _sites folder.
+2. Vamos a escribir un segundo post para que puedas ver cómo se ven diversos posts en tu sitio. Cierra el archivo *20xx-xx-xx-welcome-to-jekyll.markdown* que estaba abierto, luego haz clic con el botón derecho del mouse en ese archivo en el Finder (en macOS) y elige "Duplicar" (en Windows sería copiar y pegar). Un segundo archivo llamado *20xx-xx-xx-welcome-to-jekyll copy.markdown* aparecerá en la carpeta _sites.
 
-3. Click once on the *20xx-xx-xx-welcome-to-jekyll copy.markdown* file name so that you can edit the file name, then alter it to show today's date and contain a different title, such as *2016-02-29-a-post-about-my-research.markdown* (use hyphens between words, **not** spaces).
+3. Haz clic una vez en el archivo *20xx-xx-xx-welcome-to-jekyll copy.markdown* para poder editar el nombre del mismo, y luego modifícalo para que muestre la fecha de hoy y contenga un título diferente, como *2016-02-29-a-post-about-my-research.markdown* (utiliza guiones entre las palabras, y **no utilices espacios**).
 
-4. Now open your renamed file in your text or markdown editor, and customize the following:
+4. Ahora abre tu archivo renombrado en tu editor de texto o de Markdown y personaliza lo siguiente:
 
-   - **layout:** Keep this as-is (it should say *post*).
-   - **title:** Change "Welcome to Jekyll!" to whatever title you'd like for your new post (keeping the quotation marks around the title). It's the norm to make the title the same as the words in the filename (except with added spaces and capitalization). This is how the title will appear on the post's webpage).
-   - **date:** Change this to when you want the post to show as its publication date and time, making sure to match the date that's part of the filename. (The date *and* time should have occurred already, for your post to show up.)
-   - **categories:** Delete the words "jekyll update" for now, and don't add anything else here—the current theme doesn't use these and they mess up the post URLs. (*Other themes can use this field to sort blog posts by categories*.)
-   - **The space below the second \--- (or below the gray box, if using a Markdown editor):** This is where you write your blog post, using [the Markdown formatting described above](#section5-1).
+   - **layout:** Mantén esto de igual manera (debería decir *post*).
+   - **title:** Cambiar "Welcome to Jekyll!" a cualquier título que desees para tu nuevo post (manteniendo las comillas alrededor del título). Es una norma hacer que el título sea igual que las palabras en el nombre del archivo (excepto con espacios añadidos y mayúsculas). Así es como aparecerá el título en la página web de la publicación).
+   - **date:** Cambia esto cuando desees que la publicación muestre fecha y hora de publicación, asegurándote que coincida con la fecha que forma parte del nombre del archivo. (La fecha *y* hora deben ser pasadas, para que tu publicación aparezca).
+   - **categories:** Elimina, por ahora, las palabras "jekyll update (actualización de jekyll)", y no agregues aquí nada más—el tema actual no las utiliza y desordenan las URL de las publicaciones. (*Otros temas pueden usar este campo para ordenar las publicaciones de blog por categorías*.)
+   - **El espacio debajo del segundo \--- (o debajo del recuadro gris si usa un editor Markdown)** es donde debes escribir el contenido de tu post, usando [el formato Markdown descrito anteriormente](#sección5-1)
 
-   After saving, you should now be able to see your second post on the front page of your site, and clicking on the link should take you to the post's page:
+   Después de guardar, deberías poder ver tu segundo post en la página principal de tu sitio,y al hacer clic en el enlace debería ir a la página del post:
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-20.png)
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-21.png)
 
-Notice that **the URL of the post** is your local website URL (e.g. *localhost:4000/JekyllDemo/*) followed by the year/month/date of publication, followed by the title as written in your filename and ending with .html (e.g. *localhost:4000/JekyllDemo/2016/02/29/a-post-about-my-research.html*). Jekyll is converting the Markdown file you authored in the _posts folder into this HTML webpage.
+Ten en cuenta que **la URL de la publicación** es la URL de tu sitio web local (por ejemplo, *localhost:4000/JekyllDemo/*) seguido del año/mes/fecha de publicación, del título tal como está escrito en tu archivo y finaliza con .html (por ejemplo, *localhost:4000/JekyllDemo/2016/02/29/a-post-about-my-research.html*). Jekyll convirte el archivo Markdown que creó en la carpeta _posts en esta página web HTML.
 
-**Deleting a file** from the _posts folder removes it from your website (you can try this with the "Welcome to Jekyll!!" sample post).
+**Eliminar un archivo** de la carpeta _posts lo elimina de tu sitio web (puede intentarlo con la publicación de muestra "Welcome to Jekyll!!").
 
-**To create further posts**, duplicate an existing file, then remember to change not just the front matter and content inside the post as described above, but also the file name (date and title) of the new file.
+**Para crear nuevos posts**, duplica un archivo existente, recuerda cambiar el front matter, el contenido dentro del post, así como el nombre del archivo (fecha y título).
 
-For reference, you can check out [an example of a post](http://amandavisconti.github.io/JekyllDemo/2016/02/29/a-post-about-my-research.html) on my demo site, or see [the code running that post](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
+Como referencia, puede consultar [el siguiente ejemplo de post](http://amandavisconti.github.io/JekyllDemo/2016/02/29/a-post-about-my-research.html) en mi sitio de demostración, o acceder al [el código que ejecuta ese post](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
 ## Hosting en GitHub Pages <a id="section6"></a>
 
@@ -628,7 +596,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 
 ### Diseño visual <a id="section7-1"></a>
 
-El diseño visual de un sitio web es referido usualmente como su *tema* (aunque propiamente, un tema es el conjunto del código y los archivos de imagen que generan un cambio importante en la apariencia de un sitio web. 
+El diseño visual de un sitio web es referido usualmente como tu *tema* (aunque propiamente, un tema es el conjunto del código y los archivos de imagen que generan un cambio importante en la apariencia de un sitio web. 
 
 Puedes personalizar el tema de tu sitio realizando cambios en los archivos que se encuentran en las carpetas *_sass* y *css*. (lamentablemente, en sus versiones más recientes, Jekyll comenzó a usar SASS en lugar de CSS, lo que hace que sea un poco más difícil para no-diseñadores aprender a personalizarlas). También puedes añadir (y luego personalizar, si lo deseas) un tema creado por alguien más, a los que puedes acceder realizando una búsqueda para “Jekyll themes” o en alguno de los siguientes recursos:  
 
@@ -646,7 +614,7 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 
 - Si decides alojar tu sitio de Jekyll en otro servidor que no sea GitHub Pages, puedes utilizar cualquier plugin de Jekyll (las instrucciones para alojar tu sitio varían entre diferentes proveedores de hosting web, y no las desarrollaremos en esta lección, pero [aquí](http://jekyllrb.com/docs/plugins/) tienes una página que explica cómo instalar plugins, una vez que poseas tu sitio con hosting propio). Puedes realizar una búsqueda utilizando “Jekyll plugin” y añadir la funcionalidad que necesites para explorar si hay una herramienta apropiada disponible, o revisar la [documentación sobre plugins](http://jekyllrb.com/docs/plugins/) en el sitio oficial de Jekyll. 
   
-- También puedes mantener GitHub Pages como hosting gratuito para tu sitio, pero darle un **nombre de dominio personalizado** (los dominios pueden ser adquiridos por un costo razonable -que suele rondar los 10 dólares anuales- a través de un registrador de dominios como [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). Por ejemplo, el blog de la autora de este tutorial, [LiteratureGeek.com](http://literaturegeek.com/), fue construido con Jekyll y está alojado en GitHub Pages, al igual que sitio que construiste en esta lección, pero utiliza un dominio personalizado que la autora compró y configuró para que condujera a su sitio web. Las instrucciones para establecer un dominio personalizado pueden ser encontradas [aquí](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).   
+- También puedes mantener GitHub Pages como hosting gratuito para tu sitio, pero darle un **nombre de dominio personalizado** (los dominios pueden ser adquiridos por un costo razonable -que suele rondar los 10 dólares anuales- a través de un registrador de dominios como [NearlyFreeSpeech.net](https://www.nearlyfreespeech.net/services/domains)). Por ejemplo, el blog de la autora de este tutorial, [LiteratureGeek.com](http://literaturegeek.com/), fue construido con Jekyll y está alojado en GitHub Pages, al igual que sitio que construiste en esta lección, pero utiliza un dominio personalizado que la autora compró y configuró para que condujera a tu sitio web. Las instrucciones para establecer un dominio personalizado pueden ser encontradas [aquí](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).   
 
 
 - Además, puedes **migrar un blog existente** desde varias otras plataformas, incluyendo WordPress, Blogger, Drupal, y Tumblr, para lo cual debes seguir el enlace que se encuentra en el sector derecho de [esta página](https://import.jekyllrb.com/docs/home/). Cuando migres un sitio, asegúrate de tener un back up de tu sitio original, en caso de que necesites realizar más de un intento para que las publicaciones del sitio se encuentren en la misma URL que antes (y que de esta forma se mantenga en los resultados de los buscadores y en los marcadores). 
