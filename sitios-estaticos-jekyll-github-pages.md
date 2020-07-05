@@ -92,7 +92,7 @@ Opciones como [Drupal](https://www.drupal.com/), [WordPress](https://wordpress.o
 
 - **Seguridad:** No hay una base de datos a la que haya que proteger de posibles ataques maliciosos.
 
-> Hacker no es un término despectivo. Quiere decir "entusiasta". Hay hackers buenos y malos... los malos se les llama "black hat hackers", pero como nadie conoce la diferencia, mejor dejar en "ataques maliciosos" y listos. Más info: https://www.lifewire.com/hackers-good-or-bad-3481592
+> Hacker no es un término despectivo. Quiere decir "entusiasta". Hay hackers buenos y malos... los "malos" se les llama "black hat hackers" o "crackers" (de crack... o sea "romper") , pero como nadie conoce la diferencia, mejor dejar en "ataques maliciosos" y listos. Más info: https://www.lifewire.com/hackers-good-or-bad-3481592
 
 - **Velocidad:** Los archivos mínimos del sitio web y la inexistencia de una base de datos para consultar se traducen en un tiempo de carga de página más rápido.
 
@@ -122,7 +122,7 @@ Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funci
 
 Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican tu funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. El resto del tutorial debería funcionar igual para los usuarios de Windows y Mac, aunque las capturas de pantalla que mostramos son todas de una Mac (por lo que pueden verse un poco diferentes en Windows).
 
-> Estaría bien añadir algún link con manuales para usuarios linux, no?
+> MBR: Estaría bien añadir algún link con manuales para usuarios linux, no?
 > Esta referencia es muy completa: https://adamtheautomator.com/github-pages-jekyll/
 
 ### Cuenta de usuario de GitHub <a id="section1-1"></a>
@@ -151,18 +151,18 @@ Jekyll no es oficialmente compatible con Windows, lo que significa que la docume
 
 ### Editor de texto <a id="section1-3"></a>
 
-Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](http://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o Word Pad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo, agregando accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos como texto plano (por ejemplo, HTML o Markdown).
+Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](http://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o Word Pad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo, agregando accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos en texto plano (por ejemplo, HTML o Markdown).
 *Opcional:* Consulta la sección ["Creación en Markdown"](#sección5-2) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
 
 ### Línea de comandos <a id="section1-4"></a>
 
 La línea de comandos puede ser definida como una forma de interactuar con la computadora usando texto: permite escribir comandos para llevar a cabo acciones de lo más simples como "mostrar una lista de los archivos en este directorio" o "cambiar quién tiene permiso para acceder a este archivo", así como para comportamientos más complejos. A veces hay buenas alternativas visuales para efectuar acciones en la computadora (por ejemplo, la aplicación GitHub Desktop [que instalamos arriba](#section1-2)), otras veces tendremos que usar la línea de comandos para indicarle qué hacer a la computadora. Si deseas más información de la que se proporciona en este tutorial, [The Programming Historian](https://programminghistorian.org/es/) tiene una [lección que explora en profundidad la línea de comandos](https://programminghistorian.org/es/lecciones/introduccion-a-bash), pero aquí cubriremos todo lo necesario para completar la creación de nuestro sitio web y solo usaremos la línea de comandos cuando sea necesario o más sencillo que una interfaz visual.
 
-Mientras la línea de comandos usa comandos de texto, la mayoría de los usuarios de computadora utilizan una "interfaz gráfica de usuario" (también conocida como GUI, "graphical user interface"). Cualquier programa en el que las interacciones usuario-computadora se dan a través de una interfaz visual que contiene íconos, imágenes, hacer clic con el mouse, etc. es una GUI. ¿Por qué usaríamos la línea de comandos si existen las GUI? Muchas veces es más simple y rápido escribir (o cortar y pegar de un tutorial) una serie de comandos en la línea de comandos que hacer lo mismo usando una GUI. Otras veces, hay cosas para las cuales nadie ha creado una GUI y solo es posible hacerlas a través de la línea de comandos.
+Mientras la línea de comandos usa comandos de texto, la mayoría de los usuarios de computadora utilizan una "interfaz gráfica de usuario" (también conocida como GUI, "graphical user interface"). Cualquier programa en el que las interacciones usuario-computadora se dan a través de una interfaz visual que contiene íconos, imágenes, hacer clic con el mouse, etc. es una GUI. ¿Por qué usar la línea de comandos si existen las GUI? Muchas veces es más simple y rápido escribir (o cortar y pegar de un tutorial) una serie de comandos en la línea de comandos que hacer lo mismo usando una GUI. Otras veces, hay cosas para las cuales nadie ha creado una GUI y solo es posible hacerlas a través de la línea de comandos.
 
-El programa de línea de comandos predeterminado se llama "Terminal" en Mac (ubicado en *Aplicaciones > Utilidades*) y "Cmd" (o "Símbolo del sistema"), "Windows Power Shell" o "Git Bash" en Windows (estas son tres opciones diferentes que difieren cada una en el tipo de comandos que aceptan). 
+El programa de línea de comandos predeterminado se llama "Terminal" en Linux y en Mac  (ubicado en *Aplicaciones > Utilidades*) o "cmd" (o "Símbolo del sistema"), "Windows Power Shell" o "Git Bash" en Windows (estas son tres opciones diferentes que difieren cada una en el tipo de comandos que aceptan). 
 
-A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario actualmente conectada (el prompt usará diferentes nombres para tu computadora y nombre de usuario).
+A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Esa sequencia de texto se llama "prompt" ("entrada" u "orden", porque solicita que el usuario ingrese comandos para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario activo (en tu caso, el prompt mostrará diferentes nombres para tu computadora y nombre de usuario).
 
 ![captura-de-pantalla-linea-de-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png)
 
@@ -170,10 +170,10 @@ A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac
 
 Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e ingresar comandos, ten en cuenta lo siguiente:
 
-1. **Los comandos que debes escribir (o copiar/pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de Enter.
+1. **Los comandos que debes escribir (o copiar/pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de la tecla "Enter".
 
 2. **Debes dejar que los procesos de instalación se ejecuten *completamente* antes de ingresar nuevos comandos.** A veces, escribir un comando y presionar "Enter" produce un resultado instantáneo; otras veces, una gran cantidad de texto comenzará a llenar la ventana de la línea de comandos o parecerá que la línea de comandos no está haciendo nada pero algo está sucediendo detrás de escena, como descargar un archivo. Por eso es importante que **al escribir un comando y presionar Enter, esperemos que ese comando termine por completo *antes de escribir otra cosa***, de lo contrario, podríamos detener un proceso por la mitad y generar problemas. 
-    {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de ingreso de un comando, seguido de un texto que le muestra lo que estaba sucediendo mientras se procesaba ese comando (y a veces le pedía que hiciera algo, como ingresar tu contraseña) y finalmente la reaparición del prompt para hacerle saber que ya puede escribir algo más.
+    {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de ingreso de un comando, seguido de un texto que le muestra lo que estaba sucediendo mientras se procesaba ese comando (y a veces le pedía hacer algo, como ingresar tu contraseña) y finalmente la reaparición del prompt para hacerle saber que ya puede escribir algo más.
 
     ![captura-de-pantalla-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
 
@@ -200,7 +200,7 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
    `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
 
-4. Cierra Cmd y abre Git Bash (que instalamos recién). **De ahora en adelante, vamos a usar Git Bash cada vez que mencionemos la línea de comandos.**
+4. Cierra "cmd" y abre Git Bash (que instalamos recién). **De ahora en adelante, vamos a usar Git Bash cada vez que mencionemos la línea de comandos.**
 
 5. Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby). Ahora instalaremos Ruby (esto tomará unos minutos):
 
@@ -210,15 +210,19 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
 7. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll (si Windows Security muestra una ventana emergente de advertencia, ignórala):
 
+> MBR: Redunda explicando de nuevo para que sirve jekyll, lo de las plantillas que ya ha explicado 2 veces en puntos anteriores...
+
    `gem install jekyll`
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! Omite los siguientes pasos (que son solo para usuarios de Mac).**
+
+> MBR: Se que no es fácil, pero recomiendaría tomar una decisión y mantenerla. O se escribe de manera "impersonal" o nos dirigimos lector con un trato es de "tu", o un trado de "vos/usted" o se usa el plural (como en este caso). Durante la traducción se va alternando de manera arbitraria y compromete la calidad de la traducción.
 
 ### En Mac <a id="sectionMac"></a>
 
 *Si estás utilizando una computadora Mac, sigue las instrucciones a continuación.*
 
-Abre una ventana de línea de comandos (*Aplicaciones > Utilidades > Terminal*) e ingresa el código que se muestra en los pasos a continuación (`el código es el texto que aparece formateado así`) siguiendo [las sugerencias de uso de la línea de comandos detalladas más arriba](#section1-4).
+Abre una ventana de línea de comandos (*Aplicaciones > Utilidades > Terminal*) e ingresa el código que se muestra a continuación (`el código es el texto que aparece formateado así`) siguiendo [las sugerencias de uso de la línea de comandos detalladas más arriba](#section1-4).
 
 ### Herramientas de línea de comandos <a id="section2-1"></a>
 
@@ -243,21 +247,25 @@ Una vez que termine la instalación, va a aparecer un mensaje de instalación ex
 
 ### Homebrew <a id="section2-2"></a>
 
-Al terminar la instalación de las herramientas de la línea de comandos, regresa a la ventana de la línea de comandos y copia el siguiente texto a fin de instalar [Homebrew](http://brew.sh/):
+> MBR: El texto redunda mucho y eso hace que cueste leerlo. Como traductores podéis tomaros licencias, así que os sugeriría emplear formas más ligeras, como:
+
+A continuación, para instalar [Homebrew](http://brew.sh/), regresa a la ventana de la línea de comandos y copia el siguiente texto:
 
 ``` 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Presiona "Enter" cuando sea necesario e ingresa la contraseña de tu computadora cuando se solicite. A modo de referencia, mostramos una captura de pantalla del comando ingresado en la línea de comandos de la autora del tutorial, seguido de todo el texto que apareció (incluido el mensaje para presionar Enter e ingresar la contraseña).
+Presiona "Enter" y cuando se solicite, ingresa la contraseña de tu computadora. A modo de referencia, mostramos una captura de pantalla del comando ingresado por la autora del tutorial, seguido de todo el texto que apareció.
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
  
 ### Ruby & Ruby Gems <a id="section2-3"></a>
 
-Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby).
+Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un gestor de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby).
 
-En la línea de comandos, ingresa:
+> MBR: Llegados a este punto ya sabemos que es una linea de comandos y una ventana de terminal. Así que optaría por formas más sintéticas: 
+
+Para instalar ruby, ingresa:
 
 `brew install ruby` 
 
@@ -269,15 +277,19 @@ Espera hasta que el prompt vuelva a aparecer para ingresar el siguiente comando:
 
 [NodeJS](https://nodejs.org/en/) (o Node.js) es una plataforma de desarrollo (más específicamente, es un "entorno de desarrollo") que, por ejemplo, ayuda a que Javascript se ejecute más rápido.
 
-En la línea de comandos, ingresa:
+> MBR: Tendría que echarle un ojo al texto original en inglés, pq no es cierto que nodeJS no "ayuda a que JS se ejecute más rápido".
+
+Ingresa:
 
 `brew install node`
 
 ### Jekyll <a id="section2-5"></a>
 
-[Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Encuentras más información en [Sitios dinámicos, sitios estáticos & Jekyll](#section0-1) y en [why you'd want to use Jekyll to make a static website](#section0-3), más arriba.
+> MBR: Explicar 4 veces que és Jekyll y una plantilla me parece excesivo. ;-)
 
-En la línea de comandos, ingresa:
+Como hemos explicado, [Jekyll](https://jekyllrb.com/) es el programa que creará nuestro sitio web, simplificando ciertas tareas comunes. Tienes más información en [Sitios dinámicos, sitios estáticos & Jekyll](#section0-1) y en [why you'd want to use Jekyll to make a static website](#section0-3), más arriba.
+
+Ingresa:
 
 `gem install jekyll`
 
@@ -289,6 +301,8 @@ En la línea de comandos, ingresa:
 *Ya hemos instalado todo lo necesario para crear un sitio web. En esta sección, utilizaremos Jekyll para generar una nueva carpeta con los archivos que conforman el sitio web. También ubicaremos esta carpeta en un lugar accesible para la aplicación GitHub Desktop para que estén en el lugar correcto cuando deseamos publicarlos como un sitio web público más adelante en la lección.*
 
 1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoce la ruta de la carpeta GitHub, haga click en la lupa ubicada en la esquina superior derecha de la pantalla (en Mac) o en el campo de búsqueda del Menú de Inicio (en Windows).
+
+> MBR: Otro ejemplo: Ahora el trato es de vos/usted... No importa cual se escoja, pero la traducción debe ser consistente.
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png)
 
@@ -306,6 +320,8 @@ En la línea de comandos, ingresa:
 
 {% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña \"Repository\" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionar \"show in explorer\"." %}
 
+> MBR: El manual explica cosas muy básicas (y eso está bien)... ¿pero luego no explica que es un "repositorio"?.
+
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
@@ -313,7 +329,7 @@ En la línea de comandos, ingresa:
 {% include figure.html filename="IMAGE-FILENAME" caption="Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub" %}
 
 
-   El comando *cd* (**c**hange **d**irectory) le indica a la computadora que se localice en el lugar especificado por la ruta indicada, en este caso, la ruta a la carpeta GitHub creada por la instalación de GitHub Desktop.
+   El comando *cd* (**c**hange **d**irectory) le indica al sistema oprativo que se ubique en la ruta indicada, en este caso, la ruta a la carpeta GitHub creada por la instalación de GitHub Desktop.
 
 3. En la línea de comandos, escribe el siguiente comando seguido de Enter:
 
