@@ -129,21 +129,22 @@ Jekyll no es oficialmente compatible con Windows, lo que significa que la docume
 6. Ve a tu email y abre el de Github (si no aparece en la bandeja de entrada, búscalo en correo no deseado). Haz clic en el botón "Verify email address" (Verificar dirección de email).
 7. *Opcional*: puedes visitar https://github.com/settings/profile para agregar un nombre completo (puede ser tu nombre real, nombre de usuario de GitHub u otra cosa) y más información de perfil público, si lo deseas.
 
-### GitHub Desktop app <a id="section1-2"></a>
+### Aplicación GitHub Desktop <a id="section1-2"></a>
 
-*The GitHub Desktop app will make updating your live website (one we set it up) easy—instead of using the command line every time you want to update your site, you'll be able to use an easier visual tool to update your site.*
+*La aplicación GitHub Desktop facilita la actualización del sitio web luego de haberlo configurado. En lugar de usar la línea de comandos cada vez que queramos actualizar nuestro sitio, es posible usar este herramienta visual.*
 
-1. Visit the [GitHub Desktop site](https://desktop.github.com/) and click on the "Download GitHub Desktop" button to download the GitHub Desktop software to your computer (Mac and Windows only; Linux users will need to use git just via the command line, which is not covered in this version of the tutorial).
-2. Once the file has completely downloaded, double-click on it and use the following directions to install GitHub Desktop...
-3. Enter the username and password for the GitHub.com account you created using the steps above. (Ignore the "Add an Enterprise Account" button.) Click "Continue".
-4. Enter the name and email address you want the work on your site to be associated with (probably just your public name and work email address, but it's up to you!). 
-5. On the same page, click the "Install Command Line Tools" button and enter your computer's username and password if prompted (then click the "Install Helper" button on the prompt). After you get a popup message that all command line tools have successfully installed, click continue.
-6. The last page will ask "Which repositories would you like to use?". Ignore this and click the "Done" button. 
-7. *Optional:* Follow the walkthrough of the GitHub Desktop app that will appear (this isn't necessary; we will cover anything you need to do with GitHub in this lesson).
+1. Visita el [sitio de GitHub Desktop](https://desktop.github.com/) y cliquea en el botón "Download" para descargar el GitHub Desktop en tu computadora (Mac y Windows solamente; los usuarios de Linux pueden usar git sólo a través de la línea de comandos).
+2. Una vez que el archivo se haya descargado, haz doble clic en él y sigue las siguientes instrucciones de instalación.
+3. Ingresa el nombre de usuario y la contraseña para la cuenta de GitHub.com que creaste en el punto anterior y haz clic en "Continuar".
+4. Ingresa el nombre y el correo electrónico a los que deseas asociar tu sitio (probablemente tu nombre público y tu email de trabajo).
+5. En la misma página, haz clic en el botón "Instalar herramientas de línea de comandos" e ingresa el nombre de usuario y contraseña de tu computadora si te lo solicita (luego haz clic en el botón "Instalar ayudante" en el indicador). Cuando recibas un mensaje de que todas las herramientas de línea de comandos se han instalado correctamente, haz clic en continuar.
+6. La última página preguntará "¿Qué repositorios deseas usar?". Ignóral y haz clic en el botón "Listo".
+7. *Opcional:* puedes hacer el tutorial de uso de GitHub Desktop si lo deseas, pero en esta lección cubriremos todo lo que necesitas saber sobre GitHub).
 
 ### Editor de texto <a id="section1-3"></a>
 
 Es necesario descargar e instalar un editor de texto para realizar pequeñas personalizaciones al código de nuestro sitio Jekyll. Algunas buenas opciones gratuitas incluyen [jEdit](www.jedit.org), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/3), [Notepad ++](https://notepad-plus-plus.org/) para Windows o [BBedit](http://www.barebones.com/products/bbedit) para Mac. Los procesadores de texto, como Microsoft Word o Word Pad, no son una buena opción porque es fácil olvidar cómo formatear y guardar el archivo, agregando accidentalmente formatos y caracteres extra y/o invisibles que pueden generar problemas en el sitio. Por eso es mejor usar programas que puedan guardar lo que escribimos como texto plano (por ejemplo, HTML o Markdown).
+
 *Opcional:* Consulta la sección ["Creación en Markdown"](#sección5-2) más abajo, para más información sobre un programa de edición específico en Markdown, que también puedes instalar cuando ya estemos en la etapa de crear páginas web y/o publicaciones (posts) de blog.
 
 ### Línea de comandos <a id="section1-4"></a>
@@ -165,7 +166,7 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 1. **Los comandos que debes escribir (o copiar/pegar) en la línea de comandos tienen el siguiente formato:** `ejemplo de formato de código`. Cada fragmento de código formateado debe copiarse y pegarse en la línea de comandos, seguido de Enter.
 
 2. **Debes dejar que los procesos de instalación se ejecuten *completamente* antes de ingresar nuevos comandos.** A veces, escribir un comando y presionar "Enter" produce un resultado instantáneo; otras veces, una gran cantidad de texto comenzará a llenar la ventana de la línea de comandos o parecerá que la línea de comandos no está haciendo nada pero algo está sucediendo detrás de escena, como descargar un archivo. Por eso es importante que **al escribir un comando y presionar Enter, esperemos que ese comando termine por completo *antes de escribir otra cosa***, de lo contrario, podríamos detener un proceso por la mitad y generar problemas. 
-    {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de ingreso de un comando, seguido de un texto que le muestra lo que estaba sucediendo mientras se procesaba ese comando (y a veces le pedía que hiciera algo, como ingresar tu contraseña) y finalmente la reaparición del prompt para hacerle saber que ya puede escribir algo más.
+    {0}. ¿Cómo saber cuándo se ha completado un comando? Cuando la línea de comandos emite nuevamente la orden (prompt) (por ejemplo, *Macbook-Air:~DrJekyll$* en la computadora de la autora de este tutorial). La captura de pantalla a continuación muestra un ejemplo de interacción con la línea de comandos: ingreso de un comando, seguido de un texto que indica lo que sucede mientras se procesa ese comando (y a veces le pide al usuario que haga algo, como ingresar su contraseña) y finalmente la reaparición del prompt para indicar que ya se puede escribir algo más.
 
     ![captura-de-pantalla-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
 
@@ -175,12 +176,12 @@ Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e i
 
 ## Instalación de dependencias <a id="section2"></a>
 
-*A continuación, vamos a instalar algunas dependencias de software (es decir, programas de los que depende Jekyll para poder trabajar) usando la línea de comandos ya que no hay una interfaz visual para hacerlo. Esta sección se divide en instrucciones para Windows e instrucciones para Mac, así que ve a la sección de [instalación de dependencias en Mac](#sectionMac) si estás usando Mac.*
+*A continuación, vamos a instalar algunas dependencias de software (es decir, programas de los que depende Jekyll para poder trabajar) usando la línea de comandos ya que no hay una interfaz visual para hacerlo. Esta sección se divide en instrucciones para Windows e instrucciones para Mac, así que puedes ir a la sección de [instalación de dependencias en Mac](#sectionMac) si estás usando Mac.*
 
 
 ### En Windows <a id="sectionWindows"></a>
 
-*En esta sección, las instrucciones para usuarios de Windows difieren de las de los usuarios de Mac. Solo haz lo siguiente si estás utilizando Windows.*
+*En esta sección, las instrucciones para usuarios de Windows difieren de las de los usuarios de Mac. Debes hacer estos pasos únicamente si estás utilizando Windows.*
 
 1. Antes que nada, necesitamos una herramienta de línea de comandos que reconozca los mismos comandos que las computadoras Mac y Linux (es decir, los sistemas operativos Unix). Visita [https://git-scm.com/downloads](https://git-scm.com/downloads) y haz clic en el enlace "Windows". Una vez que hayas terminado la descarga, haz doble clic en el archivo descargado y sigue los pasos para instalar Git Bash (deja todas las opciones como están).
 
@@ -267,12 +268,11 @@ En la línea de comandos, ingresa:
 
 ### Jekyll <a id="section2-5"></a>
 
-[Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Encuentras más información en [Sitios dinámicos, sitios estáticos & Jekyll](#section0-1) y en [why you'd want to use Jekyll to make a static website](#section0-3), más arriba.
+[Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Puedes ver más información sobre Jekyll en [Sitios dinámicos, sitios estáticos & Jekyll](#section0-1) y en [¿Por qué usar sitios estáticos?](#section0-3), más arriba.
 
 En la línea de comandos, ingresa:
 
 `gem install jekyll`
-
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! De aquí en adelante, las instrucciones son iguales para Windows y Mac.**
 
@@ -280,25 +280,25 @@ En la línea de comandos, ingresa:
 
 *Ya hemos instalado todo lo necesario para crear un sitio web. En esta sección, utilizaremos Jekyll para generar una nueva carpeta con los archivos que conforman el sitio web. También ubicaremos esta carpeta en un lugar accesible para la aplicación GitHub Desktop para que estén en el lugar correcto cuando deseamos publicarlos como un sitio web público más adelante en la lección.*
 
-1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoce la ruta de la carpeta GitHub, haga click en la lupa ubicada en la esquina superior derecha de la pantalla (en Mac) o en el campo de búsqueda del Menú de Inicio (en Windows).
+1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoces la ruta de la carpeta GitHub, haz clic en la lupa ubicada en la esquina superior derecha de la pantalla (en Mac) o en el campo de búsqueda del Menú de Inicio (en Windows).
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png)
 
 {% include figure.html filename="IMAGE-FILENAME" caption="El ícono de lupa que le permite buscar en una Mac, está en la esquina superior derecha de la pantalla" %}
 
-   En Mac, aparecerá un cuadro de búsqueda en el medio de la pantalla;escribe"GitHub", luego haga doble clic en la opción "GitHub" que aparece debajo de "Carpetas" para revelar la carpeta GitHub en Finder (esto puede verse ligeramente diferente en Windows, pero debería funcionar igual).
+   En Mac, aparecerá un cuadro de búsqueda en el medio de la pantalla; escribe"GitHub", luego haz doble clic en la opción "GitHub" que aparece debajo de "Carpetas" para abrir la carpeta GitHub en Finder (esto puede verse ligeramente diferente en Windows, pero debería funcionar igual).
 
-   Tenga en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, vaya a Biblioteca> Soporte de aplicaciones en Finder y verifique si la carpeta "GitHub para Mac" está allí.
+   Ten en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, ve a Biblioteca> Soporte de aplicaciones en Finder y verifica si la carpeta "GitHub para Mac" está allí.
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
 
-{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar \"GitHub\", aparece la opción \"GitHub\" entre las carpetas; haz doble click en \"GitHub\" para abrir la carpeta GitHub en el explorador de archivos" %}
+{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar \"GitHub\", aparece la opción \"GitHub\" entre las carpetas; haz doble clic en \"GitHub\" para abrir la carpeta GitHub en el explorador de archivos" %}
 
-   Haga click derecho en la carpeta "GitHub" y elija "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
+   Haz clic derecho en la carpeta "GitHub" y elige "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
 {% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña \"Repository\" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionar \"show in explorer\"." %}
 
-2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (Command-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
+2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (⌘-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
 
@@ -313,19 +313,19 @@ En la línea de comandos, ingresa:
 
 	Es necesario esperar a que vuelva a aparecer el prompt para continuar con el siguiente paso.
 
-4. La URL pública de tu sitio tendrá la siguiente forma: http://amandavisconti.github.io/JekyllDemo/ (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escribe correctamente.
+4. La URL pública de tu sitio tendrá la siguiente forma: http://amandavisconti.github.io/JekyllDemo/ (*amandavisconti* es el usuario de GitHub de la autora y *JekyllDemo* el nombre del sitio que ingresamos en este paso (*es posible pagar y usar tu propia [URL personalizada](#section7-2), pero no lo cubriremos en este tutorial*). **Los sitios en mayúsculas y minúsculas *no* dirigen al mismo sitio web**, así que a diferencia del ejemplo **JekyllDemo** es recomendable elegir un nombre todo en minúsculas para asegurarse de que la gente lo escriba correctamente.
 
-   En la línea de comandos, escribe lo siguiente (reemplace *JekyllDemo* con el nombre que desee para tu sitio):
+   En la línea de comandos, escribe lo siguiente (reemplaza *JekyllDemo* con el nombre que desees para tu sitio):
 
    `jekyll new JekyllDemo`
 
    Este comando le indica a *jekyll* que cree un *nuevo* (new) sitio instalando los archivos necesarios en la carpeta llamada *JekyllDemo*. **De ahora en adelante, llamaremos "carpeta del sitio web" a la carpeta creada en este paso (por ej., *JekyllDemo*).**
 
-4. En la línea de comandos, escribe lo siguiente para ir a la carpeta del sitio web (en el resto del tutorial, reemplace *JekyllDemo* por el nombre elegido en el paso previo):
+4. En la línea de comandos, escribe lo siguiente para ir a la carpeta del sitio web (en el resto del tutorial, reemplaza *JekyllDemo* por el nombre elegido en el paso previo):
 
    `cd JekyllDemo` 
 
-   Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archvos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
+   Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archivos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png)
 
@@ -333,7 +333,7 @@ En la línea de comandos, ingresa:
    
 ## Ejecutar un sitio web localmente <a id="section3a"></a>
 
-*Esta sección describe cómo ejecutar un sitio web ***localmente***. Esto significa que podrás cómo se ve tu sitio web en un navegador pero únicamente en tu computadora (esto es, localmente). Trabajar en una versión local de un sitio web quiere decir que el sitio es privado, nadie puede verlo todavía (el sitio no es público, nadie puede escribir la URL y verlo en tu computadora).*
+*Esta sección describe cómo ejecutar un sitio web ***localmente***. Esto significa que podrás ver cómo se ve tu sitio web en un navegador pero únicamente en tu computadora (esto es, localmente). Trabajar en una versión local de un sitio web quiere decir que el sitio es privado, nadie puede verlo todavía (el sitio no es público, nadie puede escribir la URL y verlo en su computadora).*
 
 *Así que puedes experimentar todo lo que desees y publicarlo al mundo cuando esté listo. Además, una vez que el sitio esté publicado, puedes seguir experimentando localmente con nuevos contenidos, diseños, etc. y agregar estos cambios una vez que estés conforme con cómo se ven en el sitio local.*
 
@@ -365,7 +365,7 @@ En la línea de comandos, ingresa:
 
 ### Mini ayudamemoria <a id="section3a-1"></a>
 
-- Escribe `bundle exec jekyll serve --watch` en la línea de comandos para ejecutar el sitio web localmente. Visita **localhost:4000** en un navegador para visualizar el sitio localmente. En la próxima sección haremos modificaciones que nos obligarán a visitar **localhost:4000/JekyllDemo/** para poder visualizar el sitio (completando con el nombre de la carpeta de tu sitio web en lugar de *JekyllDemo* y asegurándote de incluir la barra final).
+- Escribe `bundle exec jekyll serve --watch` en la línea de comandos para ejecutar el sitio web localmente. Visita **localhost:4000** en un navegador para visualizar el sitio localmente. En la próxima sección haremos modificaciones que nos obligarán a visitar **localhost:4000/JekyllDemo/** para poder visualizar el sitio (completando con el nombre de la carpeta de tu sitio web en lugar de *JekyllDemo* y asegurándote de incluir la barra final **/**).
 
 - Presiona **control-c** en la línea de comandos para detener la ejecución local del sitio web.
 
@@ -385,9 +385,7 @@ En la línea de comandos, ingresa:
 
 {% include figure.html filename="IMAGE-FILENAME" caption="Contenido de la carpeta del sitio web" %}
 
-
 2. Comenzaremos por personalizar el archivo de configuración principal **_config.yml**. Deberás abrir este archivo y los demás archivos del sitio web usando un editor de texto (por ej., Notepad++ en Windows o BBedit en Mac).
-
  
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
 
@@ -416,12 +414,12 @@ En la línea de comandos, ingresa:
    - **title**: el título de tu sitio web como deseas que aparezca en el encabezado del sitio web.
    - **email**: tu dirección de email.
    - **description**: la descripción del sitio web que será usada por los motores de búsqueda y que será utilizada por RSS.
-   - **baseurl**: completa entre las comillas con una barra oblicua seguida del nombre de la carpeta de tu sitio web (por ej., "/JekyllDemo") para que el sitio tome la URL correcta.
+   - **baseurl**: completa entre las comillas con una barra oblicua **/** seguida del nombre de la carpeta de tu sitio web (por ej., "/JekyllDemo") para que el sitio tome la URL correcta.
    - **url**: reemplaza "http://yourdomain.com" por "localhost:4000" para que el navegador tome la versión local de tu sitio en la URL correcta.
    - **twitter_username**: tu nombre de usuario de Twitter (no incluir @).
    - **github_username**: tu nombre de usuario de GitHub.
 
-   Los cambios realizados en las líneas *baseurl* y *url* permitirán que tu sitio se ejecute desde los mismos archivos tanto localmente en tu computadora como en vivo en la Web, pero **al hacer esto ha cambiado la URL en donde puedes visualizar tu sitio localmente**. De ahora en adelante, en lugar de ser localhost:4000, es **localhost:4000/JekyllDemo/** (debes cambiar *JekyllDemo* por el nombre de la carpeta de tu sitio web y no olvides incluir la última barra oblicua)
+   Los cambios realizados en las líneas *baseurl* y *url* permitirán que tu sitio se ejecute desde los mismos archivos tanto localmente en tu computadora como en vivo en la Web, pero **al hacer esto ha cambiado la URL en donde puedes visualizar tu sitio localmente**. De ahora en adelante, en lugar de ser localhost:4000, es **localhost:4000/JekyllDemo/** (debes cambiar *JekyllDemo* por el nombre de la carpeta de tu sitio web y no olvides incluir la última barra oblicua **/**)
 
    En la captura de pantalla que está debajo, la autora ha borrado las líneas comentadas 1-6 y el comentario que explicaba lo que hace "description" (no es obligatorio, es sólo para demostrar que es posible borrar los comentarios). También modificó el resto del archivo según los cambios antes mencionados:
 
@@ -439,7 +437,7 @@ En la línea de comandos, ingresa:
 
 ### ¿Dónde está (y qué es) cada cosa? <a id="section4-2"></a>
 
-Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de tu sitio web. Recuerde siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no un procesador de textos (no use Microsoft Word ni nada que le permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#section5).
+Para tener una idea de cómo funciona el sitio y con qué archivos se puede experimentar para hacer cosas más avanzadas, aquí hay algunas notas sobre lo que hace cada carpeta o archivo de tu sitio web. Recuerde siempre abrir y editar cualquier archivo con un editor de texto (por ejemplo, Notepad++) y no un procesador de textos (no utilices Microsoft Word ni nada que permita agregar formato como cursiva y negrita). Es muy importante no usar Word o procesadores de texto porque estos programas agregan caracteres invisibles que si se guardan en los archivos de nuestro sitio web pueden dañarlo. Si ya deseas comenzar a agregar contenido a tu sitio y hacerlo público, puedes [saltar a la siguiente sección](#section5).
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
 
@@ -558,7 +556,7 @@ Como referencia, puede consultar [el siguiente ejemplo de post](http://amandavis
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-25.png)
 
-7. Haz click en el botón “Publish” en la sección superior derecha.
+7. Haz clic en el botón “Publish” en la sección superior derecha.
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-26.png)
 
