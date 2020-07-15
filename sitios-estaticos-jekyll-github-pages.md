@@ -393,6 +393,8 @@ En la línea de comandos, ingresa:
 
 {% include figure.html filename="IMAGE-FILENAME" caption="Abrir un archivo con un editor de texto" %}
 
+{% include figure.html filename="jekyll_4.png" caption="En Windows, al hacer clic derecho sobre el archivo .yml puede aparecer directamente la opción de editar el documento con Notepad++, en caso contrario debe elegirse la opción \"abrir con\" y seleccionar el editor de texto de una lista de programas" %}
+
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
 
 {% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml" %}
@@ -538,13 +540,13 @@ Como referencia, puede consultar [el siguiente ejemplo de post](http://amandavis
 
    Puedes utilizar el área de texto más grande que se encuentra debajo si deseas escribir un mensaje más largo (*opcional*).
 
-{% include figure.html filename="jekyll_4.png" caption="Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit." %}
+{% include figure.html filename="jekyll_5.png" caption="Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit." %}
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png)	
 
 5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.	
 
-{% include figure.html filename="jekyll_5.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
+{% include figure.html filename="jekyll_6.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png)
 
@@ -572,19 +574,19 @@ Como referencia, puede consultar [el siguiente ejemplo de post](http://amandavis
 
 6. Haz clic en el botón “Publish repository” que aparece destacado en azul.
 
-{% include figure.html filename="jekyll_6.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
+{% include figure.html filename="jekyll_7.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
 
 7. Haz clic en el botón “View on GitHub” que aparece en la parte central de la ventana, en tercer lugar.
 
 8. Ya en GitHub, debes cambiar las opciones de visibilidad de tu repositorio para hacerlo público, para esto, accede a la sección de “Settings” y baja hasta el recuadro titulado “Danger Zone”. Haz clic en el botón “Change visibility” y seleccionar la opción “Make public”. 
 
-{% include figure.html filename="jekyll_7.png" caption="Ubicación de la opciones (settings) del repositorio en GitHub." %}
+{% include figure.html filename="jekyll_8.png" caption="Ubicación de la opciones (settings) del repositorio en GitHub." %}
 
-{% include figure.html filename="jekyll_8.png" caption="\"Danger zone\" de las opciones de GitHub." %}
+{% include figure.html filename="jekyll_9.png" caption="\"Danger zone\" de las opciones de GitHub." %}
 
 9. Arriba del recuadro de Danger Zone se encuentran las opciones de GitHub Pages. Allí debes cambiar la opción “Source” y seleccionar la rama (branch) “gh-pages”. 
 
-{% include figure.html filename="jekyll_9.png" caption="Sección de GitHub Pages en las opciones de GitHub." %}
+{% include figure.html filename="jekyll_10.png" caption="Sección de GitHub Pages en las opciones de GitHub." %}
 
 **Ambos**
 
