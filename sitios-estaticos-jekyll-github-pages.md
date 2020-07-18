@@ -2,7 +2,7 @@
 layout: page
 title: Creación de sitios estáticos con Jekyll y GitHub Pages
 type: texto
-permalink: /traduccion-proghist/
+permalink: /sitios-estaticos-jekyll-github-pages/
 ---
 
 <!-- ---
@@ -155,11 +155,13 @@ Mientras la línea de comandos usa comandos de texto, la mayoría de los usuario
 
 El programa de línea de comandos predeterminado se llama "Terminal" en Mac (ubicado en *Aplicaciones > Utilidades*) y "Cmd" (o "Símbolo del sistema"), "Windows Power Shell" o "Git Bash" en Windows (estas son tres opciones diferentes que difieren cada una en el tipo de comandos que aceptan). 
 
-A continuación, se muestra cómo se ve una ventana de línea de comandos en Mac (usando Terminal). Verás algo como el *Macbook-Air:~DrJekyll$*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *Macbook-Air* es el nombre de la computadora de la autora de este tutorial en inglés y *DrJekyll* es la cuenta de usuario actualmente conectada (el prompt usará diferentes nombres para tu computadora y nombre de usuario).
+A continuación, se muestra cómo se ve una ventana de línea de comandos en Windows (usando Cmd). Verás algo como *C:\Users\Gabriel Calarco>*. Ese texto se llama "prompt" ("orden" o "solicitud", porque solicita que el usuario ingrese comandos obligatoriamente para poder continuar). En esta captura de pantalla, *C:* es el nombre de la unidad de disco y *Gabriel Calarco* es la cuenta de usuario actualmente conectada (el prompt será diferente en tu computadora, mostrará tu nombre de usuario).
+
+{% include figure.html filename="jekyll_1.png" caption="Prompt de la línea de comandos en Windows." %}
+
+La línea de comandos en sistemas Unix (Mac y Linux) es ligeramente diferente:
 
 ![captura-de-pantalla-linea-de-comandos](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png)
-
-{% include figure.html filename="jekyll_1.png" caption="Promt de la línea de comandos en Windows." %}
 
 Siempre que en este tutorial pidamos abrir una ventana de línea de comandos e ingresar comandos, ten en cuenta lo siguiente:
 
@@ -280,30 +282,23 @@ En la línea de comandos, ingresa:
 
 *Ya hemos instalado todo lo necesario para crear un sitio web. En esta sección, utilizaremos Jekyll para generar una nueva carpeta con los archivos que conforman el sitio web. También ubicaremos esta carpeta en un lugar accesible para la aplicación GitHub Desktop para que estén en el lugar correcto cuando deseamos publicarlos como un sitio web público más adelante en la lección.*
 
-1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoces la ruta de la carpeta GitHub, haz clic en la lupa ubicada en la esquina superior derecha de la pantalla (en Mac) o en el campo de búsqueda del Menú de Inicio (en Windows).
+1. Es necesario conocer la ruta de la carpeta GitHub creada por la instalación de GitHub Desktop (la ruta es el texto que indica la ubicación de cierta carpeta o archivo en el árbol de carpetas de una computadora, por ejemplo  /Desktop/MyRecipes/Spaghetti.doc). Si no conoces la ruta de la carpeta GitHub, haz clic en el campo de búsqueda del Menú de Inicio (en Windows).
 
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png)
+{% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de tu repositorio de GitHub seleccionando la pestaña \"Repository\" del menú superior de GitHub Desktop y en el recuadro que se despliega al seleccionar \"show in explorer\"." %}
 
-{% include figure.html filename="IMAGE-FILENAME" caption="El ícono de lupa que le permite buscar en una Mac, está en la esquina superior derecha de la pantalla" %}
-
-   En Mac, aparecerá un cuadro de búsqueda en el medio de la pantalla; escribe"GitHub", luego haz doble clic en la opción "GitHub" que aparece debajo de "Carpetas" para abrir la carpeta GitHub en Finder (esto puede verse ligeramente diferente en Windows, pero debería funcionar igual).
+   En Mac, presiona "⌘ + espacio" y aparecerá un cuadro de búsqueda en el medio de la pantalla; escribe"GitHub", luego haz doble clic en la opción "GitHub" que aparece debajo de "Folders" (Carpetas) para abrir la carpeta GitHub en Finder.
 
    Ten en cuenta que en algunas computadoras, esta carpeta está etiquetada como "GitHub para Mac" y puede no aparecer en una búsqueda; si los pasos anteriores no ubicaron una carpeta de GitHub, ve a Biblioteca> Soporte de aplicaciones en Finder y verifica si la carpeta "GitHub para Mac" está allí.
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
 
-{% include figure.html filename="IMAGE-FILENAME" caption="Luego de buscar \"GitHub\", aparece la opción \"GitHub\" entre las carpetas; haz doble clic en \"GitHub\" para abrir la carpeta GitHub en el explorador de archivos" %}
 
    Haz clic derecho en la carpeta "GitHub" y elige "Copiar 'GitHub'". La ruta de la carpeta GitHub ha sido copiada.
 
-{% include figure.html filename="jekyll_3.png" caption="En Windows puedes encontrar la carpeta con los archivos de nuestro repositorio de GitHub seleccionando la pestaña \"Repository\" del menu superior de GitHub Desktop y en el recuadro que se despliega seleccionar \"show in explorer\"." %}
 
 2. En la línea de comandos, escribe `cd`, seguido de espacio, seguido de la ruta a la carpeta GitHub (⌘-v para pegar la ruta copiada en el paso previo). En la computadora de la autora, (logeada como *DrJekyll*) esto se ve de la siguiente manera:
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
-
-{% include figure.html filename="IMAGE-FILENAME" caption="Imagen de la terminal luego de escribir cd, seguido de espacio y la ruta a la carpeta de GitHub" %}
-
 
    El comando *cd* (**c**hange **d**irectory) le indica a la computadora que se localice en el lugar especificado por la ruta indicada, en este caso, la ruta a la carpeta GitHub creada por la instalación de GitHub Desktop.
 
@@ -328,8 +323,6 @@ En la línea de comandos, ingresa:
    Si miras en la carpeta *GitHub > JekyllDemo* en el explorador de archivos, verás una serie de archivos nuevos -los archivos que ejecutarán tu sitio web- que han sido instalados ([más abajo](#section4-2) explicaremos qué hace cada uno):
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png)
-
-{% include figure.html filename="IMAGE-FILENAME" caption="En el explorador de archivos, se pueden ver los nuevos archivos que han sido instalados y que servirán para ejecutar nuestro sitio web" %}
    
 ## Ejecutar un sitio web localmente <a id="section3a"></a>
 
@@ -351,16 +344,11 @@ En la línea de comandos, ingresa:
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png)
 
-{% include figure.html filename="IMAGE-FILENAME" caption="Las advertencias y mensajes de error provocados por cambios realizados por el usuario aparecen en la línea de comandos y son la mejor referencia a consultar cuando algo no funciona en nuestro sitio." %}
-
-
 3. Para detener la ejecución local de nuestro sitio, debemos presionar **control-c** (esto libera la línea de comandos para usarla nuevamente). Basta con ingresar `bundle exec jekyll serve --watch` nuevamente para volver a ejecutar el sitio localmente.
 
 4. Para visualizar el sitio que se está ejecutando localmente, visita **localhost:4000** en tu navegador. Verás un sitio web Jekyll básico con texto predefinido:
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png)
-
-{% include figure.html filename="IMAGE-FILENAME" caption="Un sitio web Jekyll básico con texto predefinido" %}
    
 
 ### Mini ayudamemoria <a id="section3a-1"></a>
@@ -383,19 +371,11 @@ En la línea de comandos, ingresa:
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
 
-{% include figure.html filename="IMAGE-FILENAME" caption="Contenido de la carpeta del sitio web" %}
-
 2. Comenzaremos por personalizar el archivo de configuración principal **_config.yml**. Deberás abrir este archivo y los demás archivos del sitio web usando un editor de texto (por ej., Notepad++ en Windows o BBedit en Mac).
  
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
-
-{% include figure.html filename="IMAGE-FILENAME" caption="Abrir un archivo con un editor de texto" %}
-
 {% include figure.html filename="jekyll_4.png" caption="En Windows, al hacer clic derecho sobre el archivo .yml puede aparecer directamente la opción de editar el documento con Notepad++, en caso contrario debe elegirse la opción \"abrir con\" y seleccionar el editor de texto de una lista de programas" %}
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
-
-{% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml" %}
    
    El archivo *_config.yml* es un archivo "destinado a configuraciones que afectan a todo tu blog, valores que se espera que configures una sola vez y rara vez necesites volver editar más tarde" (como dice en el archivo). *_config.yml* es donde se puede definir el nombre del sitio web y compartir información como la dirección de email que queremos asociar al sitio y otras configuraciones básicas que desees que estén disponibles en todo el sitio web (cuentas de redes sociales, por ejemplo).
 
@@ -425,14 +405,10 @@ En la línea de comandos, ingresa:
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png)
 
-{% include figure.html filename="IMAGE-FILENAME" caption="El archivo _config.yml modificado" %}
-
 
 5. Guarda el archivo y ejecuta el sitio web (o detenlo y vuelve a ejecutarlo si estaba en ejecución) y luego visita **localhost:4000/JekyllDemo/** en tu navegador (cambiando *JekyllDemo* por el nombre de la carpeta de tu sitio web e incluyendo la barra oblicua final) para ver localmente los cambios en tu sitio:
 
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png)
-
-{% include figure.html filename="IMAGE-FILENAME" caption="El sitio web modificado" %}
 
 
 ### ¿Dónde está (y qué es) cada cosa? <a id="section4-2"></a>
@@ -540,19 +516,16 @@ Como referencia, puede consultar [el siguiente ejemplo de post](http://amandavis
 
 {% include figure.html filename="jekyll_5.png" caption="Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit." %}
 
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png)	
-
 5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.	
 
 {% include figure.html filename="jekyll_6.png" caption="Captura de pantalla de GitHub Desktop en Windows." %}
 
-![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png)
 
 *A partir de este punto el proceso para publicar nuestro sitio en GitHub Pages difiere entre Windows y Mac*
 
 **Para usuarios de Mac**
 
-6. Haze en el botón “Commit to gh-pages” en la sección inferior izquiera de la ventana de la aplicación.
+6. Haz clic en el botón “Commit to gh-pages” en la sección inferior izquiera de la ventana de la aplicación.
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-25.png)
 
@@ -610,7 +583,6 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 - Los [plugins de Jekyll](http://jekyllrb.com/docs/plugins/) te permiten añadir pequeños segmentos de código que permiten sumar funcionalidades a tu sitio, tales como [realizar búsquedas de texto](https://github.com/PascalW/jekyll_indextank), [permitir el uso de emojis](https://github.com/yihangho/emoji-for-jekyll), o [crear nubes de palabras](https://gist.github.com/ilkka/710577). 
 
 - Si deseas alojar tu sitio en GitHub Pages, como lo hicimos en esta lección, solo podrás utilizar los plugins de Jekyll que ya están incluidos en las gemas de GitHub Pages que instalamos (aquí tienes una [lista completa de lo que hemos instalado](https://pages.github.com/versions/), cuando añadimos la gema de GitHub Pages a nuestro Gemfile anteriormente).
-
 
 - Si decides alojar tu sitio de Jekyll en otro servidor que no sea GitHub Pages, puedes utilizar cualquier plugin de Jekyll (las instrucciones para alojar tu sitio varían entre diferentes proveedores de hosting web, y no las desarrollaremos en esta lección, pero [aquí](http://jekyllrb.com/docs/plugins/) tienes una página que explica cómo instalar plugins, una vez que poseas tu sitio con hosting propio). Puedes realizar una búsqueda utilizando “Jekyll plugin” y añadir la funcionalidad que necesites para explorar si hay una herramienta apropiada disponible, o revisar la [documentación sobre plugins](http://jekyllrb.com/docs/plugins/) en el sitio oficial de Jekyll. 
   

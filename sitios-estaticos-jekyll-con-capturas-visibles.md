@@ -2,7 +2,7 @@
 layout: page
 title: Creación de sitios estáticos con Jekyll y GitHub Pages
 type: texto
-permalink: /traduccion-proghist/
+permalink: /traduccion-proghist-capturas/
 ---
 
 <!-- ---
