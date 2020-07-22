@@ -14,7 +14,7 @@ featured-img: poblaciones-02-07
 
 # Taller ¿Cómo empezar un proyecto con datos espaciales?
 
-El jueves 2 de julio se realizó el *Taller: Cómo empezar un proyecto con datos espaciales* de la plataforma <a href="https://poblaciones.org/" target="_blank">Poblaciones</a> brindado por el 
+El jueves 2 de julio se realizó el **Taller: Cómo empezar un proyecto con datos espaciales** de la plataforma <a href="https://poblaciones.org/" target="_blank">Poblaciones</a> brindado por el 
 Dr. <a href= "https://www.aacademica.org/pablo.de.grande" target="_blank">Pablo De Grande</a>. El mismo contó con la organización y asistencia técnica del *Laboratorio de Humanidades Digitales* (Caicyt-Conicet). 
 
 Durante el encuentro se permitió repasar sobre las herramientas y recursos para iniciar y desarrollar un proyecto con datos espaciales, y como realizar un mapeo en dicha <a href="https://poblaciones.org/" target="_blank">plataforma</a>.
@@ -29,7 +29,7 @@ También les compartimos algunas preguntas y respuestas realizadas durante el *T
 - ¿Cuando decis planilla de Google, te referís a la de Google Maps?
     * En el taller utilizamos una planilla online de Google (Google Sheets) para recolectar los datos. Luego descargamos eso en formato Excel y lo subimos a Poblaciones.
     
-- ¿Es posible importar archivos de libre office? ¿.ods por ejemplo?
+- ¿Es posible importar archivos de libre office, .ods por ejemplo?
   	* No. Desde LibreOffice debe exportarse la información a formato .XLSX o CSV. para poder incorporarla a la página.
 
 - La proximidad o cruces entre variables, por ejemplo, ¿es posible generar “buffers” o indicar rango de distancia?
