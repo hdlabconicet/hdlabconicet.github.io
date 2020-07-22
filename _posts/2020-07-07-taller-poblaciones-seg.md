@@ -28,9 +28,6 @@ También les compartimos algunas preguntas y respuestas realizadas durante el *T
 
 - ¿Cuando decis planilla de Google, te referís a la de Google Maps?
     * En el taller utilizamos una planilla online de Google (Google Sheets) para recolectar los datos. Luego descargamos eso en formato Excel y lo subimos a Poblaciones.
-    
-- ¿Es posible importar archivos de libre office, .ods por ejemplo?
-  	* No. Desde LibreOffice debe exportarse la información a formato XLSX o CSV para poder incorporarla a la página.
 
 - La proximidad o cruces entre variables, por ejemplo, ¿es posible generar “buffers” o indicar rango de distancia?
     * Sí, es posible seleccionar una zona a partir de un buffer circular. En la barra de herramientas del visor de mapas podrás encontrar esta herramienta.
