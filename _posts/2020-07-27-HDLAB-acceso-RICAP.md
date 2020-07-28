@@ -4,8 +4,9 @@ title: HD LAB miembro de la Red RICAP
 type: post
 published: true_or_false
 categories:
-- Evaluación
-- Colaboración
+- Almacenamiento
+- Comunicación
+- Proceso de investigación
 - Publicación
 featured-img: red-ricap
 
