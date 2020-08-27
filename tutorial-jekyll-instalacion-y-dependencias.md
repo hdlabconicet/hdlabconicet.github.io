@@ -1,18 +1,20 @@
 ---
 layout: page
-title: Instalación de Jekyll y dependencias para crear sitios estáticos con Jekyll y GitHub Pages
+title: Instalación de Jekyll y dependencias para crear sitios estáticos con GitHub Pages
 type: texto
 permalink: /tutorial-jekyll-github-pages/
 ---
 
-Este tutorial es una traducción al español y adaptación de Building a static website with Jekyll and GitHub pages, de Amanda Visconti, publicado originalmente en inglés en [The Programming Historian] (https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages), (2016-04-18).
+Este tutorial es una traducción al español y adaptación de _Building a static website with Jekyll and GitHub pages_, de Amanda Visconti, publicado originalmente en inglés en [The Programming Historian](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages), (2016-04-18).
 
-Esta lección está dirigida a quienes deseen instalar todos los componentes para crear un sitio web totalmente gratuito, fácil de mantener, preservable y seguro, y sobre el que se tenga control total.
-Requisitos: una computadora (Mac / Windows / Linux, aunque esta lección no cubre algunos aspectos del uso de Linux), la capacidad de descargar e instalar software en tu computadora, una conexión a Internet soporte la descarga de software. Los usuarios han informado que necesitan entre 1 y 3 horas para completar toda la lección.
+Esta lección está dirigida a quienes deseen instalar todos los componentes para crear un sitio web totalmente gratuito, fácil de mantener, preservable, seguro y sobre el que se tenga control total.
 
-Vamos a:
-- instalar algunos programas.
-- usar la línea de comandos para instalar dependencias de esos programas.
+Requisitos: 
+- una computadora (Mac / Windows / Linux, aunque esta lección no cubre el uso de Linux),
+- la capacidad de descargar e instalar software en tu computadora,
+- conexión a Internet que soporte la descarga de software. 
+
+Los usuarios han informado que necesitan entre 1 y 3 horas para completar toda la lección.
 
 
 ## Contenidos
@@ -30,7 +32,7 @@ Vamos a:
 
 En esta sección vamos a asegurarnos de tener todo lo necesario para crear un sitio web estático con Jekyll y Github Pages. Para eso, vamos a abordar:
 
-- [qué sistema operativo es posible usar (es decir, Mac / Windows / Linux)](#section1-0)
+- [qué sistema operativo es posible usar (es decir, MacOS / Windows / Linux)](#section1-0)
 - [crear una cuenta de GitHub](#section1-1)
 - [por qué es necesario usar un "editor de texto" para trabajar en nuestro sitio web](#section1-3)
 - [cómo usar la línea de comandos](#section1-4)
@@ -39,7 +41,7 @@ Todos los elementos que vamos a instalar son herramientas de desarrollo web est�
 
 ### Sistemas operativos  {#section1-0}
 
-Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza para línea de comandos el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git] (https://git-scm.com/docs/gittutorial) para ello (no abordado en este tutorial).
+Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, a fines pedagógicos, este tutorial utiliza el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git](https://git-scm.com/docs/gittutorial) (no abordado en este tutorial).
 
 Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. El resto del tutorial debería funcionar igual para los usuarios de Windows y Mac, aunque las capturas de pantalla que mostramos son todas de una Mac (por lo que pueden verse un poco diferentes en Windows).
 
@@ -183,7 +185,4 @@ En la línea de comandos, ingresa:
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear un sitio web!**
 
-<br>
-
-Basado en Amanda Visconti, "Building a static website with Jekyll and GitHub Pages," The Programming Historian 5 (2016), https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages.
 
