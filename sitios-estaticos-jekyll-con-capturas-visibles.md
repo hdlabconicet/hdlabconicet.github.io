@@ -2,7 +2,7 @@
 layout: page
 title: Creación de sitios estáticos con Jekyll y GitHub Pages
 type: texto
-permalink: /traduccion-proghist/
+permalink: /traduccion-proghist-capturas/
 ---
 
 <!-- ---
@@ -401,8 +401,16 @@ En la línea de comandos, ingresa:
 2. We'll start by customizing the main settings file, **_config.yml**. You'll want to open this and any future website files using your text editor (e.g. TextWrangler on Macs or Notepad++ on Windows).
 
    ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
-
-   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
+<br/> 
+<figure>
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_4.png" alt="captura-de-pantalla-lupa" />
+<figcaption>
+	  <span>En Windows, al hacer clic derecho sobre el archivo .yml puede aparecer directamente la opción de editar el documento con Notepad++, en caso contrario debe elegirse la opción "abrir con" y seleccionar el editor de texto de una lista de programas.</span>
+</figcaption>
+</figure>
+<br/> 
+  
+  ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
 
    The *_config.yml* file is a file "meant for settings that affect your whole blog, values for which your are expected to set up once and rarely need to edit after that" (as it says inside the file!). *_config.yml* is the place where you can set the title of your site, share information like your email address that you want associated with the site, or add other "basic settings"-type information you want available across your website. 
 
@@ -547,7 +555,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
    Puedes utilizar el área de texto más grande que se encuentra debajo si deseas escribir un mensaje más largo (*opcional*).
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_4.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_5.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Captura de pantalla de GitHub Desktop en Windows. En la columna izquierda se pueden observar los cambios realizados, los campos de textos para completar y el botón azul que confirma el commit.</span>
 </figcaption>
@@ -564,7 +572,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 5. En la sección superior de la ventana de GitHub Desktop, haz clic en el tercer ícono desde la izquierda (el mensaje “Add a branch” debería aparecer si colocas el curson encima de él) (Mac), o en recuadro “current branch” y luego el botón “New branch” (Windows). Luego, escribe *gh-pages* en el campo “Name” y haz clic en el botón “Create branch”.
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_5.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_6.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Captura de pantalla de GitHub Desktop en Windows.</span>
 </figcaption>
@@ -603,7 +611,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 6. Haz clic en el botón “Publish repository” que aparece destacado en azul.
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_6.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_7.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Captura de pantalla de GitHub Desktop en Windows.</span>
 </figcaption>
@@ -615,14 +623,14 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 8. Ya en GitHub, debes cambiar las opciones de visibilidad de tu repositorio para hacerlo público, para esto, accede a la sección de “Settings” y baja hasta el recuadro titulado “Danger Zone”. Haz clic en el botón “Change visibility” y seleccionar la opción “Make public”. 
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_7.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_8.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Ubicacipon de la opciones (settings) del repositorio en GitHub.</span>
 </figcaption>
 </figure>
 <br/>
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_8.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_9.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>"Danger zone" de las opciones de GitHub.</span>
 </figcaption>
@@ -632,7 +640,7 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 9. Arriba del recuadro de Danger Zone se encuentran las opciones de GitHub Pages. Allí debes cambiar la opción “Source” y seleccionar la rama (branch) “gh-pages”. 
 
 <figure>
-<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_9.png" alt="captura-de-pantalla-lupa" />
+<img src="https://raw.githubusercontent.com/hdcaicyt/hdcaicyt.github.io/master/assets/img/capturas_jekyll_windows/jekyll_10.png" alt="captura-de-pantalla-lupa" />
 <figcaption>
 	  <span>Sección de GitHub Pages en las opciones de GitHub.</span>
 </figcaption>
