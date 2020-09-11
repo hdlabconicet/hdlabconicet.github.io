@@ -1,3 +1,6 @@
+.gitignore
+.jekyll-cache/
+.jekyll-metadata
 package-lock.json.backup
 package.json.backup
 package.json
