@@ -18,13 +18,13 @@ social:
     - https://github.com/hdcaicyt
 
 # THEME SETTINGS
-navigation:
-  - {name: 'Novedades', link: '/novedades'}
-  - {name: 'Investigación', link: '/investigacion'}
-  - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
-  - {name: 'Equipo', link: '/equipo'}
-  - {name: 'Contacto', link: '/contacto'}
-  - {name: 'Buscar', link: '/search'}
+# navigation:
+#   - {name: 'Novedades', link: '/novedades'}
+#   - {name: 'Investigación', link: '/investigacion'}
+#   - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
+#   - {name: 'Equipo', link: '/equipo'}
+#   - {name: 'Contacto', link: '/contacto'}
+#   - {name: 'Buscar', link: '/search'}
 
 
 tagline: >
