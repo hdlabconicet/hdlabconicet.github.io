@@ -56,25 +56,22 @@ A continuación, vamos a instalar algunas dependencias de software (es decir, pr
 
 ### En Windows {#sectionWindows}
 
-1. Antes que nada, necesitamos una herramienta de línea de comandos que reconozca comandos Unix. Visita [https://git-scm.com/downloads](https://git-scm.com/downloads) y haz clic en el enlace "Windows". Una vez que hayas terminado la descarga, haz doble clic en el archivo descargado y sigue los pasos para instalar Git Bash (deja todas las opciones como están).
+1. Abre una línea de comandos: abre el Menú de inicio y busca "Git Bash" y aparecerá una aplicación que puedes abrir o en VsCode, ve al menú *Terminal > New Terminal*.
 
-2. Abre "Cmd" (abre el Menú de inicio y busca "Cmd" y aparecerá una aplicación que puedes abrir).
-
-3. Chocolatey es un "administrador de paquetes": un programa que te permite descargar e instalar fácilmente software de código abierto en Windows desde la línea de comandos. Ahora vamos a instalar Chocolatey (*asegúrate de resaltar y copiar todo el texto a continuación como un conjunto y no como líneas separadas*). Ingresa el código que se muestra en los pasos a continuación (`el código está formateado como este texto`), siguiendo [las sugerencias de uso de la línea de comandos vistas arriba](#section1-2):
+2. Chocolatey es un "administrador de paquetes": un programa que te permite descargar e instalar fácilmente software de código abierto en Windows desde la línea de comandos. Ahora vamos a instalar Chocolatey (*asegúrate de resaltar y copiar todo el texto a continuación como un conjunto y no como líneas separadas*). Ingresa el código que se muestra en los pasos a continuación (`el código está formateado como este texto`), siguiendo [las sugerencias de uso de la línea de comandos vistas arriba](#section1-2):
 
    `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
 
-4. Cierra "Cmd" y abre "Git Bash" (que instalamos recién). **De ahora en adelante, vamos a usar Git Bash cada vez que mencionemos la línea de comandos.**
-
-5. Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby). Ahora instalaremos Ruby (esto tomará unos minutos):
+3. Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby). Ahora instalaremos Ruby (esto tomará unos minutos):
 
    `choco install ruby -y`
 
-6. Cierra "Git Bash" y reinícialo (Ruby no funcionará si no se reinicia).
+4. Cierra la línea de comandos y vuelve a abrirla (Ruby no funcionará si no se reinicia la línea de comandos).
 
-7. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll (si Windows Security muestra una ventana emergente de advertencia, ignórala):
+5. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll (si Windows Security muestra una ventana emergente de advertencia, ignórala):
 
    `gem install jekyll`
+
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! Omita los siguientes pasos (que son solo para usuarios de Mac).**
 
@@ -123,14 +120,6 @@ En la línea de comandos, ingresa:
 Espera hasta que el "prompt" vuelva a aparecer para ingresar el siguiente comando:
 
 `gem install rubygems-update`
-
-#### NodeJS
-
-[NodeJS](https://nodejs.org/en/) (o Node.js) es una plataforma de desarrollo (más específicamente, es un "entorno de desarrollo") que, por ejemplo, ayuda a que Javascript se ejecute más rápido.
-
-En la línea de comandos, ingresa:
-
-`brew install node`
 
 #### Jekyll
 
