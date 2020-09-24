@@ -5,7 +5,7 @@ type: texto
 permalink: /tutorial-jekyll-github-pages/
 ---
 
-Este tutorial está dirigida a quienes deseen instalar todos los componentes para crear un sitio gratuito, segur y fácil de mantener con [Jekyll](https://jekyllrb.com/). 
+Este tutorial está dirigido a quienes deseen instalar todos los componentes para crear un sitio gratuito, seguro y fácil de mantener con [Jekyll](https://jekyllrb.com/). 
 
 - [Antes de la instalación](#section1)
 	- [Sistemas operativos](#section1-0)
