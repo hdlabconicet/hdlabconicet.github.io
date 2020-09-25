@@ -7,12 +7,16 @@ permalink: /tutorial-jekyll-github-pages/
 
 Este tutorial está dirigido a quienes deseen instalar todos los componentes para crear un sitio gratuito, seguro y fácil de mantener con [Jekyll](https://jekyllrb.com/). 
 
-- [Antes de la instalación](#section1)
-	- [Sistemas operativos](#section1-0)
-	- [Línea de comandos](#section1-2)
-- [Instalación de Jekyll y dependencias](#section2)
-	- [En Windows](#sectionWindows)
-	- [En Mac](#sectionMac)
+- [Antes de la instalación {#section1}](#antes-de-la-instalación-section1)
+  - [Sistemas operativos  {#section1-0}](#sistemas-operativos-section1-0)
+  - [Línea de comandos  {#section1-2}](#línea-de-comandos-section1-2)
+- [Instalación de Jekyll y dependencias {#section2}](#instalación-de-jekyll-y-dependencias-section2)
+  - [En Windows {#sectionWindows}](#en-windows-sectionwindows)
+  - [En Mac {#sectionMac}](#en-mac-sectionmac)
+    - [Herramientas de línea de comandos: Xcode {#section2-1}](#herramientas-de-línea-de-comandos-xcode-section2-1)
+    - [Homebrew](#homebrew)
+    - [Ruby & Ruby Gems](#ruby--ruby-gems)
+    - [Jekyll](#jekyll)
 
 ## Antes de la instalación {#section1}
 
@@ -58,20 +62,35 @@ A continuación, vamos a instalar algunas dependencias de software (es decir, pr
 
 1. Abre una línea de comandos: abre el Menú de inicio y busca "Git Bash" y aparecerá una aplicación que puedes abrir o en VsCode, ve al menú *Terminal > New Terminal*.
 
-2. Chocolatey es un "administrador de paquetes": un programa que te permite descargar e instalar fácilmente software de código abierto en Windows desde la línea de comandos. Ahora vamos a instalar Chocolatey (*asegúrate de resaltar y copiar todo el texto a continuación como un conjunto y no como líneas separadas*). Ingresa el código que se muestra en los pasos a continuación (`el código está formateado como este texto`), siguiendo [las sugerencias de uso de la línea de comandos vistas arriba](#section1-2):
+2. Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby). Ahora instalaremos Ruby (esto tomará unos minutos):
 
-   `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
+3. Andá a [Ruby Gems](https://rubyinstaller.org/downloads/)
+Descargá la versión más completa que es Ruby+Devkit 2.6.6-1 (x64) (la tercera de las opciones de la columna WITH DEVKIT).
+Una vez instalado, la consola se va a abrir automáticamente y te va a pedir que le digas qué componentes querés instalar, presioná “Enter” para instalar todo.
+Este proceso va a pasar dos veces. La segunda vez la consola se va a cerrar automáticamente.
+Una vez finalizada la instalación deberás comprobar que se realizó correctamente, abrí la consola y escribí:
 
-3. Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby). Ahora instalaremos Ruby (esto tomará unos minutos):
-
-   `choco install ruby -y`
+   `ruby -v`
 
 4. Cierra la línea de comandos y vuelve a abrirla (Ruby no funcionará si no se reinicia la línea de comandos).
 
-5. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll (si Windows Security muestra una ventana emergente de advertencia, ignórala):
+5. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll por consola. Así que, primero, escribí en el cuadro de búsqueda de Windows o abrí “Cmd”, escribí el siguiente comando, haciendo “Enter” y esperando unos minutos hasta que se descarguen todas las gemas de Jekyll:
 
    `gem install jekyll`
 
+6. Finalmente, aparecerá como última frase “26 gems installed”, y luego volverá a titilar el prompt en C:\WINDOWS\system32>. Asegurate de que Jekyll se instaló ejecutando el siguiente comando y presionando “Enter”:
+
+   `jekyll -v`
+
+7. Ahora vamos a hacer la última instalación de Jekyll, que se llama Bundler. Escribí el siguiente comando y apretá “Enter”
+   
+   `gem install bundler`
+
+La última frase de la instalación será “1 gem installed” y el prompt volverá a aparecer, por lo cual deberás escribir el último comando para finalizar la instalación:
+
+   `bundle install`
+
+8. Con todo ello instalado ya podrás visualizar tu sitio en local.
 
 **¡Felicitaciones, hemos terminado de instalar todo lo necesario para crear nuestro sitio web! Omita los siguientes pasos (que son solo para usuarios de Mac).**
 
