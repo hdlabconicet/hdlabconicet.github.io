@@ -64,25 +64,26 @@ A continuación, vamos a instalar algunas dependencias de software (es decir, pr
 
 2. Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll (Ruby Gems agrega algunas cosas para simplificar las instalaciones de Ruby). Ahora instalaremos Ruby (esto tomará unos minutos):
 
-3. Andá a [Ruby Gems](https://rubyinstaller.org/downloads/)
-Descargá la versión más completa que es Ruby+Devkit 2.6.6-1 (x64) (la tercera de las opciones de la columna WITH DEVKIT).
+3. Andá a [Ruby Gems](https://rubyinstaller.org/downloads/). Descargá la versión más completa que es Ruby+Devkit 2.6.6-1 (x64) (la tercera de las opciones de la columna WITH DEVKIT) y procede con la instalación, como con cualquier software.
+   
 Una vez instalado, la consola se va a abrir automáticamente y te va a pedir que le digas qué componentes querés instalar, presioná “Enter” para instalar todo.
+
 Este proceso va a pasar dos veces. La segunda vez la consola se va a cerrar automáticamente.
-Una vez finalizada la instalación deberás comprobar que se realizó correctamente, abrí la consola y escribí:
+Una vez finalizada la instalación deberás comprobar que se realizó correctamente, abrí la consola, puedes hacerlo desde Inicio tecleando "CMD", luego "Enter" y escribí:
 
    `ruby -v`
 
-4. Cierra la línea de comandos y vuelve a abrirla (Ruby no funcionará si no se reinicia la línea de comandos).
+1. Cierra la línea de comandos y vuelve a abrirla (Ruby no funcionará si no se reinicia la línea de comandos).
 
-5. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll por consola. Así que, primero, escribí en el cuadro de búsqueda de Windows o abrí “Cmd”, escribí el siguiente comando, haciendo “Enter” y esperando unos minutos hasta que se descarguen todas las gemas de Jekyll:
+2. [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. Ahora instalaremos Jekyll por consola. Así que, primero, escribí en el cuadro de búsqueda de Windows o abrí “Cmd”, escribí el siguiente comando, haciendo “Enter” y esperando unos minutos hasta que se descarguen todas las gemas de Jekyll:
 
    `gem install jekyll`
 
-6. Finalmente, aparecerá como última frase “26 gems installed”, y luego volverá a titilar el prompt en C:\WINDOWS\system32>. Asegurate de que Jekyll se instaló ejecutando el siguiente comando y presionando “Enter”:
+3. Finalmente, aparecerá como última frase “26 gems installed”, y luego volverá a titilar el prompt en C:\WINDOWS\system32>. Asegurate de que Jekyll se instaló ejecutando el siguiente comando y presionando “Enter”:
 
    `jekyll -v`
 
-7. Ahora vamos a hacer la última instalación de Jekyll, que se llama Bundler. Escribí el siguiente comando y apretá “Enter”
+4. Ahora vamos a hacer la última instalación de Jekyll, que se llama Bundler. Escribí el siguiente comando y apretá “Enter”
    
    `gem install bundler`
 
