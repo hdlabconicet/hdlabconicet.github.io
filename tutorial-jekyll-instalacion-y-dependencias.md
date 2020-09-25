@@ -7,15 +7,15 @@ permalink: /tutorial-jekyll-github-pages/
 
 Este tutorial está dirigido a quienes deseen instalar todos los componentes para crear un sitio gratuito, seguro y fácil de mantener con [Jekyll](https://jekyllrb.com/). 
 
-- [Antes de la instalación {#section1}](#antes-de-la-instalación-section1)
-  - [Sistemas operativos  {#section1-0}](#sistemas-operativos-section1-0)
-  - [Línea de comandos  {#section1-2}](#línea-de-comandos-section1-2)
-- [Instalación de Jekyll y dependencias {#section2}](#instalación-de-jekyll-y-dependencias-section2)
-  - [En Windows {#sectionWindows}](#en-windows-sectionwindows)
-  - [En Mac {#sectionMac}](#en-mac-sectionmac)
-    - [Herramientas de línea de comandos: Xcode {#section2-1}](#herramientas-de-línea-de-comandos-xcode-section2-1)
+- [Antes de la instalación](#section1)
+  - [Sistemas operativos](#section1-0)
+  - [Línea de comandos](#section1-2)
+- [Instalación de Jekyll y dependencias](#section2)
+  - [En Windows](#sectionWindows)
+  - [En Mac](#sectionMac)
+    - [Herramientas de línea de comandos: Xcode](#xcode)
     - [Homebrew](#homebrew)
-    - [Ruby & Ruby Gems](#ruby--ruby-gems)
+    - [Ruby & Ruby Gems](#ruby-gems)
     - [Jekyll](#jekyll)
 
 ## Antes de la instalación {#section1}
@@ -118,7 +118,7 @@ Una vez que termine la instalación, va a aparecer un mensaje de instalación ex
 
 ![captura-de-pantalla-fin-instalacion](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-2.5.png)
 
-#### Homebrew
+#### Homebrew {#homebrew}
 
 Al terminar la instalación de Xcode, regresa a la ventana de la línea de comandos y copia el siguiente texto para instalar [Homebrew](http://brew.sh/):
 
@@ -128,7 +128,7 @@ Presiona "Enter" cuando sea necesario e ingresa la contraseña de tu computadora
 
   ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
 
-#### Ruby & Ruby Gems
+#### Ruby & Ruby Gems {#ruby-gems}
 
 Jekyll está construido a partir del [lenguaje de programación Ruby](https://es.wikipedia.org/wiki/Ruby). [Ruby Gems](https://rubygems.org/) es un administrador de paquetes que facilita la configuración de programas Ruby tales como Jekyll.
 
@@ -140,7 +140,7 @@ Espera hasta que el "prompt" vuelva a aparecer para ingresar el siguiente comand
 
 `gem install rubygems-update`
 
-#### Jekyll
+#### Jekyll {#jekyll}
 
 [Jekyll](https://jekyllrb.com/) es el programa que crea nuestro sitio web, simplificando ciertas tareas comunes, como usar la misma plantilla (mismo logotipo, menú, información del autor, etc.) en todas las páginas de nuestro blog. 
 
