@@ -11,32 +11,45 @@ En lo que hace a los textos de Humanidades, Lingüística y Ciencias Sociales, l
 Acceda a nuestras ediciones digitales enriquecidas de [La Argentina Manuscrita](http://hdcaicyt.github.io/La-Argentina-Manuscrita) de Ruy Díaz de Guzmán y la [Relación de un viaje al Río de la Plata](http://hdcaicyt.github.io/Relacion-de-un-viaje/) de Acarete du Biscay de Acarete du Biscay:
 
 <div class="container">
-	<div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-	<!-- Card LAM -->
-		<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-			<a href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
-			<a class="post-card__inner" href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><p style="font-size: 10px; text-align:left;">Imagen: gallica.bnf.fr</p></a>
-		</div>
-
+  <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+    <!-- Card LAM -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
+      <a class="post-card__inner" href="http://hdcaicyt.github.io/La-Argentina-Manuscrita" target="_blank">
+      	<p style="font-size: 10px; text-align:left;">Imagen: gallica.bnf.fr</p>
+      	<h2>La Argentina Manuscrita</h2>
+      </a>
+    </div>
     <!-- Card ACARETE -->
-		<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-			<a href="http://hdcaicyt.github.io/Relacion-de-un-viaje/" target="_blank"><img src="{{site.baseurl}}/assets/img/acarete-1943-cover.jpg" align="center"/></a>
-			<a class="post-card__inner" href="http://hdcaicyt.github.io/Relacion-de-un-viaje/" target="_blank"><p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p></a>
-		</div>
-
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="http://hdcaicyt.github.io/Relacion-de-un-viaje/" target="_blank"><img src="{{site.baseurl}}/assets/img/acarete-1943-cover.jpg" align="center"/></a>
+      <a class="post-card__inner" href="http://hdcaicyt.github.io/Relacion-de-un-viaje/" target="_blank">
+      	<p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
+      	<h2>Relación de un viaje</h2>
+      </a>
+    </div>
     <!-- Card PERO HERNANDEZ -->
-		<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-			<div class="example">
-		      <img src="{{site.baseurl}}/assets/img/relacion-descubrimiento-perohernandez-cover.jpeg" style="display: block; justify-content: center;"/>
-		      <div class="content">
-			  	<div class="text">Próximamente</div>
-			  </div>
-			  <div class="post-card__inner"></div>
-			  <p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
-			</div>
-		</div>
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <div class="example">
+          <img src="{{site.baseurl}}/assets/img/relacion-descubrimiento-perohernandez-cover.jpeg" style="display: block; justify-content: center;"/>
+          <div class="content">
+          <div class="text">Próximamente</div>
+        </div>
+        <div class="post-card__inner"></div>
+        <p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
+        <h2>Relación del descubrimiento</h2>
+      </div>
+    </div>
+    <!-- Card POESIA MEDIEVAL -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="http://hdcaicyt.github.io/Poesia-Medieval/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Cancioneiro_da_Ajuda_151_37.jpg" align="center"/></a>
+      <a class="post-card__inner" href="http://hdcaicyt.github.io/Poesia-Medieval/" target="_blank" title="via Wikimedia Commons">
+        <p style="font-size: 10px; text-align:left;">Imagen: Biblioteca da Ajuda</p>
+        <h2>Poesía Medieval</h2>
+      </a>
+    </div>
 
-	</div>
+  </div>
 </div>
 
 <!-- <br>
