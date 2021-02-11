@@ -8,7 +8,6 @@ categories:
 - Colaboración
 - Construcción de Comunidad
 featured-img: curso-ediciones-digitales1
-
 ---
 
 # Curso Ediciones digitales con Minimal Computing
