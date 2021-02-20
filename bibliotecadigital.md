@@ -8,7 +8,7 @@ La edición digital de textos constituye una de las líneas más representativas
 
 En lo que hace a los textos de Humanidades, Lingüística y Ciencias Sociales, la codificación de textos en XML-TEI (Text Encoding Initiative), sigue siendo hoy día el estándar utilizado para explotar su semántica en formato digital. No obstante, uno de los escollos a la hora de comenzar un proyecto de edición digital suele ser el de los altos costos de las infraestructuras informáticas (servidores, plataformas de edición, etc.). Las ediciones que se ofrecen en esta biblioteca digital fueron enriquecidas semánticamente con el software de anotación de código abierto Recogito, como parte de los [proyectos Pelagios al Sur y Latam]({{site.baseurl}}/proyectos) de nuestro laboratorio. En una segunda fase, se mejoró la capacidad de automatización de marcado XML-TEI de Recogito y se aplicó a las ediciones digitales que aquí ofrecemos. Estas siguen además los principios de la "computación mínima" (minimal computing), que privilegia el uso de tecnologías abiertas, la gobernanza sobre datos y código y la reducción de infraestructura informática.
 
-Acceda a nuestras ediciones digitales enriquecidas de [La Argentina Manuscrita](http://hdcaicyt.github.io/La-Argentina-Manuscrita) de Ruy Díaz de Guzmán y la [Relación de un viaje al Río de la Plata](http://hdcaicyt.github.io/Relacion-de-un-viaje/) de Acarete du Biscay de Acarete du Biscay:
+## Acceda a nuestras ediciones digitales enriquecidas:
 
 <div class="container">
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
@@ -30,15 +30,11 @@ Acceda a nuestras ediciones digitales enriquecidas de [La Argentina Manuscrita]
     </div>
     <!-- Card PERO HERNANDEZ -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <div class="example">
-          <img src="{{site.baseurl}}/assets/img/relacion-descubrimiento-perohernandez-cover.jpeg" style="display: block; justify-content: center;"/>
-          <div class="content">
-          <div class="text">Próximamente</div>
-        </div>
-        <div class="post-card__inner"></div>
+      <a href="http://hdcaicyt.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank"><img src="{{site.baseurl}}/assets/img/relacion-descubrimiento-perohernandez-cover.jpeg"/></a>
+      <a class="post-card__inner" href="http://hdcaicyt.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
         <h2>Relación del descubrimiento</h2>
-      </div>
+      </a>
     </div>
     <!-- Card POESIA MEDIEVAL -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
