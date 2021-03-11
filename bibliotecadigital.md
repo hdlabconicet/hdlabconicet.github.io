@@ -36,6 +36,18 @@ En lo que hace a los textos de Humanidades, Lingüística y Ciencias Sociales, l
         <h2>Relación del descubrimiento</h2>
       </a>
     </div>
+    <!-- Card DEL BARCO CENTENERA -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <div class="example">
+          <img src="{{site.baseurl}}/assets/img/argentina-y-conquista-del-barco-centenera-cover.png" style="display: block; justify-content: center;"/>
+          <div class="content">
+          <div class="text">Próximamente</div>
+        </div>
+        <div class="post-card__inner"></div>
+        <p style="font-size: 10px; text-align:left;">Imagen: John Carter Brown library</p>
+        <h2>Argentina y conquista del Río de la Plata</h2>
+      </div>
+    </div>
     <!-- Card POESIA MEDIEVAL -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
       <a href="http://hdcaicyt.github.io/Poesia-Medieval/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Cancioneiro_da_Ajuda_151_37.jpg" align="center"/></a>
