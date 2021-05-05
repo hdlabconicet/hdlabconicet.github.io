@@ -33,7 +33,7 @@ En lo que hace a los textos de Humanidades, Lingüística y Ciencias Sociales, l
       <a href="http://hdcaicyt.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank"><img src="{{site.baseurl}}/assets/img/relacion-descubrimiento-perohernandez-cover.jpeg"/></a>
       <a class="post-card__inner" href="http://hdcaicyt.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
-        <h2>Relación del descubrimiento</h2>
+        <h2>Relación de las cosas sucedidas</h2>
       </a>
     </div>
     <!-- Card DEL BARCO CENTENERA -->
