@@ -17,7 +17,7 @@ En el marco del [**IV Workshop "Perspectivas interdisciplinarias sobre relatos d
 
 Dentro de ese marco teórico participamos con [*Los relatos de viaje desde las Humanidades Digitales: nuevas posibilidades de investigación interdisciplinaria*](http://ultra-mar.org/wp-content/uploads/2021/03/CAICyT-HD-Lab.pdf) presentado la transversalidad de las Humanidades Digitales y la biblioteca digital de nuestro [Laboratorio](http://hdlab.space/biblioteca-digital) sobre los relatos de viajes. Se puede acceder al video de la presentación ingresando al siguiente [link](https://www.youtube.com/watch?v=vds-Nfq8HNA).  
 
-[![workshop-relatos-viajes](/assets/img/posts/workshop-relatos-viajes.jpg)]
+![workshop-relatos-viajes](/assets/img/posts/workshop-relatos-viajes.jpg)
 
 
 
