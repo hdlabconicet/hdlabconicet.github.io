@@ -21,6 +21,6 @@ Esta diplomatura contará con contenidos sobre codificación XML-TEI, análisis 
 
 Las clases podrán seguirse en formato virtual desde el campus de la UCES y de manera asincrónica, con clases de tutorías semanales sincrónicas que no será impedimento para que cualquier persona interesada pueda cursarla desde cualquier país y adaptando a su cursada a sus tiempos personales.
 
-![diplo](/assets/img/posts/uces-diplo.jpg)
+![diplo](/assets/img/posts/uces-diplo_md.jpg)
 
 
