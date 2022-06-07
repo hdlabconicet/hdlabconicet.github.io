@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Lab
-permalink: /lab/
+title: Explora
+permalink: /explora/
 ---
 
-# Lab 
+# Explora
 
-Párrafo de intro. Experiencias de análisis textual estadístico en textos del corpus Pelagios al Sur: [_Relación de las cosas sucedidas en el Río de la Plata_](pero-site) de Pero Hernández, [_Relación de un viaje al Río de la Plata_](acarete-site) de Acarette du Biscay y [_La Argentina Manuscrita_](ruy-diaz-site) de Ruy Díaz de Guzmán.
+La metodología del análisis textual digital presupone que los textos adquieren significado no de forma aislada, sino como un sistema, un gran corpus. En los grandes corpus textuales digitales pueden aparecen una y otra vez elementos que la lectura humana pasaría por alto al concentrarse únicamente en el detalle y lo lineal. El macroanálisis, la lectura maquínica o lectura distante, en palabras de Mathew Jockers, Stephen Ramsay o Franco Moretti, hace intervenir al elemento computacional y algorítmico y pone en juego métodos cuantitativos que no descartan los métodos cualitativos, pero donde la cantidad siempre precede a la calidad: primero las computadoras procesan datos y luego (idealmente) los humanos los leemos y entendemos en tanto texto.
+Ofrecemos, a continuación, algunas experiencias de análisis textual en textos de nuestra Biblioteca Digital: La [_Relación de las cosas sucedidas en el Río de la Plata_](pero-site) de Pero Hernández, la [_Relación de un viaje al Río de la Plata_](acarete-site) de Acarette du Biscay y [_La Argentina Manuscrita_](ruy-diaz-site) de Ruy Díaz de Guzmán.
 
 
 ## Etiquetado morfosintáctico
-El etiquetado morfosintáctico es un procedimiento de anotación automática que asigna una categoría gramatical (o parte del discurso, part-of-speech) a cada token de un texto. Esta técnica de permite desde visualizar dependencias sintácticas hasta investigar la correlación entre una determinada clase de palabras y otras características discursivas como polaridad de sentimientos o calidad de escritura.
+El etiquetado morfosintáctico es un procedimiento de anotación automática que asigna una categoría gramatical (o parte del discurso, part-of-speech) a cada token de un texto. Esta técnica de permite visualizar dependencias sintácticas o investigar la correlación entre una determinada clase de palabras y otras características discursivas como polaridad de sentimientos o calidad de escritura.
 
 ![dependencias acarete](http://hdlab.space/Estilometria-con-R/img/dependencias-dubiscay.png)
 
