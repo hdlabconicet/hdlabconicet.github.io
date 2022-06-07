@@ -6,7 +6,7 @@ permalink: /equipo/
 
 # Grupo responsable
 
-* [Gimena del Rio Riande][gimena-profile]
+* [Gimena del Rio Riande][gimena-profile] (Dirección)
 * [Romina De León][romina-profile]
 * [Nidia Hernández][nidia-profile]
 
@@ -23,7 +23,11 @@ permalink: /equipo/
 * [Marisol Fila][marisol-profile]
 * [Carina Zubillaga][carina-profile]
 * [Leonardo Funes][leonardo-profile]
-* Diego Ferreyra
+* [Diego Ferreyra] [diego-profile]
+* [Agustina Ryckeboer] [agustina-profile]
+* [Susanna Allés-Torrent] [susanna-profile]
+* [Ricardo Pimenta] [ricardo-profile]
+* [Carlos Nusch] [carlos-profile]
 
 ![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
@@ -44,3 +48,8 @@ permalink: /equipo/
 [gabriela-profile]: https://www.aacademica.org/gabriela.edith.striker
 [carina-profile]: http://www.iibicrit-conicet.gov.ar/wordpress/quienes-somos/miembros/dra-carina-alejandra-zubillaga/
 [leonardo-profile]: http://www.iibicrit-conicet.gov.ar/quienes-somos/miembros/dr-leonardo-r-funes/ 
+[diego-profile]: https://www.linkedin.com/in/perfildiegoferreyra/
+[agustina-profile]: https://raffazizzi.gitlab.io/helados-in-dh-group/Maria%20Ryckeboer
+[susanna-profile]: https://susannalles.com/
+[ricardo-profile]: http://lattes.cnpq.br/0416440515458304
+[carlos-profile]: https://prebi-sedici.unlp.edu.ar/personal/carlos-nusch/
