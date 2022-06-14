@@ -27,7 +27,7 @@ La anotación semántica normalmente busca distinguir las categorías de persona
 
 Este enriquecimiento semántico permite, por ejemplo, contabilizar la cantidad de personajes según origen, facción o cargo o trazar los cruces entre estas categorías a lo largo de la trama textual, como en el siguiente [diagrama de narrativa](http://hdlab.space/Relacion-de-las-cosas-sucedidas/narrative-chart/) de [_Relación de las cosas sucedidas en el Río de la Plata_](http://hdlab.space/Relacion-de-las-cosas-sucedidas/):
 
-<a href="http://hdlab.space/Relacion-de-las-cosas-sucedidas/narrative-chart/"><img src="http://hdlab.space/Relacion-de-las-cosas-sucedidas/assets/img/narrative-chart.png" alt="narrative chart"></a>
+<a href="http://hdlab.space/Relacion-de-las-cosas-sucedidas/narrative-chart/" target="_blank"><img src="http://hdlab.space/Relacion-de-las-cosas-sucedidas/assets/img/narrative-chart.png" alt="narrative chart"></a>
 
 
 ## Macroanálisis
