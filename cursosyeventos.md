@@ -3,22 +3,49 @@ layout: page
 title: Cursos y Eventos
 permalink: /cursosyeventos/
 ---
+# Diplomatura en Humanidades Digitales (UCES)
+
+2021-sigue
+
+Somos las creadoras y profesoras de la primera Diplomatura en Humanidades Digitales en el país.
+
+[Más información] (https://www.uces.edu.ar/carreras-escuela-negocios/gestion-del-talento-humano/diplomatura-humanidades-digitales)
+
+----------
+
+# Maestría y Especialización en Métodos Cuantitativos para la Gestión y Análisis de Datos en Organizaciones (FECON, UBA)
+
+2020-sigue
+
+Dictado del módulo Marcos teóricos y métodos cuantitativos para entender los grandes datos: lectura distante y macroanálisis
+
+[Más información] (https://www.uba.ar/posgrados/noticia.php?id=307)
+
+---------
+
+# Congresos de la Asociación Argentina de Humanidades Digitales (AAHD)
+
+2016-sigue
+
+Colaboramos con la organización de los congresos de la [AAHD](https://aahd.net.ar/) y la edición de sus Actas, libros y revista. Además, hemos dctado varios talleres sobre edición digital y anotación semántica en el marco de los eventos de la asociación.
+
+----
+
 
 # Curso online: Explorar las Humanidades Digitales
 
 24 de octubre - 28 de noviembre de 2019
 
-[Virtual](http://citep.rec.uba.ar/explorar-las-humanidades-digitales/)
+[Explorar las Humanidades Digitales](http://citep.rec.uba.ar/explorar-las-humanidades-digitales/)
 
 Curso teórico-práctico de introducción a las Humanidades Digitales.
 
-[Inscripciones](https://docs.google.com/forms/d/e/1FAIpQLSdRjXyULSBQ12lrLLjDFujOE88jpnGqID0nMuQUCTTCeSOVig/viewform)
 
 -----------
 
 # Semana de la Ciencia 2019
 
-11 de septiembre de 2019
+2019- sigue
 
 CAICYT-CONICET - Saavedra 15, 1er piso
 
@@ -34,7 +61,7 @@ Taller de Humanidades Digitales.
 
 4 de septiembre de 2019
 
-[Virtual](http://cor.to/githubwebaton)
+[Webaton](http://cor.to/githubwebaton)
 
 Jornada online de Humanidades Digitales en videoconferencia.
 
