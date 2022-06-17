@@ -7,7 +7,7 @@ permalink: /explora/
 # Explora
 
 La metodología del análisis textual digital presupone que los textos adquieren significado no de forma aislada, sino como un sistema, un gran corpus. En los grandes corpus textuales digitales pueden aparecen una y otra vez elementos que la lectura humana pasaría por alto al concentrarse únicamente en el detalle y lo lineal. El macroanálisis, la lectura maquínica o lectura distante, en palabras de Mathew Jockers, Stephen Ramsay o Franco Moretti, hace intervenir al elemento computacional y algorítmico y pone en juego métodos cuantitativos que no descartan los métodos cualitativos, pero donde la cantidad siempre precede a la calidad: primero las computadoras procesan datos y luego (idealmente) los humanos los leemos y entendemos en tanto texto.
-Ofrecemos, a continuación, algunas experiencias de análisis textual en textos de nuestra Biblioteca Digital: La [_Relación de las cosas sucedidas en el Río de la Plata_](pero-site) de Pero Hernández, la [_Relación de un viaje al Río de la Plata_](acarete-site) de Acarette du Biscay y [_La Argentina Manuscrita_](ruy-diaz-site) de Ruy Díaz de Guzmán.
+Ofrecemos, a continuación, algunas experiencias de análisis textual en textos de nuestra Biblioteca Digital: La [_Relación de las cosas sucedidas en el Río de la Plata_](pero-site) de Pero Hernández, la [_Relación de un viaje al Río de la Plata_](acarete-site) de Acarete du Biscay y [_La Argentina Manuscrita_](ruy-diaz-site) de Ruy Díaz de Guzmán.
 
 
 ## Etiquetado morfosintáctico
@@ -15,7 +15,8 @@ El etiquetado morfosintáctico es un procedimiento de anotación automática que
 
 ![dependencias acarete](http://hdlab.space/Estilometria-con-R/img/dependencias-dubiscay.png)
 
-Las categorías gramaticales pueden utilizarse para el análisis de coocurrencias y así lograr una aproximación rápida del contenido de un corpus textual. El análisis de coocurrencias mide la aparición de dos o más tokens dentro de un mismo contexto (oración, párrafo, etc.). El cálculo de coocurrencias de sustantivos en _Relación de un viaje al Río de la Plata_ ilustrado en el siguiente grafo, por ejemplo, permite comprender fácilmente la relevancia de la dimensión comercial y de la descripción del territorio en el texto de Acarette du Biscay: frecuencia alta de los pares "barco-mercadería", "mina-plata", "corona-libra", en un caso y "legua-río", "ciudad-río", "montaña-plata", en el otro.
+## Análisis de coocurrencias
+Las categorías gramaticales pueden utilizarse para el análisis de coocurrencias y así lograr una aproximación rápida del contenido de un corpus textual. El análisis de coocurrencias mide la aparición de dos o más tokens dentro de un mismo contexto (oración, párrafo, etc.). El cálculo de coocurrencias de sustantivos en la _Relación de un viaje al Río de la Plata_, ilustrado en el siguiente grafo, por ejemplo, permite comprender fácilmente la relevancia de la dimensión comercial y de la descripción del territorio en el texto de Acarete du Biscay a través de la alta frecuencia de los pares "barco-mercadería", "mina-plata", "corona-libra", en un caso, y "legua-río", "ciudad-río", "montaña-plata", en el otro.
 
 ![grafo cooc acarete](http://hdlab.space/Estilometria-con-R/img/cooc_sust_sust_dubiscay.png)
 
@@ -30,7 +31,7 @@ Este enriquecimiento semántico permite, por ejemplo, contabilizar la cantidad d
 <a href="http://hdlab.space/Relacion-de-las-cosas-sucedidas/narrative-chart/" target="_blank"><img src="http://hdlab.space/Relacion-de-las-cosas-sucedidas/assets/img/narrative-chart.png" alt="narrative chart"></a>
 
 
-## Macroanálisis
+## Topic modeling
 El topic modeling es un método de organización de grandes corpus basado en aprendizaje automático. Esta técnica permite detectar los tópicos presentes en una colección textual, los documentos que responden a cada tópico y las palabras que lo representan sin necesidad de datos etiquetados.
 
 ![topics pelagios](http://hdlab.space/Estilometria-con-R/img/topic_texts_pelagios.png)
