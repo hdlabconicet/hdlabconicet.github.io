@@ -9,7 +9,7 @@ permalink: /cursosyeventos/
 
 Somos las creadoras y profesoras de la primera Diplomatura en Humanidades Digitales en el país.
 
-[Más información] (https://www.uces.edu.ar/carreras-escuela-negocios/gestion-del-talento-humano/diplomatura-humanidades-digitales)
+[Más información](https://www.uces.edu.ar/carreras-escuela-negocios/gestion-del-talento-humano/diplomatura-humanidades-digitales)
 
 ----------
 
@@ -19,7 +19,7 @@ Somos las creadoras y profesoras de la primera Diplomatura en Humanidades Digita
 
 Dictado del módulo Marcos teóricos y métodos cuantitativos para entender los grandes datos: lectura distante y macroanálisis
 
-[Más información] (https://www.uba.ar/posgrados/noticia.php?id=307)
+[Más información](https://www.uba.ar/posgrados/noticia.php?id=307)
 
 ---------
 
