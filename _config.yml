@@ -1,8 +1,8 @@
 # Site settings
-title: HD CAICYT LAB
+title: HD LAB
 email: hdcaicyt@gmail.com
-author: HD CAICYT LAB 
-description: Sitio del Laboratorio de Humanidades Digitales (HD CAICYT LAB) del Centro Argentino de Información Científica y Tecnológica (CAICYT) del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)
+author: HD LAB 
+description: Sitio del Laboratorio de Humanidades Digitales (HD LAB) del Centro Argentino de Información Científica y Tecnológica (CAICYT) del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)
 baseurl: ""
 url: "https://hdcaicyt.github.io"
 twitter_username: HDCAICYT
@@ -11,7 +11,7 @@ facebook_username: HDCAICYTLAB
 
 # SEO PLUGIN
 social:
-  name: HD CAICYT LAB
+  name: HD LAB
   links:
     - https://twitter.com/HDCAICYT
     - https://www.facebook.com/HDCAICYTLAB
