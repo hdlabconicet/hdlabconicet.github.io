@@ -36,6 +36,14 @@ En lo que hace a los textos de Humanidades, Lingüística y Ciencias Sociales, l
         <h2>Relación de las cosas sucedidas</h2>
       </a>
     </div>
+    <!-- Card PIGAFETTA -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="http://nidiah.github.io/Primer-viaje-alrededor-del-mundo/" target="_blank"><img src="https://nidiah.github.io/Primer-viaje-alrededor-del-mundo/assets/img/pg_0015.jpg"/></a>
+      <a class="post-card__inner" href="http://nidiah.github.io/Primer-viaje-alrededor-del-mundo/" target="_blank">
+        <p style="font-size: 10px; text-align:left;">Imagen: University of Texas Libraries</p>
+        <h2>Primer viaje alrededor del mundo</h2>
+      </a>
+    </div>
     <!-- Card DEL BARCO CENTENERA -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
       <div class="example">
@@ -59,35 +67,3 @@ En lo que hace a los textos de Humanidades, Lingüística y Ciencias Sociales, l
 
   </div>
 </div>
-
-<!-- <br>
-
---------------------------
-
-# Cómo anotar un texto usando Recogito
-
-[Recogito](https://recogito.pelagios.org) es una plataforma en línea de anotación colaborativa de la red [Pelagios Network](https://pelagios.org/). Permite realizar enriquecimiento semántico y geográfico de textos e imágenes de manera rápida, intuitiva y en abierto a la vez que ofrece una visualización de los resultados atractiva para el ojo humano. 
-
-Para comenzar a usar Recogito con texto plano, documentos codificados en formato TEI o mapas e imágenes, lea nuestro tutorial [Recogito en 10 minutos](https://recogito.pelagios.org/help/es/tutorial) o mire nuestros videotutoriales:
-
-<br>
-
-## Anotar textos 
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/8LgHQxqZiF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
-<br>
-
-## Usar TEI
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/AgE3KcrxTfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-## Anotar imágenes
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/rrgc2cYyZjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
- -->
