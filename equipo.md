@@ -37,6 +37,10 @@ permalink: /equipo/
 ![Carina photo](/assets/img/equipo/foto-cz.jpg)
 ![Leonardo photo](/assets/img/equipo/foto-lf.jpg)
 ![Diego photo](/assets/img/equipo/Diego-micrositio.jpg)
+![Agustina photo](/assets/img/equipo/agustina-profile)
+![Susanna photo](/assets/img/equipo/susanna-profile)
+![Ricardo photo](/assets/img/equipo/ricardo-profile)
+![Carlos photo](/assets/img/equipo/carlos-profile)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
