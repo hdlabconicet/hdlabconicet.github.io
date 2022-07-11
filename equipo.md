@@ -23,11 +23,11 @@ permalink: /equipo/
 * [Marisol Fila][marisol-profile]
 * [Carina Zubillaga][carina-profile]
 * [Leonardo Funes][leonardo-profile]
-* [Diego Ferreyra] [diego-profile]
-* [Agustina Ryckeboer] [agustina-profile]
-* [Susanna Allés-Torrent] [susanna-profile]
-* [Ricardo Pimenta] [ricardo-profile]
-* [Carlos Nusch] [carlos-profile]
+* [Diego Ferreyra][diego-profile]
+* [Agustina Ryckeboer][agustina-profile]
+* [Susanna Allés-Torrent][susanna-profile]
+* [Ricardo Pimenta][ricardo-profile]
+* [Carlos Nusch][carlos-profile]
 
 ![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
