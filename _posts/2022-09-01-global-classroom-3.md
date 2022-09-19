@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3° año de Curso Ediciones digitales con Minimal Computing 
+title: 3a. edición del Curso Ediciones digitales con Minimal Computing 
 type: post
 published: true_or_false
 categories: 
