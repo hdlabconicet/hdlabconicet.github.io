@@ -6,11 +6,9 @@ permalink: /contacto/
 
 ## Dónde encontrarnos
 
-Saavedra 15 piso 1
 
-C1083ACA CABA, Argentina
 
-(+54 11) 4951-8334/7310 int. 18
+
 
 
 <br>
@@ -18,7 +16,7 @@ C1083ACA CABA, Argentina
 
 ## ¿Dudas? Comentarios? ¿Sugerencias?
 
-Complete el siguiente formulario o escríbanos a [hd-caicyt@conicet.gov.ar](mailto:{{site.email}}) para ponerse en contacto con nosotras.
+Complete el siguiente formulario o escríbanos a [hdlabconicet@gmail.com](mailto:{{site.email}}) para ponerse en contacto con nosotras.
 
 {% include form.html %}
 
