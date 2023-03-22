@@ -33,7 +33,7 @@ tagline: >
 hero_img: posts/HDCAICYTLAB.jpg
 
 disqus:
-  shortname: hdtlab
+  shortname: hdlab
 
 # Build settings
 markdown: kramdown
