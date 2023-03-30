@@ -33,10 +33,10 @@ permalink: /equipo/
 ![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
 ![Diego photo](/assets/img/equipo/Diego-micrositio.jpg)
-![Agustina photo](/assets/img/equipo/agustina-profile)
-![Susanna photo](/assets/img/equipo/susanna-profile)
-![Ricardo photo](/assets/img/equipo/ricardo-profile)
-![Carlos photo](/assets/img/equipo/carlos-profile)
+![Agustina photo](/assets/img/equipo/agustina-profile.jpg)
+![Susanna photo](/assets/img/equipo/susanna-profile.jpg)
+![Ricardo photo](/assets/img/equipo/ricardo-profile.jpg)
+![Carlos photo](/assets/img/equipo/carlos-profile.jpg)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
