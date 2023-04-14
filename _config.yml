@@ -4,9 +4,9 @@ email: hdlabconicet@gmail.com
 author: HD LAB 
 description: Sitio del Laboratorio de Humanidades Digitales (HD LAB) del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)
 baseurl: ""
-url: "https://hdcaicyt.github.io"
+url: "https://hdlabconicet.github.io"
 twitter_username: hdlabconicet
-github_username:  hdcaicyt
+github_username:  hdlabcaicyt
 facebook_username: HDLAB.CONICET
 
 # SEO PLUGIN
