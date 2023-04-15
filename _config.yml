@@ -6,7 +6,7 @@ description: Sitio del Laboratorio de Humanidades Digitales (HD LAB) del Consejo
 baseurl: ""
 url: "https://hdlabconicet.github.io"
 twitter_username: hdlabconicet
-github_username:  hdlabcaicyt
+github_username:  hdlabconicet
 facebook_username: HDLAB.CONICET
 
 # SEO PLUGIN
@@ -15,7 +15,7 @@ social:
   links:
     - https://twitter.com/hdlabconicet
     - https://www.facebook.com/HDLAB.CONICET
-    - https://github.com/hdcaicyt
+    - https://github.com/hdlabconicet
 
 # THEME SETTINGS
 # navigation:
