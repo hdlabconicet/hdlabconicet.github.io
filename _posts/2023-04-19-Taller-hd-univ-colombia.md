@@ -18,4 +18,6 @@ El 18 de abril la Dra. del Rio dictó el **Taller sobre Humanidades Digitales** 
 
 Este taller fue destinado a investigadores y estudiantes, teniendo como objetivo introducir a los asistentes al campo de investigación de las Humanidades Digitales. Para lo cual, inicialmente se realizó un acercamiento teórico de las Humanidades Digitales, enmarcado en el contexto actual a nivel global y regional. A continuación se llevó adelante una práctica mediante el análisis de un texto sobre la historia de Colombia mediante dos herramientas de análisis de texto y anotación semántica y georreferenciación, [Voyant Tools](https://voyant-tools.org/) y [Recogito](https://recogito.pelagios.org/). De esta manera, se puedo presentar introductoriamente como las Humanidades Digitales brindan diversas posibilidades de explorar, analizar y recontextualizar un texto desde una mirada mediada por las herramientas digitales
 
+![charla-abierta-colombia](/assets/img/posts/ciencia-abierta-colombia2.jpg)
+
 ![taller-hd-colombia](/assets/img/posts/gime-colombia-tallerhd.jpg)
