@@ -19,6 +19,4 @@ El miércoles 19 de abril en el marco de la [Maestría en Humanidades Digitales 
 Esta conferencia fue organizada por la prof. de la Maestría en Humanidades Digitales, María José Afanador, donde se buscó la revisión de propuestas sobre el acceso abierto y la ciencia abierta en América Latina, en realación a la emergencia de las Humanidades Digitales en la región.
 
 
-![charla-abierta-colombia](/assets/img/posts/ciencia-abierta-colombia2.jpg)
-
 ![charla-abierta-colombia](/assets/img/posts/ciencia-abierta-colombia1.jpg)
