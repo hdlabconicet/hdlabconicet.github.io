@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Miki LARHUD
+title: Wiki LARHUD
 type: post
 published: true_or_false
 categories:
