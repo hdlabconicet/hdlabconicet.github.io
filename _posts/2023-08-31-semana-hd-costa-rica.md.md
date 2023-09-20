@@ -1,6 +1,6 @@
 ---
 layout: post
-title: costa-rica-hd
+title: Semana de Humanidades Digitales en Costa Rica
 type: post
 published: true_or_false
 categories:
