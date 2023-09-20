@@ -8,10 +8,12 @@ permalink: /equipo/
 
 * [Gimena del Rio Riande][gimena-profile] (Dirección)
 * [Romina De León][romina-profile]
+* [Laura Volkind][laura-profile]
 * [Nidia Hernández][nidia-profile]
 
 ![Gimena photo](/assets/img/equipo/Gimena-micrositio.jpg)
 ![Romina photo](/assets/img/equipo/Romina-micrositio.jpg)
+![Laura photo](/assets/img/equipo/laura-profile.jpg)
 ![Nidia photo](/assets/img/equipo/Nidia-micrositio.jpg)
 
 # Grupo colaborador
@@ -40,6 +42,7 @@ permalink: /equipo/
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
+[laura-profile]: https://www.conicet.gov.ar/new_scp/detalle.php?id=37895&datos_academicos=yes&keywords=
 [virginia-profile]: http://www.cim.unr.edu.ar/miembro/46/virginia-brussa-ballaris
 [nidia-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?id=53027&keywords=nidia+hernandez&datos_academicos=yes
 [marisol-profile]: https://lsa.umich.edu/rll/people/graduate-students/mafila.html
