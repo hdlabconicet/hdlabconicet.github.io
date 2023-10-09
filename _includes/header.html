@@ -8,37 +8,11 @@
       </a>
       <nav class="header__links">
         <div class="container header__links-wrapper">
-          <!-- {% for item in site.navigation %}
+          {% for item in site.navigation %}
             <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
               <span itemprop="name">{{ item.name }}</span>
             </a>
-          {% endfor %} -->
-          <a class="header__link" href="/novedades" itemprop="url">
-            <span itemprop="name">Novedades</span>
-          </a>
-      	  <a class="header__link" href="/explora" itemprop="url">
-      	    <span itemprop="name">Explora</span>
-      	  </a>
-          <div class="header__link dropdown">
-            <a class="dropdown__link" href="/investigacion">Investigacion</a>
-            <div class="dropdown-content">
-                <a class="dropdown-item" href="/proyectos">Proyectos</a>
-                <a class="dropdown-item" href="/cursosyeventos">Cursos y eventos</a>
-                <a class="dropdown-item" href="/publicaciones">Publicaciones</a>
-            </div>
-          </div>
-          <a class="header__link" href="/biblioteca-digital" itemprop="url">
-              <span itemprop="name">Biblioteca Digital</span>
-          </a>
-          <a class="header__link" href="/contacto" itemprop="url">
-            <span itemprop="name">Contacto</span>
-          </a>
-          <a class="header__link" href="/equipo" itemprop="url">
-            <span itemprop="name">Equipo</span>
-          </a>
-          <a class="header__link" href="/buscar" itemprop="url">
-            <span itemprop="name">Buscar</span>
-          </a>
+          {% endfor %}
         </div>
       </nav>
       <div class="header__toggle">
