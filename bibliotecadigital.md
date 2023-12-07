@@ -51,7 +51,6 @@ Algunas ediciones que se ofrecen en esta biblioteca digital fueron enriquecidas 
         <p style="font-size: 10px; text-align:left;">Imagen: John Carter Brown library</p>
         <h2>Argentina y Conquista del Río de la Plata</h2>
       </div>
-    
     <!-- Card POESIA MEDIEVAL -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
       <a href="http://hdlabconicet.github.io/Poesia-Medieval/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Cancioneiro_da_Ajuda_151_37.jpg" align="center"/></a>
@@ -60,6 +59,5 @@ Algunas ediciones que se ofrecen en esta biblioteca digital fueron enriquecidas 
         <h2>Poesía Medieval</h2>
       </a>
     </div>
-
   </div>
 </div>
