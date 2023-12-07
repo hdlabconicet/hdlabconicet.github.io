@@ -50,6 +50,7 @@ Algunas ediciones que se ofrecen en esta biblioteca digital fueron enriquecidas 
 <a class="post-card__inner" href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: John Carter Brown library</p>
         <h2>Argentina y Conquista del Río de la Plata</h2>
+  </a>
       </div>
     <!-- Card POESIA MEDIEVAL -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
@@ -59,5 +60,6 @@ Algunas ediciones que se ofrecen en esta biblioteca digital fueron enriquecidas 
         <h2>Poesía Medieval</h2>
       </a>
     </div>
+  
   </div>
 </div>
