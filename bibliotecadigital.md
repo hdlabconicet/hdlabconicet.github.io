@@ -46,7 +46,7 @@ Algunas ediciones que se ofrecen en esta biblioteca digital fueron enriquecidas 
     </div>
    <!-- Card DEL BARCO CENTENERA -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-          <a href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/assets/img/pdf.png" align="center"/></a>
+          <a href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina-y-conquista-del-rio-de-la-plata/pdf.png" align="center"/></a>
 <a class="post-card__inner" href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: John Carter Brown Library</p>
         <h2>Argentina y Conquista del Río de la Plata</h2>
