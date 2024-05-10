@@ -23,4 +23,4 @@ Además, se presentaron diversos paneles relacionados a la inteligencia artifici
 
 ![foto1](/assets/img/posts/costa-rica-hd.jpg)
 
-![foto2](/assets/img/posts/gimena-costa-rica-hd.jpg)
+![foto2](/assets/img/posts/costa-rica-hd-gime.jpg)
