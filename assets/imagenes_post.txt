@@ -1,0 +1,32 @@
+Para cada post, generar copias de la imagen de portada siguiendo los tamaños y sufijos detallados más abajo.
+
+Los resultados deben guardarse en la carpeta "assets/img/posts/".
+
+Los tamaños y los sufijos correspondientes para cada copia de la imagen son:
+
+            width: 230,
+            rename: { suffix: "_placehold" }
+          },
+          { // thubmnail
+            width: 535,
+            rename: { suffix: "_thumb" }
+          },
+          { // thumbnail @2x
+            width: 535 * 2,
+            rename: { suffix: "_thumb@2x" }
+          },
+          {
+            width: 575,
+            rename: { suffix: "_xs" }
+          },
+          {
+            width: 767,
+            rename: { suffix: "_sm" }
+          },
+          {
+            width: 991,
+            rename: { suffix: "_md" }
+          },
+          {
+            width: 1999,
+            rename: { suffix: "_lg" }
