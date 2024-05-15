@@ -1,6 +1,6 @@
 ---
 layout: post
-title: taller gbtex
+title: Taller sobre GbTex Publisher
 type: post
 published: true_or_false
 categories:
