@@ -1,6 +1,6 @@
 Para cada post, generar copias de la imagen de portada siguiendo los tamaños y sufijos detallados más abajo.
 
-Los resultados deben guardarse en la carpeta "assets/img/posts/".
+Los resultados deben guardarse en la carpeta "assets/img/posts/". Recordar dejar jpp en la misma carpeta con igual nombre para el 'featured-img:'
 
 Los tamaños y los sufijos correspondientes para cada copia de la imagen son:
 
