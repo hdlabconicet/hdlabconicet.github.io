@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://hdlab.space/sitemap.xml
+
+# Allow all bots to access the site
+User-agent: *
+Allow: /
