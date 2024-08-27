@@ -11,8 +11,8 @@ Las ediciones de textos rioplatenses que se ofrecen en esta biblioteca digital f
 Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la minimal computing, y privilegian el uso de tecnologías abiertas, la gobernanza sobre datos y código y la reducción de infraestructura informática.
 
 
-## Acceda a nuestras ediciones digitales
-
+# Acceda a nuestras ediciones digitales
+## Relatos de viaje
 <div class="container">
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
     <!-- Card LAM -->
@@ -49,12 +49,20 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
     </div>
    <!-- Card DEL BARCO CENTENERA -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-          <a href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/argentina-y-conquista-del-rio-de-la-plata/assets/img/portada.png"/></a>
+          <a href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina-y-conquista-del-barco-centenera-cover.png"/></a>
 <a class="post-card__inner" href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: John Carter Brown Library</p>
         <h2>Argentina y Conquista del Río de la Plata</h2>
   </a>
       </div>
+  </div>
+</div>
+
+
+
+## Miscelánea
+<div class="container">
+  <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
     <!-- Card POESIA MEDIEVAL -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
       <a href="http://hdlabconicet.github.io/Poesia-Medieval/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Cancioneiro_da_Ajuda_151_37.jpg" align="center"/></a>
@@ -63,6 +71,15 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
         <h2>Poesía Medieval</h2>
       </a>
     </div>
+    <!-- Card DIÁLOGO PINTURA MÉXICO -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="https://mtravelo.github.io/dialogo_pintura_mexico/" target="_blank"><img src="{{site.baseurl}}/assets/img/dialogo_pintura_mexico.jpeg" align="center"/></a>
+      <a class="post-card__inner" href="https://mtravelo.github.io/dialogo_pintura_mexico/" target="_blank" title="via Wikimedia Commons">
+        <p style="font-size: 10px; text-align:left;">Imagen: Portada del libro Diálogo sobre la historia de la pintura en México</p>
+        <h2>Diálogo sobre la historia de la pintura en México</h2>
+      </a>
+    </div>
+
   
   </div>
 </div>
