@@ -17,7 +17,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
     <!-- Card LAM -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <a href="http://hdlabconicet.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina_manuscrita/arg-manus-pagina-uno.png" align="center"/></a>
+      <a href="http://hdlabconicet.github.io/La-Argentina-Manuscrita" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_arg-manus-pagina-uno.png" align="center"/></a>
       <a class="post-card__inner" href="http://hdlabconicet.github.io/La-Argentina-Manuscrita" target="_blank">
       	<p style="font-size: 10px; text-align:left;">Imagen: gallica.bnf.fr</p>
       	<h2>La Argentina Manuscrita</h2>
@@ -25,7 +25,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
     </div>
     <!-- Card ACARETE -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <a href="http://hdlabconicet.github.io/Relacion-de-un-viaje/" target="_blank"><img src="{{site.baseurl}}/assets/img/acarete-1943-cover.jpg" align="center"/></a>
+      <a href="http://hdlabconicet.github.io/Relacion-de-un-viaje/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_acarete-1943-cover.jpg" align="center"/></a>
       <a class="post-card__inner" href="http://hdlabconicet.github.io/Relacion-de-un-viaje/" target="_blank">
       	<p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
       	<h2>Relación de un viaje</h2>
@@ -33,7 +33,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
     </div>
     <!-- Card PERO HERNANDEZ -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <a href="http://hdlabconicet.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank"><img src="{{site.baseurl}}/assets/img/relacion-descubrimiento-perohernandez-cover.jpeg"/></a>
+      <a href="http://hdlabconicet.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_relacion-descubrimiento-perohernandez-cover.jpg"/></a>
       <a class="post-card__inner" href="http://hdlabconicet.github.io/Relacion-de-las-cosas-sucedidas/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: Cervantes Virtual</p>
         <h2>Relación de las cosas sucedidas</h2>
@@ -41,7 +41,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
     </div>
     <!-- Card PIGAFETTA -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <a href="http://nidiah.github.io/Primer-viaje-alrededor-del-mundo/" target="_blank"><img src="https://nidiah.github.io/Primer-viaje-alrededor-del-mundo/assets/img/pg_0015.jpg"/></a>
+      <a href="http://nidiah.github.io/Primer-viaje-alrededor-del-mundo/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_pg_0015.jpg"/></a>
       <a class="post-card__inner" href="http://nidiah.github.io/Primer-viaje-alrededor-del-mundo/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: University of Texas Libraries</p>
         <h2>Primer viaje alrededor del mundo</h2>
@@ -49,7 +49,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
     </div>
    <!-- Card DEL BARCO CENTENERA -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-          <a href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/assets/img/argentina-y-conquista-del-barco-centenera-cover.png"/></a>
+          <a href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_argentina-y-conquista-del-barco-centenera-cover.png"/></a>
 <a class="post-card__inner" href="http://hdlabconicet.github.io/argentina-y-conquista-del-rio-de-la-plata/" target="_blank">
         <p style="font-size: 10px; text-align:left;">Imagen: John Carter Brown Library</p>
         <h2>Argentina y Conquista del Río de la Plata</h2>
@@ -65,7 +65,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
     <!-- Card POESIA MEDIEVAL -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <a href="http://hdlabconicet.github.io/Poesia-Medieval/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Cancioneiro_da_Ajuda_151_37.jpg" align="center"/></a>
+      <a href="http://hdlabconicet.github.io/Poesia-Medieval/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_Cancioneiro_da_Ajuda_151_37.jpg" align="center"/></a>
       <a class="post-card__inner" href="http://hdlabconicet.github.io/Poesia-Medieval/" target="_blank" title="via Wikimedia Commons">
         <p style="font-size: 10px; text-align:left;">Imagen: Biblioteca da Ajuda</p>
         <h2>Poesía Medieval</h2>
@@ -73,7 +73,7 @@ Todas las ediciones digitales siguen el estándar XML-TEI y los principios de la
     </div>
     <!-- Card DIÁLOGO PINTURA MÉXICO -->
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
-      <a href="https://mtravelo.github.io/dialogo_pintura_mexico/" target="_blank"><img src="{{site.baseurl}}/assets/img/dialogo_pintura_mexico.jpeg" align="center"/></a>
+      <a href="https://mtravelo.github.io/dialogo_pintura_mexico/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_dialogo_pintura_mexico.jpg" align="center"/></a>
       <a class="post-card__inner" href="https://mtravelo.github.io/dialogo_pintura_mexico/" target="_blank" title="via Wikimedia Commons">
         <p style="font-size: 10px; text-align:left;">Imagen: Portada del libro Diálogo sobre la historia de la pintura en México</p>
         <h2>Diálogo sobre la historia de la pintura en México</h2>
