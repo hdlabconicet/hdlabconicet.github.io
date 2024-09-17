@@ -77,6 +77,14 @@ Todas las ediciones digitales de nuestra Biblioteca Digital siguen el estándar 
         <h2>Diálogo sobre la historia de la pintura en México</h2>
       </a>
     </div>
+            <!-- Card CARTAS DE BUSA -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="https://hdlab.space/cartas_busa/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_dibujo_busa_index.jpg" align="center"/></a>
+      <a class="post-card__inner" href="https://hdlab.space/cartas_busa/" target="_blank" title="via Wikimedia Commons">
+        <p style="font-size: 10px; text-align:left;">Imagen: Dibujo de la serie de postales de Navidad que Busa encargaba todos los años a Marina Molino.</p>
+        <h2>Edición digital de las cartas del Padre Busa a Sergio Castaño</h2>
+      </a>
+    </div>
 
   
   </div>
