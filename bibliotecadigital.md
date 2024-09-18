@@ -82,7 +82,7 @@ Todas las ediciones digitales de nuestra Biblioteca Digital siguen el estándar 
       <a href="https://hdlab.space/cartas_busa/" target="_blank"><img src="{{site.baseurl}}/assets/img/chico_dibujo_busa_index.jpg" align="center"/></a>
       <a class="post-card__inner" href="https://hdlab.space/cartas_busa/" target="_blank" title="via Wikimedia Commons">
         <p style="font-size: 10px; text-align:left;">Imagen: Dibujo de la serie de postales de Navidad que Busa encargaba todos los años a Marina Molino.</p>
-        <h2>Edición digital de las cartas del Padre Busa a Sergio Castaño</h2>
+        <h2>Cartas del Padre Busa</h2>
       </a>
     </div>
 
