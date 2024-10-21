@@ -9,19 +9,18 @@ permalink: /equipo/
 * [Gimena del Rio Riande][gimena-profile] (Dirección)
 * [Romina De León][romina-profile]
 * [Laura Volkind][laura-profile]
+* [Gabriel Calarco][gabriel-profile]
 * [Nidia Hernández][nidia-profile]
 
 ![Gimena photo](/assets/img/equipo/Gimena-micrositio.jpg)
 ![Romina photo](/assets/img/equipo/Romina-micrositio.jpg)
 ![Laura photo](/assets/img/equipo/laura-profile.jpg)
+![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
 ![Nidia photo](/assets/img/equipo/Nidia-micrositio.jpg)
 
 # Grupo colaborador
 
-* [Juliana Gandini][juliana-profile]
 * [Virginia Brussa][virginia-profile]
-* [Gabriela Striker][gabriela-profile]
-* [Gabriel Calarco][gabriel-profile]
 * [Marisol Fila][marisol-profile]
 * [Diego Ferreyra][diego-profile]
 * [Agustina Ryckeboer][agustina-profile]
@@ -29,10 +28,7 @@ permalink: /equipo/
 * [Ricardo Pimenta][ricardo-profile]
 * [Carlos Nusch][carlos-profile]
 
-![Juliana photo](/assets/img/equipo/juliana-micrositio.jpg)
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
-![Gabriela photo](/assets/img/equipo/Gabriela-micrositio.png)
-![Gabriel photo](/assets/img/equipo/Gabriel-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
 ![Diego photo](/assets/img/equipo/Diego-micrositio.jpg)
 ![Agustina photo](/assets/img/equipo/agustina-profile.jpg)
