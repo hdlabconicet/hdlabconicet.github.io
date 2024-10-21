@@ -42,9 +42,7 @@ permalink: /equipo/
 [virginia-profile]: http://www.cim.unr.edu.ar/miembro/46/virginia-brussa-ballaris
 [nidia-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?id=53027&keywords=nidia+hernandez&datos_academicos=yes
 [marisol-profile]: https://lsa.umich.edu/rll/people/graduate-students/mafila.html
-[juliana-profile]:http://www.conicet.gov.ar/new_scp/detalle.php?id=34299&datos_academicos=yes
 [gabriel-profile]: http://aahd.net.ar/personas/gabriel-calarco
-[gabriela-profile]: https://www.aacademica.org/gabriela.edith.striker
 [diego-profile]: https://www.linkedin.com/in/perfildiegoferreyra/
 [agustina-profile]: https://raffazizzi.gitlab.io/helados-in-dh-group/Maria%20Ryckeboer
 [susanna-profile]: https://susannalles.com/
