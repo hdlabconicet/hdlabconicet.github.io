@@ -40,7 +40,7 @@ permalink: /equipo/
 ![Carlos photo](/assets/img/equipo/carlos-profile.jpg)
 ![ravelo photo](/assets/img/equipo/ravelo-micrositio.jpg)
 ![rocio photo](/assets/img/equipo/rocio-micrositio.jpg)
-![julian photo](/assets/img/equipo/julian-micrositio.jpeg)
+![julian photo](/assets/img/equipo/julian-micrositio.jpg)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
