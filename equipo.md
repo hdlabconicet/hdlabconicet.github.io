@@ -27,6 +27,9 @@ permalink: /equipo/
 * [Susanna Allés-Torrent][susanna-profile]
 * [Ricardo Pimenta][ricardo-profile]
 * [Carlos Nusch][carlos-profile]
+* [Teresa Ravelo][ravelo-profile]
+* [Rocío Méndez][rocio-profile]
+* [Julián Spinelli][julian-profile]
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
@@ -35,6 +38,9 @@ permalink: /equipo/
 ![Susanna photo](/assets/img/equipo/susanna-profile.jpg)
 ![Ricardo photo](/assets/img/equipo/ricardo-profile.jpg)
 ![Carlos photo](/assets/img/equipo/carlos-profile.jpg)
+![ravelo photo](/assets/img/equipo/ravelo-micrositio.jpg)
+![rocio photo](/assets/img/equipo/rocio-micrositio.jpg)
+![julian photo](/assets/img/equipo/julian-micrositio.jpeg)
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
@@ -48,3 +54,6 @@ permalink: /equipo/
 [susanna-profile]: https://susannalles.com/
 [ricardo-profile]: http://lattes.cnpq.br/0416440515458304
 [carlos-profile]: https://prebi-sedici.unlp.edu.ar/personal/carlos-nusch/
+[ravelo-profile]: https://www.linkedin.com/in/teresa-ravelo-86275935/
+[rocio-profile]: https://orcid.org/0000-0002-8801-636X
+[julian-profile]: https://
