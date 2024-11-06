@@ -30,7 +30,7 @@ permalink: /equipo/
 * [Teresa Ravelo][ravelo-profile]
 * [Rocío Méndez][rocio-profile]
 * [Julián Spinelli][julian-profile]
-* [Catalina Spinelli][catalina-profile]
+* Catalina Cattaneo
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
