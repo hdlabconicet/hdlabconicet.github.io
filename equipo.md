@@ -42,10 +42,7 @@ permalink: /equipo/
 ![ravelo photo](/assets/img/equipo/ravelo-micrositio.jpg)
 ![rocio photo](/assets/img/equipo/rocio-micrositio.jpg)
 ![julian photo](/assets/img/equipo/julian-micrositio.jpg)
-<<<<<<< HEAD
 ![catalina photo](/assets/img/equipo/catalina-micrositio.jpg)
-=======
->>>>>>> 3339016155d861c76623536b6fbc2c78cebff035
 
 [gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
@@ -61,8 +58,4 @@ permalink: /equipo/
 [carlos-profile]: https://prebi-sedici.unlp.edu.ar/personal/carlos-nusch/
 [ravelo-profile]: https://www.linkedin.com/in/teresa-ravelo-86275935/
 [rocio-profile]: https://orcid.org/0000-0002-8801-636X
-<<<<<<< HEAD
-[julian-profile]: https://www.linkedin.com/in/julianspinelli
-=======
-[julian-profile]: https://
->>>>>>> 3339016155d861c76623536b6fbc2c78cebff035
+[julian-profile]: https://orcid.org/0009-0003-0895-815X
