@@ -92,7 +92,7 @@ Todas las ediciones digitales de nuestra Biblioteca Digital siguen el estándar 
       <a href="https://hdlab.space/coleccion-foulche-delbosc/" target="_blank"><img src="{{site.baseurl}}/assets/img/foulche-delbosc-chico.jpg" align="center"/></a>
       <a class="post-card__inner" href="https://hdlab.space/coleccion-foulche-delbosc/" target="_blank" title="via Wikimedia Commons">
         <p style="font-size: 10px; text-align:left;">Imagen: Retrato de Foulché-Delbosc.</p>
-        <h2>La Colección Foulché-Delbosc, de la Historia del Libro y la Edición a las Humanidades Digitales.  </h2>
+        <h2>La Colección Foulché-Delbosc, de la Historia del Libro y la Edición a las Humanidades Digitales</h2>
       </a>
     </div>
 
@@ -103,7 +103,7 @@ Todas las ediciones digitales de nuestra Biblioteca Digital siguen el estándar 
       <a href="https://jgoldsmidt.github.io/LM-LibrodeMotes/" target="_blank"><img src="{{site.baseurl}}/assets/img/chicos_motes.jpg" align="center"/></a>
       <a class="post-card__inner" href="https://jgoldsmidt.github.io/LM-LibrodeMotes/" target="_blank" title="via Wikimedia Commons">
         <p style="font-size: 10px; text-align:left;">Imagen: Retrato de Foulché-Delbosc.</p>
-        <h2>Libro de motes.</h2>
+        <h2>Libro de motes de damas y caballeros</h2>
       </a>
     </div>
   
