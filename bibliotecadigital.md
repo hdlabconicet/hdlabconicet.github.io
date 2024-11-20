@@ -102,7 +102,7 @@ Todas las ediciones digitales de nuestra Biblioteca Digital siguen el estándar 
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
       <a href="https://jgoldsmidt.github.io/LM-LibrodeMotes/" target="_blank"><img src="{{site.baseurl}}/assets/img/chicos_motes.jpg" align="center"/></a>
       <a class="post-card__inner" href="https://jgoldsmidt.github.io/LM-LibrodeMotes/" target="_blank" title="via Wikimedia Commons">
-        <p style="font-size: 10px; text-align:left;">Imagen: Retrato de Foulché-Delbosc.</p>
+        <p style="font-size: 10px; text-align:left;">Imagen: Portada Libro de motes.</p>
         <h2>Libro de motes de damas y caballeros</h2>
       </a>
     </div>
