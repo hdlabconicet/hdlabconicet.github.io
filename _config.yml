@@ -1,43 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: HD LAB
+email: hdlabconicet@gmail.com
+author: HD LAB 
+description: Sitio del Laboratorio de Humanidades Digitales (HD LAB) del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)
+baseurl: ""
+url: "https://hdlabconicet.github.io"
+twitter_username: hdlabconicet
+github_username:  hdlabconicet
+facebook_username: HDLAB.CONICET
+
+# Google Analytics
+google_analytics: G-5V7S0EWVZ6
+
+# SEO PLUGIN
+social:
+  name: HD LAB
+  links:
+    - https://twitter.com/hdlabconicet
+    - https://www.facebook.com/HDLAB.CONICET
+    - https://github.com/hdlabconicet
+
+# THEME SETTINGS
+navigation:
+  - {name: 'Novedades', link: '/novedades'}
+  - {name: 'Explora', link: '/explora'}
+  - {name: 'Investigación', link: '/investigacion'}
+  - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
+  - {name: 'Equipo', link: '/equipo'}
+  - {name: 'Contacto', link: '/contacto'}
+  - {name: 'Buscar', link: '/search'}
+
+
+tagline: >
+  Laboratorio de Humanidades Digitales del IIBICRIT de CONICET
+
+hero_img: posts/HDCAICYTLAB.jpg
+
+disqus:
+  shortname: hdlab
 
 # Build settings
 markdown: kramdown
-theme: minima
+encoding: utf-8
+
+collections:
+  argentina_manuscrita: 
+    output: true
+  argentina_manuscrita_pages: 
+    output: true
+
+remote_theme: jekyll-sleek
 plugins:
   - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - script
+  - package.json
+  - package-lock.json
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
