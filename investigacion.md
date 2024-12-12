@@ -31,16 +31,16 @@ A partir de 2018, según lo estipula la **Resolución de Directorio No. 4436/17*
       </a>
     </div>
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-      <a href="{{ site.baseurl }}/cursosyeventos">
+      <a href="{{ site.baseurl }}/cursos">
         <figure class="post-card__thumb">
           <img
               src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg"
               class="lazyload blur"
-              alt="cursosyeventos"/> 
-          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg" alt="cursosyeventos"></noscript>
+              alt="cursos"/> 
+          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg" alt="cursos"></noscript>
         </figure>
       </a>
-      <a class="post-card__inner" href="{{ site.baseurl }}/cursosyeventos">
+      <a class="post-card__inner" href="{{ site.baseurl }}/cursos">
         <div class="post-card__header">
           <h2>Cursos y Eventos</h2>
         </div>
@@ -52,9 +52,9 @@ A partir de 2018, según lo estipula la **Resolución de Directorio No. 4436/17*
           <img
               src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg"
               class="lazyload blur"
-              alt="cursosyeventos"
+              alt="cursos"
             />
-          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg" alt="cursosyeventos"/></noscript>
+          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg" alt="cursos"/></noscript>
         </figure>
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/publicaciones">
