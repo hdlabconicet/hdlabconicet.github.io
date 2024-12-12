@@ -12,7 +12,7 @@ var index = elasticlunr(function () {
   this.setRef('id')
 });
 
-{% assign count = 0 %}{% for text in site.barco_centenera_pages %}
+{% assign count = 0 %}{% for text in site.hdlab.space %}
 index.addDoc({
   section: {{text.section | jsonify}},
   pagenum: {{text.pagenum | jsonify}},
@@ -22,7 +22,7 @@ index.addDoc({
 });{% assign count = count | plus: 1 %}{% endfor %}
 console.log( jQuery.type(index) );
 
-var store = [{% for text in site.barco_centenera_pages %}{
+var store = [{% for text in site.hdlab.space %}{
   "section": {{text.section | jsonify}},
   "pagenum": {{text.pagenum | jsonify}},
   "layout": {{ text.layout | jsonify }},
