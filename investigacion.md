@@ -42,7 +42,7 @@ A partir de 2018, según lo estipula la **Resolución de Directorio No. 4436/17*
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/cursos">
         <div class="post-card__header">
-          <h2>Cursos y Eventos</h2>
+          <h2>Cursos</h2>
         </div>
       </a>
     </div>
