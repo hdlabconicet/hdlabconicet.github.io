@@ -31,7 +31,8 @@ permalink: /equipo/
 * [Rocío Méndez][rocio-profile]
 * [Julián Spinelli][julian-profile]
 * Catalina Cattaneo
-* Patricio Pantaleo [patricio-profile]
+* [Patricio Pantaleo][patricio-profile]
+
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
@@ -45,7 +46,7 @@ permalink: /equipo/
 ![julian photo](/assets/img/equipo/julian-micrositio.jpg)
 ![catalina photo](/assets/img/equipo/catalina-micrositio.jpg)
 
-[gimena-profile]: http://aahd.net.ar/personas/gimena-del-rio-riande
+[gimena-profile]: https://orcid.org/0000-0002-8997-5415
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
 [laura-profile]: https://www.conicet.gov.ar/new_scp/detalle.php?id=37895&datos_academicos=yes&keywords=
 [virginia-profile]: http://www.cim.unr.edu.ar/miembro/46/virginia-brussa-ballaris
