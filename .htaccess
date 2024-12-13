@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redirigir el ARK a la URL correspondiente
+RewriteCond %{REQUEST_URI} ^/ark:/69774/rgm2020$ [NC]
+RewriteRule ^ https://hdlab.space/La-Argentina-Manuscrita/ [R=301,L]
