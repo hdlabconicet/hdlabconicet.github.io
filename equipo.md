@@ -31,6 +31,7 @@ permalink: /equipo/
 * [Rocío Méndez][rocio-profile]
 * [Julián Spinelli][julian-profile]
 * Catalina Cattaneo
+* Patricio Pantaleo [patricio-profile]
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
 ![Marisol photo](/assets/img/equipo/marisol-micrositio.jpg)
@@ -59,3 +60,4 @@ permalink: /equipo/
 [ravelo-profile]: https://www.linkedin.com/in/teresa-ravelo-86275935/
 [rocio-profile]: https://orcid.org/0000-0002-8801-636X
 [julian-profile]: https://orcid.org/0009-0003-0895-815X
+[patricio-profile]: https://paideiastudio.net/
