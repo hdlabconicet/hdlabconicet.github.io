@@ -10,7 +10,7 @@
         const path = url.pathname;
 
         // Extract the ARK identifier
-        const arkPattern = /^\/ark%3A\/(\d+)\/(.+)$/;
+        const arkPattern = /^\/ark[:%3A]\/(\d+)\/(.+)$/;
         const match = path.match(arkPattern);
 
         if (match) {
