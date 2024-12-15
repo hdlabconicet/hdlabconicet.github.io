@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK Redirection</title>
+    <script>
+        // Parse the current URL
+        const url = new URL(window.location.href);
+        const path = url.pathname;
+
+        // Extract the ARK identifier
+        const arkPattern = /^\/ark:\/(\d+)\/(.+)$/;
+        const match = path.match(arkPattern);
+
+        if (match) {
+            const naan = match[1];
+            const suffix = match[2];
+
+            // Define redirection rules
+            const redirects = {
+                '69774/rgm2020': 'https://hdlab.space/La-Argentina-Manuscrita',
+                // Add more ARK identifiers and their destinations here
+            };
+
+            const arkKey = `${naan}/${suffix}`;
+            if (redirects[arkKey]) {
+                window.location.replace(redirects[arkKey]);
+            } else {
+                document.body.innerHTML = `<h1>ARK Not Found</h1><p>The ARK <code>${arkKey}</code> could not be resolved.</p>`;
+            }
+        } else {
+            document.body.innerHTML = `<h1>Invalid ARK URL</h1><p>The URL does not match the expected ARK format.</p>`;
+        }
+    </script>
+</head>
+<body>
+    <noscript>
+        <h1>JavaScript Required</h1>
+        <p>This page requires JavaScript to perform the ARK redirection.</p>
+    </noscript>
+</body>
+</html>
