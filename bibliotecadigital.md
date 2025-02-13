@@ -53,6 +53,14 @@ Todas las ediciones digitales de nuestra Biblioteca Digital siguen el estándar 
         <h2>Argentina y Conquista del Río de la Plata</h2>
   </a>
       </div>
+    <!-- Card ULRICO -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);">
+      <a href="https://hdlab.space/viaje-al-rio-de-la-plata/" target="_blank"><img src="{{site.baseurl}}/assets/img/ulrico_chico.jpg"/></a>
+      <a class="post-card__inner" href="https://hdlab.space/viaje-al-rio-de-la-plata/" target="_blank">
+        <p style="font-size: 10px; text-align:left;">Imagen: University of Illinois</p>
+        <h2>Viaje al Río de la Plata</h2>
+      </a>
+    </div>
   </div>
 </div>
 
