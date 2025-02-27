@@ -24,10 +24,12 @@ footer {
   align-items: center;
   max-width: 200px;
   margin: 0 auto 25px;
+  list-style-type: none;
 }
 
 .social__link:not(:last-child) {
   margin-right: 1.5rem;
+  list-style-type: none;
 }
 
 .social__icon {
