@@ -20,6 +20,8 @@ social:
     - https://www.facebook.com/HDLAB.CONICET
     - https://github.com/hdlabconicet
 
+remote_theme: janczizikow/sleek
+
 # THEME SETTINGS
 hero_img: posts/HDCAICYTLAB.jpg
 
@@ -36,6 +38,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+  - jekyll-remote-theme
 
 exclude:
   - Gemfile
