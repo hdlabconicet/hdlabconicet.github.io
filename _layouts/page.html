@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+<html>
 
   {% include head.html %}
 
@@ -19,22 +19,7 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero--small">
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ page.title }}</h1>
-      </div>
-    </div>
-    <main class="site__content">
-
-      <div class="container">
-        <div class="page-content" id="main">
-
-          {{ content }}
-
-        </div>
-      </div>
-
-    </main>
+    {{ content }}
 
     {% include footer.html %}
 

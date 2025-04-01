@@ -8,10 +8,19 @@
       </a>
       <nav class="header__links">
         <div class="container header__links-wrapper">
-          {% for item in site.navigation %}
+          {% for item in site.translations[site.lang].navigation %}
             <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
               <span itemprop="name">{{ item.name }}</span>
             </a>
+          {% endfor %}
+          {% for lang in site.languages %}
+              {% if lang != site.lang %}
+                  {% if lang == site.default_lang %}
+                  <a class="header__link" href="{{ site.baseurl_root }}{{ page.url }}">{{site.languageNames[lang]}}</a>
+                  {% else %}
+                  <a class="header__link" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">{{site.languageNames[lang]}}</a>
+                  {% endif %}
+              {% endif %}
           {% endfor %}
         </div>
       </nav>

@@ -1,33 +1,22 @@
 <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="https://schema.org/BlogPosting">
   <span class="post-card__label">
-      <a href="{{site.baseurl}}/categories/#difusion" class="label"> Difusión </a>&nbsp;
-      <a href="{{site.baseurl}}/categories/#novedades" class="label"> Novedades </a>&nbsp;
-      <a href="{{site.baseurl}}/categories/#comunicacion" class="label"> Comunicación </a>&nbsp;
+      <a href="{{site.baseurl_root}}/categories/#difusion" class="label"> Difusión </a>&nbsp;
+      <a href="{{site.baseurl_root}}/categories/#novedades" class="label"> Novedades </a>&nbsp;
+      <a href="{{site.baseurl_root}}/categories/#comunicacion" class="label"> Comunicación </a>&nbsp;
   </span>
-  <a href="{{site.baseurl}}/archivo">
+  <a href="{{site.baseurl_root}}/archivo-{{filed_year}}">
       <figure class="post-card__thumb">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_placehold.jpg", data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb@2x.jpg 2x" class="lazyload blur" alt="archivo-img"/>
         <noscript><img src="{{ site.url }}{{ site.baseurl }}assets/img/posts/publicaciones_thumb.jpg" alt="archivo-img"></noscript>
       </figure>
   </a>
-  <a class="post-card__inner" href="{{site.baseurl}}/archivo-{{filed_year}}">
+  <a class="post-card__inner" href="{{site.baseurl_root}}/archivo-{{filed_year}}">
     <div class="post-card__header">
       <h2>Archivo {{filed_year}}</h2>      
       <span class="post-card__meta">
         <p>Publicaciones de {{filed_year}}</p>
       </span>
     </div>
-
-    <!-- {% assign sample_posts = site.posts | where_exp: "post", "post.date contains '2019' "%} -->
-    {%- assign sample_posts =  site.posts | sample:4 -%}
-    {%- for post in sample_posts -%}
-      {%- assign post_year = post.date | date: '%Y' -%}
-      {%- if post_year == {{filed_year}} -%}
-        <span>{{ post.title }}</span>
-        {% unless forloop.last %}-&nbsp;{% endunless %}
-      {%- endif -%}
-    {%- endfor -%}
-    <span>...</span>
   </a>
 </div>
 

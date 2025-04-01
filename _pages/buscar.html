@@ -1,0 +1,32 @@
+---
+layout: page
+title: Buscar
+namespeace: buscar
+permalink: /buscar/
+---
+
+    <div class="hero--small">
+      <div class="hero__wrap">
+        <h1 class="hero__title">{% t titles.search %}</h1>
+      </div>
+    </div>
+    <main class="site__content">
+
+      <div class="container">
+        <div class="page-content" id="main">
+
+			<form id="site_search">
+			<p class="h3 lh-condensed">{% tf buscar.md %}</p>
+			<br>
+			<input id="search" type="text" name="q" autofocus></form>
+
+			<div id="results"></div>
+			<ul id="search_results"></ul>
+			<script src="{{site.baseurl}}/assets/js/elasticlunr.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="{{site.baseurl}}/assets/js/search.js"></script>
+
+        </div>
+      </div>
+
+    </main>		

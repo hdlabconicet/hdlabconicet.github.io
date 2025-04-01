@@ -1,0 +1,28 @@
+tag:
+  tagline: Laboratorio de Humanidades Digitales del IIBICRIT de CONICET
+navigation:
+  - {name: 'Novedades', link: '/novedades'}
+  - {name: 'Explora', link: '/explora'}
+  - {name: 'Investigación', link: '/investigacion'}
+  - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
+  - {name: 'Equipo', link: '/equipo'}
+  - {name: 'Contacto', link: '/contacto'}
+  - {name: 'Buscar', link: '/buscar'}
+titles:
+  news: "Novedades"
+  explore: "Explora"
+  library: "Biblioteca Digital"
+  research: "Investigación"
+  team: "Equipo"
+  contact: "Contacto"
+  search: "Búsqueda"
+  projects: "Proyectos"
+  courses: "Cursos"
+  publications: "Publicaciones"
+  categories: "Categorías"
+  notfound: "Página no encontrada"
+form:
+  name: Nombre
+  email: Email
+  message: Mensaje
+  send: Enviar

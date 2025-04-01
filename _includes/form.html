@@ -1,21 +1,21 @@
 <form id="contactForm" action="https://formspree.io/f/mzzbdkwy" method="post" novalidate>
   <div class="form__input half">
-    <label for="name">Nombre</label>
+    <label for="name">{% t form.name %}</label>
     <input type="text" name="name" id="name" autocomplete="name" required autofocus>
   </div>
 
   <div class="form__input input half">
-    <label for="email">Email</label>
+    <label for="email">{% t form.email %}</label>
     <input type="email" name="_replyto" id="email" autocomplete="email" required>
   </div>
 
   <div class="form__input">
-    <label for="message">Mensaje</label>
+    <label for="message">{% t form.message %}</label>
     <textarea type="text" name="message" id="message" rows="7" autocomplete="message" required></textarea>
   </div>
 
   <input type="hidden" name="_subject" value="Website Form submission">
   <input type="hidden" name="_format" value="plain" />
   <input class="hidden" type="text" name="_gotcha">
-  <button class="btn js-submit" type="submit" value="Send">Enviar</button>
+  <button class="btn js-submit" type="submit" value="Send">{% t form.send %}</button>
 </form>

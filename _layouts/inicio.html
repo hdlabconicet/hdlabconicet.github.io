@@ -2,11 +2,19 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+<html>
 
   {% include head.html %}
 
   <body class="site">
+
+    <script>
+      var lang = navigator.language || navigator.userLanguage;
+      if (lang.indexOf('es') == 0)
+          window.location = '/';
+      else
+          window.location = '/en/';
+    </script>
 
     {% if site.google_tag_manager %}
 
@@ -22,7 +30,7 @@ layout: compress
     <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
       <div class="hero__wrap">
         <h1 class="hero__title">{{ site.title | escape }}</h1>
-        <p class="hero__meta">{{ site.tagline }}</p>
+        <p class="hero__meta">{% t tag.tagline %}</p>
       </div>
     </div>
 
@@ -31,7 +39,7 @@ layout: compress
       <div class="container">
         <div class="page-content">
 
-          {{ content }}
+          {% tf inicio.md %}
 
         </div>
       </div>

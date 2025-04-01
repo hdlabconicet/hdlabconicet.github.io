@@ -21,19 +21,6 @@ social:
     - https://github.com/hdlabconicet
 
 # THEME SETTINGS
-navigation:
-  - {name: 'Novedades', link: '/novedades'}
-  - {name: 'Explora', link: '/explora'}
-  - {name: 'Investigación', link: '/investigacion'}
-  - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
-  - {name: 'Equipo', link: '/equipo'}
-  - {name: 'Contacto', link: '/contacto'}
-  - {name: 'Buscar', link: '/search'}
-
-
-tagline: >
-  Laboratorio de Humanidades Digitales del IIBICRIT de CONICET
-
 hero_img: posts/HDCAICYTLAB.jpg
 
 disqus:
@@ -42,12 +29,6 @@ disqus:
 # Build settings
 markdown: kramdown
 encoding: utf-8
-
-collections:
-  argentina_manuscrita: 
-    output: true
-  argentina_manuscrita_pages: 
-    output: true
 
 remote_theme: jekyll-sleek
 plugins:
@@ -77,3 +58,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
+
+languages: ["es", "en"]
+
+exclude_from_localizations: ["ark", "node_modules", "script", "CETEIcean_tutorial"]
+
+defaultLang: es
+
+languageNames:
+  en: EN
+  es: ES
+
+default_locale_in_subfolder: false
+

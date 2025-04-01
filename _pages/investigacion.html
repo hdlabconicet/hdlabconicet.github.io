@@ -1,0 +1,75 @@
+---
+layout: page
+title: Investigación
+namespace: investigacion
+permalink: /investigacion/
+---
+
+    <div class="hero--small">
+      <div class="hero__wrap">
+        <h1 class="hero__title">{% t titles.research %}</h1>
+      </div>
+    </div>
+    <main class="site__content">
+
+      <div class="container">
+        <div class="page-content" id="main">
+          {% tf investigacion.md %}
+      <div class="container">
+        <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+          <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+            <a href="{{ site.baseurl }}/proyectos">
+              <figure class="post-card__thumb">
+                <img class="lazyload blur" src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"/>
+                <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"/></noscript>
+              </figure>
+            </a>
+            <a class="post-card__inner" href="{{ site.baseurl }}/proyectos">
+              <div class="post-card__header">
+                <h2>{% t titles.projects %}</h2>
+              </div>
+            </a>
+          </div>
+          <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+            <a href="{{ site.baseurl }}/cursos">
+              <figure class="post-card__thumb">
+                <img
+                    src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg"
+                    class="lazyload blur"
+                    alt="cursos"/> 
+                <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg" alt="cursos"></noscript>
+              </figure>
+            </a>
+            <a class="post-card__inner" href="{{ site.baseurl }}/cursos">
+              <div class="post-card__header">
+                <h2>{% t titles.courses %}</h2>
+              </div>
+            </a>
+          </div>
+          <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+            <a href="{{ site.baseurl }}/publicaciones">
+              <figure class="post-card__thumb">
+                <img
+                    src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg"
+                    class="lazyload blur"
+                    alt="cursos"
+                  />
+                <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg" alt="cursos"/></noscript>
+              </figure>
+            </a>
+            <a class="post-card__inner" href="{{ site.baseurl }}/publicaciones">
+              <div class="post-card__header">
+                <h2>{% t titles.publications %}</h2>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+          
+        </div>
+      </div>
+
+
+    </main>
