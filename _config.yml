@@ -30,15 +30,12 @@ disqus:
 markdown: kramdown
 encoding: utf-8
 
-theme: jekyll-sleek
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
-  - jekyll-remote-theme
 
 exclude:
   - Gemfile

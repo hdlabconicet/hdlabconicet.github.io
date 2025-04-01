@@ -9,5 +9,4 @@ gem 'wdm', '>= 0.1.0'
 gem "webrick", "~> 1.8"
 gem "jekyll-redirect-from"
 gem "jekyll-multiple-languages-plugin"
-gem "jekyll-remote-theme"
 gem "jekyll-feed"
