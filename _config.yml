@@ -33,6 +33,10 @@ encoding: utf-8
 remote_theme: jekyll-sleek
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -53,12 +57,6 @@ permalink: /:title/
 
 compress_html:
   clippings: all
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
 
 languages: ["es", "en"]
 
