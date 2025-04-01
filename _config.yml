@@ -30,13 +30,16 @@ disqus:
 markdown: kramdown
 encoding: utf-8
 
-remote_theme: jekyll-sleek
+theme: jekyll-sleek
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+  - jekyll-remote-theme
+
 exclude:
   - Gemfile
   - Gemfile.lock
