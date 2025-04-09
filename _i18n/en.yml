@@ -1,7 +1,13 @@
 tag:
   tagline: Digital Humanities Laboratory of the IIBICRIT, CONICET
 navigation:
-  - {name: 'News', link: '/novedades'}
+  - name: 'News'
+    link: '/novedades'
+    sublinks:
+      - name: 'Recent'
+        link: '/novedades/reciente/'
+      - name: 'Archive'
+        link: '/novedades/'
   - {name: 'Explore', link: '/explora'}
   - {name: 'Research', link: '/investigacion'}
   - {name: 'Digital Library', link: '/biblioteca-digital'}
