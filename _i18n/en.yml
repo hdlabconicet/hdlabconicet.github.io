@@ -5,7 +5,7 @@ navigation:
     link: '/novedades'
     sublinks:
       - name: 'Recent'
-        link: '/novedades/reciente/'
+        link: 'https://hdlab.space/novedades/'
       - name: 'Archive'
         link: '/novedades/'
   - {name: 'Explore', link: '/explora'}
