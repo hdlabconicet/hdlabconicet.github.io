@@ -32,3 +32,8 @@ form:
   email: Email
   message: Message
   send: Send
+
+bibliotecadigital:
+  heading: "Access our digital editions"
+  viajes: "Chronicles and travelogues"
+  miscelanea: "Miscellaneous texts"

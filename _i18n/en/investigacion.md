@@ -1,0 +1,7 @@
+The research line of the Digital Humanities Laboratory at CONICET (HD LAB) originates from the institutional project *Methodologies in Digital Tools for Research in Social Sciences and Humanities*, initiated in 2014 by Drs. Mela Bosch and Gimena del Rio Riande. 
+
+This project led to outreach events and workshops in Digital Humanities: Day of DH 2015 and 2016, a plenary by Mela Bosch at the AAHD 2014 Digital Humanities Conference,  the ABGRA Symposium in 2015 and 2016, and a Digital Humanities event at the National University of Mar del Plata, among others.
+
+As research and collaborations advanced (with the CIM at the National University of Rosario, LINHD Madrid, TaDIRAH - DARIAH, Big Data Machine, Pelagios Commons), the Digital Humanities Laboratory began to take shape with its own professional core and agenda.
+
+HD LAB was founded in 2018. According to **Resolution No. 4436/17**, the Digital Humanities Laboratory was institutionally consolidated through the incorporation of the study and development of digital tools for research in Digital Humanities into the missions of CAICYT. Furthermore, since 2022, HD LAB has been based at the [Institute for Bibliographic Research and Textual Criticism (IIBICRIT-CONICET)](https://iibicrit.conicet.gov.ar/) as a laboratory dedicated to research in Digital Humanities.
