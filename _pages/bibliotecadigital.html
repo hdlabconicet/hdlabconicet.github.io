@@ -14,17 +14,10 @@ permalink: /biblioteca-digital/
 
       <div class="container">
         <div class="page-content" id="main">
-          {% if page.lang == "en" %}
-            {% assign t = site.data.en %}
-          {% else %}
-            {% assign t = site.data.es %}
-          {% endif %}
           
           {% tf bibliotecadigital.md %}
-<h1>{{ t.bibliotecadigital.heading }}</h1>
-
-
-<h2>{{ t.bibliotecadigital.viajes }}</h2>          
+          <!-- <p>LANG VALUE: {{ page.lang }}</p> -->
+         
 <div class="container">
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
     <!-- Card LAM -->
@@ -79,8 +72,7 @@ permalink: /biblioteca-digital/
   </div>
 </div>
 
-<h2>{{ t.bibliotecadigital.miscelanea }}</h2>
-<!-- <h2>Miscelánea</h2> -->
+<h2>Miscelánea/Miscellaneous texts</h2>
 
 <div class="container">
   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">

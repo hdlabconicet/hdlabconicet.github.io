@@ -3,10 +3,10 @@ Digital Scholarly Editing is one of the most representative areas within the fie
 
 All the digital editions in our Digital Library follow the XML-TEI standard and the principles of minimal computing, favoring the use of open technologies, governance over data and code, and the reduction of computing infrastructure. The enriched texts with notes and maps are complemented with data visualizations and many distant reading resources.
 
-<!-- # Access our digital editions
+# Access our digital editions
 
 
 ## Chronicles and travelogues
 
 
-##  Miscellaneous texts -->
+<!--##  Miscellaneous texts -->
