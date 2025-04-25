@@ -1,10 +1,10 @@
 # Grupo responsable
 
-* [Gimena del Rio Riande][gimena-profile] (Dirección)
-* [Romina De León][romina-profile]
-* [Laura Volkind][laura-profile]
-* [Gabriel Calarco][gabriel-profile]
-* [Nidia Hernández][nidia-profile]
+* [Gimena del Rio Riande][gimena-profile] Investigadora Independiente (CONICET) - Dirección- 
+* [Romina De León][romina-profile] - Profesional Adjunto (CONICET)
+* [Laura Volkind][laura-profile] - Profesional Principal (CONICET)
+* [Gabriel Calarco][gabriel-profile] - Becario predoctoral (UBA)
+* [Nidia Hernández][nidia-profile] - Profesional Principal (CONICET)
 
 ![Gimena photo](/assets/img/equipo/Gimena-micrositio.jpg)
 ![Romina photo](/assets/img/equipo/Romina-micrositio.jpg)
@@ -14,18 +14,19 @@
 
 # Grupo colaborador
 
-* [Virginia Brussa][virginia-profile]
-* [Marisol Fila][marisol-profile]
-* [Diego Ferreyra][diego-profile]
-* [Agustina Ryckeboer][agustina-profile]
-* [Susanna Allés-Torrent][susanna-profile]
-* [Ricardo Pimenta][ricardo-profile]
-* [Carlos Nusch][carlos-profile]
-* [Teresa Ravelo][ravelo-profile]
-* [Rocío Méndez][rocio-profile]
-* [Julián Spinelli][julian-profile]
-* Catalina Cattaneo
-* [Patricio Pantaleo][patricio-profile]
+* [Virginia Brussa][virginia-profile] - Universidad Nacional de Rosario
+* [Marisol Fila][marisol-profile] - Universidad de Michigan, USA
+* [Diego Ferreyra][diego-profile] - Universidad de Buenos Aires
+* Jennifer Isasi - Penn State University
+* [Agustina Ryckeboer][agustina-profile] - Universidad del Salvador
+* [Susanna Allés-Torrent][susanna-profile] - Universidad de Miami, USA
+* [Ricardo Pimenta][ricardo-profile] - IBICT, Brasil
+* [Carlos Nusch][carlos-profile] - Universidad Nacional de La Plata
+* [Teresa Ravelo][ravelo-profile] - Universidad Nacional Autónoma de México, México
+* [Rocío Méndez][rocio-profile] - Universidad de Buenos Aires
+* [Julián Spinelli][julian-profile] - Universidad de Buenos Aires
+* Catalina Cattaneo - Universidad del Salvador
+* [Patricio Pantaleo][patricio-profile] - Paideia Studio
 
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
