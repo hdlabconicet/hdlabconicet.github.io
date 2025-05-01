@@ -2,20 +2,20 @@ tag:
   tagline: Digital Humanities Laboratory at IIBICRIT, CONICET
 navigation:
   - name: 'News'
-    link: '/novedades'
+    link: 'https://hdlab.space/novedades'
     sublinks:
       - name: 'Recent'
         link: 'https://hdlab.space/novedades/'
       - name: 'Archive'
-        link: '/novedades/'
-  - {name: 'Explore', link: '/explora'}
-  - {name: 'Research', link: '/investigacion'}
-  - {name: 'Digital Library', link: '/biblioteca-digital'}
-  - {name: 'Team', link: '/equipo'}
-  - {name: 'Contact', link: '/contacto'}
-  - {name: 'Search', link: '/buscar'}
+        link: '/archive/'
+  - {name: 'Explore', link: '/explore'}
+  - {name: 'Research', link: '/research'}
+  - {name: 'Digital Library', link: '/digital-library'}
+  - {name: 'Team', link: '/team'}
+  - {name: 'Contact', link: '/contact'}
+  - {name: 'Search', link: '/search'}
 titles:
-  news: "News"
+  news: "Archive"
   explore: "Explore"
   library: "Digital Library"
   research: "Research"
