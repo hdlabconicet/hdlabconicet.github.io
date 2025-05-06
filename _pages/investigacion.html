@@ -19,20 +19,32 @@ permalink_en: /research/
       <div class="container">
         <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
           <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}/proyectos">
+            {% if site.lang == "en" %}
+              <a href="{{ site.baseurl }}/projects">
+            {% else %}
+              <a href="{{ site.baseurl }}/proyectos">
+            {% endif %}
               <figure class="post-card__thumb">
                 <img class="lazyload blur" src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"/>
                 <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/proyecto_thumb.jpg" alt="proyectos"/></noscript>
               </figure>
             </a>
-            <a class="post-card__inner" href="{{ site.baseurl }}/proyectos">
+            {% if site.lang == "en" %}
+              <a class="post-card__inner" href="{{ site.baseurl }}/projects">
+            {% else %}
+              <a class="post-card__inner" href="{{ site.baseurl }}/proyectos">
+            {% endif %}
               <div class="post-card__header">
                 <h2>{% t titles.projects %}</h2>
               </div>
             </a>
           </div>
           <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}/cursos">
+            {% if site.lang == "en" %}
+              <a href="{{ site.baseurl }}/courses">
+            {% else %}
+              <a href="{{ site.baseurl }}/cursos">
+            {% endif %}
               <figure class="post-card__thumb">
                 <img
                     src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg"
@@ -41,14 +53,22 @@ permalink_en: /research/
                 <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/clase_thumb.jpg" alt="cursos"></noscript>
               </figure>
             </a>
-            <a class="post-card__inner" href="{{ site.baseurl }}/cursos">
+            {% if site.lang == "en" %}
+              <a class="post-card__inner" href="{{ site.baseurl }}/courses">
+            {% else %}
+              <a class="post-card__inner" href="{{ site.baseurl }}/cursos">
+            {% endif %}
               <div class="post-card__header">
                 <h2>{% t titles.courses %}</h2>
               </div>
             </a>
           </div>
           <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}/publicaciones">
+            {% if site.lang == "en" %}
+              <a href="{{ site.baseurl }}/publications">
+            {% else %}
+              <a href="{{ site.baseurl }}/publicaciones">
+            {% endif %}
               <figure class="post-card__thumb">
                 <img
                     src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg"
@@ -58,7 +78,11 @@ permalink_en: /research/
                 <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/publicaciones_thumb.jpg" alt="cursos"/></noscript>
               </figure>
             </a>
-            <a class="post-card__inner" href="{{ site.baseurl }}/publicaciones">
+            {% if site.lang == "en" %}
+              <a class="post-card__inner" href="{{ site.baseurl }}/publications">
+            {% else %}
+              <a class="post-card__inner" href="{{ site.baseurl }}/publicaciones">
+            {% endif %}
               <div class="post-card__header">
                 <h2>{% t titles.publications %}</h2>
               </div>
