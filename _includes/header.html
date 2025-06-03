@@ -10,13 +10,13 @@
         <div class="container header__links-wrapper">
           {% for item in site.translations[site.lang].navigation %}
             {% if item.sublinks %}
-              <div class="header__link dropdown">
-                <a class="dropdown__link" href="{{ item.link | relative_url }}" itemprop="url">
+              <div class="header__dropdown">
+                <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
                   <span itemprop="name">{{ item.name }}</span>
                 </a>
-                <div class="dropdown-content">
+                <div class="header__dropdown-menu">
                 {% for sub in item.sublinks %}
-                  <a class="dropdown-item" href="{{ sub.link | relative_url }}">{{ sub.name }}</a>
+                  <a class="header__sublink" href="{{ sub.link | relative_url }}">{{ sub.name }}</a>
                 {% endfor %}
                 </div>
               </div>
