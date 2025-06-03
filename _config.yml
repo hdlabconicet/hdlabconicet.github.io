@@ -32,6 +32,9 @@ disqus:
 markdown: kramdown
 encoding: utf-8
 
+sass:
+  sass_dir: _sass
+  
 plugins:
   - jekyll-feed
   - jekyll-sitemap
