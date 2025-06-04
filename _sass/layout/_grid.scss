@@ -1,20 +1,24 @@
+@use "abstracts/variables" as vars;
+@use "abstracts/mixins" as mixins;
+
+
 .container {
   padding: 0 20px;
-  @include container(0);
+  @include mixins.container(0);
 
-  @include breakpoint($sm) {
-    @include container(540px);
+  @include mixins.breakpoint(vars.$sm) {
+    @include mixins.container(540px);
   }
 
-  @include breakpoint($md) {
-    @include container(720px);
+  @include mixins.breakpoint(vars.$md) {
+    @include mixins.container(720px);
   }
 
-  @include breakpoint($lg) {
-    @include container(960px);
+  @include mixins.breakpoint(vars.$lg) {
+    @include mixins.container(960px);
   }
 
-  @include breakpoint($xl) {
-    @include container(1170px);
+  @include mixins.breakpoint(vars.$xl) {
+    @include mixins.container(1170px);
   }
 }

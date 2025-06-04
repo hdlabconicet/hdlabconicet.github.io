@@ -1,3 +1,6 @@
+@use "abstracts/variables" as vars;
+@use "abstracts/mixins" as mixins;
+
 .post-card {
   display: block;
   position: relative;
@@ -5,7 +8,7 @@
   min-height: 100px;
   border-radius: 4px;
   overflow: hidden;
-  background-color: $bg-color;
+  background-color: vars.$bg-color;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   margin-bottom: 2.25rem; // don't use % value see more: https://github.com/philipwalton/flexbugs/issues/86
   border-bottom: 0;
@@ -17,7 +20,7 @@
     box-shadow: 0 2px 40px 0 hsla(232, 8%, 63%, .3);
   }
 
-  @include breakpoint($md) {
+  @include mixins.breakpoint(vars.$md) {
     width: 48.4375%;
     margin-right: 3.125%;
 
@@ -27,7 +30,7 @@
     }
   }
 
-  @include breakpoint($xl) {
+  @include mixins.breakpoint(vars.$xl) {
     width: 31.25%;
     margin-right: 3.125%;
 
@@ -53,12 +56,12 @@
     position: relative;
     padding: 1.875rem 1.25rem 0.625rem;
     width: 100%;
-    color: $grey;
+    color: vars.$grey;
     border-bottom: 0;
 
     &:focus,
     &:hover {
-      color: $grey;
+      color: vars.$grey;
       border-bottom: 0;
     }
   }
@@ -74,7 +77,7 @@
 
 .post-card__thumb {
   margin: 0;
-  background: $bg-color;
+  background: vars.$bg-color;
   position: relative;
   overflow: hidden;
 
@@ -95,4 +98,10 @@
     height: 100%;
     display: block;
   }
+}
+
+.post-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

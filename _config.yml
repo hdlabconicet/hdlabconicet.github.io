@@ -73,3 +73,6 @@ languageNames:
 
 default_locale_in_subfolder: false
 
+sass:
+  load_paths:
+    - _sass

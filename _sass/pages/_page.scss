@@ -1,3 +1,6 @@
+@use "abstracts/variables" as vars;
+@use "abstracts/mixins" as mixins;
+
 .hero {
   margin: 3.75rem auto 0;
   min-height: 16.25rem;
@@ -8,7 +11,7 @@
   background-position: 50%;
   background-size: cover;
 
-  @include breakpoint($lg) {
+  @include mixins.breakpoint(vars.$lg) {
     margin: 0 auto;
     height: 36em;
   }
@@ -30,9 +33,9 @@
   min-height: 8.75rem;
   width: 100%;
   position: relative;
-  background-color: $dark-light;
+  background-color: vars.$dark-light;
 
-  @include breakpoint($lg) {
+  @include mixins.breakpoint(vars.$lg) {
     height: 12.5em;
   }
 
@@ -60,16 +63,16 @@
   max-width: 90%;
   z-index: 1;
 
-  @include breakpoint($md) {
+  @include mixins.breakpoint(vars.$md) {
     max-width: 40em;
   }
 
   .hero__title {
     font-size: 1.8em;
-    color: $bg-color;
+    color: vars.$bg-color;
 
 
-    @include breakpoint($md) {
+    @include mixins.breakpoint(vars.$md) {
       padding: 1rem 0;
       font-size: 2.625em;
       line-height: 3.125rem;
@@ -82,7 +85,7 @@
   margin: 0 auto;
   padding: 2.5em 0;
 
-  @include breakpoint($md) {
+  @include mixins.breakpoint(vars.$md) {
     padding: 3.75rem 0;
   }
 }
@@ -97,7 +100,7 @@
   flex-wrap: wrap;
   flex: 1 0 auto;
 
-  @include breakpoint($md) {
+  @include mixins.breakpoint(vars.$md) {
     padding-top: 5em;
   }
 }

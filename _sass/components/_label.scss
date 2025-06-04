@@ -1,3 +1,5 @@
+@use "abstracts/variables" as vars;
+
 .label {
   padding: 0px 10px;
   margin-bottom: 1rem;
@@ -13,8 +15,8 @@
 
   &:focus,
   &:hover {
-    color: $bg-color;
-    background-color: $primary;
-    border: 2px solid $primary;
+    color: vars.$bg-color;
+    background-color: vars.$primary;
+    border: 2px solid vars.$primary;
   }
 }

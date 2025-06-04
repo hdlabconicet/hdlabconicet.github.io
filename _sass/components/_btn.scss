@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "abstracts/variables" as vars;
+@use "abstracts/mixins" as mixins;
+
 .btn,
 input[type="submit"],
 input[type="reset"],
@@ -13,8 +17,8 @@ input[type="button"] {
   text-transform: uppercase;
   white-space: nowrap;
   cursor: pointer;
-  color: $bg-color;
-  background-color: $button-dark;
+  color: vars.$bg-color;
+  background-color: vars.$button-dark;
   text-align: center;
   border: 0;
   border-radius: 0;
@@ -28,8 +32,8 @@ input[type="button"] {
   &:hover,
   :focus,
   :active {
-    color: $bg-color;
-    background-color: lighten($button-dark, 14%);
+    color: vars.$bg-color;
+    background-color: color.adjust(vars.$button-dark, $lightness: 14%);
     outline: 0;
   }
 }
@@ -37,7 +41,7 @@ input[type="button"] {
 .btn + .btn {
   margin-top: 2em;
 
-  @include breakpoint(350px) {
+  @include mixins.breakpoint(350px) {
     margin-top: 0;
     margin-left: 2em;
   }
@@ -50,6 +54,6 @@ button:disabled {
 
   &:hover,
   :focus {
-    background-color: $button-dark;
+    background-color: vars.$button-dark;
   }
 }

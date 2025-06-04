@@ -1,17 +1,19 @@
+@use "abstracts/variables" as vars;
+
 // General
 body {
-  background-color: $bg-color;
-  font-family: $font-stack;
+  background-color: vars.$bg-color;
+  font-family: vars.$font-stack;
   font-size: 1rem;
   line-height: 1.5;
-  color: $text-color;
+  color: vars.$text-color;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
 
 ::selection {
-  color: $bg-color;
-  background-color: $reverse;
+  color: vars.$bg-color;
+  background-color: vars.$reverse;
 }
 
 // Reboot
@@ -27,17 +29,17 @@ h3,
 h4,
 h5,
 h6 {
-  color: $heading-color;
+  color: vars.$heading-color;
   margin-top: 0;
   margin-bottom: .5rem;
 }
 
 //reset link
 a {
-  color: $link-color;
+  color: vars.$link-color;
   text-decoration: none;
   transition: all .2s linear;
-  border-bottom: 1px dashed $link-color;
+  border-bottom: 1px dashed vars.$link-color;
 
   &:active,
   &:focus {
@@ -46,14 +48,14 @@ a {
 
   &:hover,
   &:focus {
-    color: $primary-light;
-    border-bottom: 1px solid $primary-light;
+    color: vars.$primary-light;
+    border-bottom: 1px solid vars.$primary-light;
   }
 }
 
 hr {
   height: 1px;
-  background: $border;
+  background: vars.$border;
   border: 0;
 }
 
@@ -67,15 +69,15 @@ abbr[title] {
 
 mark {
   background: #ff0;
-  color: $heading-color;
+  color: vars.$heading-color;
 }
 
 code {
   padding: 0.2em 0.4em;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  color: $code-text-color;
-  background-color: $code-bg-color;
+  color: vars.$code-text-color;
+  background-color: vars.$code-bg-color;
   border-radius: 3px;
 }
 
@@ -85,17 +87,17 @@ pre {
   margin-bottom: 1rem;
   overflow-x: auto;
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  color: $code-text-color;
+  color: vars.$code-text-color;
   word-wrap: normal;
-  background-color: $code-bg-color;
-  border: solid 1px $border-color;
+  background-color: vars.$code-bg-color;
+  border: solid 1px vars.$border-color;
   border-radius: 0.3rem;
 
   > code {
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
-    color: $code-text-color;
+    color: vars.$code-text-color;
     word-break: normal;
     white-space: pre;
     background: transparent;

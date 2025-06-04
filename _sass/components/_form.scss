@@ -1,16 +1,18 @@
+@use "abstracts/variables" as vars;
+
 input,
 textarea {
   display: inline-block;
   padding: 5px 0;
   width: 100%;
   border: 0;
-  border-bottom: 2px solid $border;
+  border-bottom: 2px solid vars.$border;
   outline: none;
-  font-family: $font-stack;
+  font-family: vars.$font-stack;
   background: transparent;
 
   &:focus {
-    border-color: $primary;
+    border-color: vars.$primary;
     transition: border-color .25s;
   }
 }
@@ -28,7 +30,7 @@ textarea {
     left: 0;
     width: 0;
     height: 2px;
-    background: $primary;
+    background: vars.$primary;
     z-index: 5;
     transition: width .45s cubic-bezier(.694, .048, .335, 1);
     transition-delay: .1s;
@@ -41,7 +43,7 @@ textarea {
     left: 0;
     width: 0;
     height: 2px;
-    background: $secondary;
+    background: vars.$secondary;
     z-index: 4;
     transition: width .45s cubic-bezier(.694, .048, .335, 1);
   }
@@ -75,16 +77,16 @@ textarea {
 
 .error {
   input {
-    border-bottom-color: $error;
+    border-bottom-color: vars.$error;
   }
 
   textarea {
-    border-bottom-color: $error;
+    border-bottom-color: vars.$error;
   }
 }
 
 .error-data {
-  color: $error;
+  color: vars.$error;
   font-size: 14px;
   position: absolute;
   left: 0;

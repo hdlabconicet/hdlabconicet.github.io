@@ -1,3 +1,5 @@
+@use "abstracts/variables" as vars;
+
 .modal {
   position: fixed;
   display: none;
@@ -30,7 +32,7 @@
   padding: 2rem 2.5rem;
   display: flex;
   flex-direction: column;
-  background-color: $bg-color;
+  background-color: vars.$bg-color;
   border-radius: 4px;
 
   h1 {
@@ -45,7 +47,7 @@
   background-color: transparent;
   border: 0;
   outline: 0;
-  color: $heading-color;
+  color: vars.$heading-color;
   cursor: pointer;
 
   &:hover {
