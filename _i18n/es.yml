@@ -9,7 +9,7 @@ navigation:
       - name: 'Archivo'
         link: '/archivo/'
   - {name: 'Explora', link: '/explora'}
-  - {name: 'Investigación', link: '/investigacion'}
+  - {name: 'Investigación y cursos de especializacion', link: '/investigacion'}
   - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
   - {name: 'Equipo', link: '/equipo'}
   - {name: 'Contacto', link: '/contacto'}
@@ -18,7 +18,7 @@ titles:
   news: "Archivo"
   explore: "Explora"
   library: "Biblioteca Digital"
-  research: "Investigación"
+  research: "Investigación y cursos de especialización"
   team: "Equipo"
   contact: "Contacto"
   search: "Búsqueda"
