@@ -10,7 +10,7 @@ Los contenidos desarrollados en el área de investigación del HD LAB se transfi
 
 - [**Diplomatura en Humanidades Digitales**](https://www.uces.edu.ar/carreras-escuela-negocios/gestion-del-talento-humano/diplomatura-humanidades-digitales). Curso de especializacion semestral online y asincrónico dictado en la Universidad de Ciencias Empresariales y Sociales (UCES) con contenidos de edición digital XML-TEI, visualización de datos, análisis de redes, repositorios y línea de comando y lenguaje de programación R.
   
-- [**Curso de edicion digital**](https://hdlab.space/curso-edicion-digital/) (CONICET-Universidad de Verona). Curso online y asincrónico con contenidos sobre transcripción automatizada, confección de ebooks, edición digital XML-TEI y construcción de sitios web para ediciones digitales. Seis semanas.
+- [**Curso de edición digital**](https://hdlab.space/curso-edicion-digital/) (CONICET-Universidad de Verona). Curso online y asincrónico con contenidos sobre transcripción automatizada, confección de ebooks, edición digital XML-TEI y construcción de sitios web para ediciones digitales. Seis semanas.
 
 - [**Asesoría técnica para el diseño y publicación de una edición digital de textos en sitios web estáticos**](https://iibicrit.conicet.gov.ar/capacitacion-y-asesoramiento/) (CONICET). Este servicio está orientado a brindar asistencia técnica a los equipos que posean fuentes previamente digitalizadas y  quieran realizar la  edición digital online de un texto.
 
