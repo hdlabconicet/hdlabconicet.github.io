@@ -1,4 +1,4 @@
-# Investigación y cursos de especialización en Humanidades Digitales
+
 
 La línea de investigación del laboratorio de Humanidades Digitales de CONICET (HDLAB) tiene su origen en el proyecto institucional "Metodologías en herramientas digitales para la investigación en Ciencias Sociales y Humanidades", iniciado en el año 2014 por las Dras. Mela Bosch y Gimena del Rio Riande. 
 
