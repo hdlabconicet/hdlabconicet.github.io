@@ -472,17 +472,17 @@ h6 {
 }
 
 a {
-  color: #0a1aa2;
+  color: #277cea;
   text-decoration: none;
   transition: all 0.2s linear;
-  border-bottom: 1px dashed #0a1aa2;
+  border-bottom: 1px dashed #277cea;
 }
 a:active, a:focus {
   outline: 0;
 }
 a:hover, a:focus {
-  color: #0a1aa2;
-  border-bottom: 1px solid #0a1aa2;
+  color: #68a4f1;
+  border-bottom: 1px solid #68a4f1;
 }
 
 hr {
