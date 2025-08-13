@@ -10,4 +10,4 @@ La línea de investigación en Humanidades Digitales se inició en el CONICET a 
 * [Procesamiento del Lenguaje Natural y visualización de datos](https://hdlab.space/explora/)
 * [Explotación de taxonomías, tesauros y glosarios digitales](https://hdlab.space/proyectos/) 
 * [Investigación sobre el currículum científico y educativo en Humanidades Digitales en América Latina](https://www.aacademica.org/gimena.delrio.riande/167.pdf)
-* [Prácticas de investigación abierta en Humanidades Digitales. Software y hardware abierto aplicado a las Humanidades Digitales](https://revistas.unlp.edu.ar/publicaahd/article/view/14468)
+* [Prácticas de investigación abierta. Minimal computing, software y hardware abierto aplicado a las Humanidades Digitales](https://revistas.unlp.edu.ar/publicaahd/article/view/14468)
