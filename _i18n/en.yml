@@ -27,6 +27,7 @@ titles:
   publications: "Publications"
   categories: "Categories"
   notfound: "Page not found"
+  misc: "Miscellaneous texts"
 form:
   name: Name
   email: Email

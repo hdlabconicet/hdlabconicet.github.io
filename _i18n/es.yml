@@ -27,6 +27,7 @@ titles:
   publications: "Publicaciones"
   categories: "Categorías"
   notfound: "Página no encontrada"
+  misc: "Miscelánea"
 form:
   name: Nombre
   email: Email
