@@ -1,10 +1,11 @@
 Digital Humanities constitute a field at the crossroads of the Humanities and many of the approaches, tools and resources of Computer and Information Science. 
 
-HD LAB is the first research group in Digital Humanities in Argentina that combines the organizational and collaborative model of a laboratory with the Humanities. Our projects are intended for multiple audiences, inside and outside academia, understanding Digital Humanities through the principles of Open Science.
+HD LAB is the first research group in Digital Humanities in Argentina that combines the organizational and collaborative model of a laboratory with the Humanities. Our projects are intended for multiple audiences, inside and outside academia, understanding Digital Humanities through Minimal Computing and the principles of Open Science.
 
-The research line in Digital Humanities at CONICET began with an Institutional Project called Methodologies in Digital Tools for Research in Social Sciences and Humanities (MheDI), between the Institute of Bibliographic Research and Textual Criticism (IIBICRIT-CONICET) and the Argentine Center for Scientific and Technological Information (CAICYT-CONICET) at the end of 2014. Nowadays,  HD LAB is part of the  IIBICRIT and focuses in the following areas of interest:
+The research line in Digital Humanities at CONICET began with an Institutional Project called Methodologies in Digital Tools for Research in Social Sciences and Humanities (MheDI), between the Institute of Bibliographic Research and Textual Criticism (IIBICRIT-CONICET) and the Argentine Center for Scientific and Technological Information (CAICYT-CONICET) at the end of 2014. Nowadays,  HD LAB is part of the  IIBICRIT and focuses in the following areas of interest applied to the Humanities:
 
 * [Digital Philological Editing with XML-TEI]({{site.baseurl}}/digital-library/)
+* [Minimal Computing](https://hdlab.space/minimalbook/)
 * [Georeferencing and semantic annotation](https://hdlab.space/argentina-y-conquista-del-rio-de-la-plata)
 * [Edition and management of digital periodicals](https://revistas.uned.es/index.php/RHD/about)
 * [Natural Language Processing and data visualization]({{site.baseurl}}/explore/)
