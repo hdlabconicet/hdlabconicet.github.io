@@ -28,6 +28,8 @@ titles:
   categories: "Categorías"
   notfound: "Página no encontrada"
   misc: "Miscelánea"
+  modern: "Edad Moderna y Contemporánea"
+  premodern: "Edad Media y Siglo de Oro"
 form:
   name: Nombre
   email: Email
