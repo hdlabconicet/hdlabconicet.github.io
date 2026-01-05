@@ -8,7 +8,12 @@ navigation:
         link: 'https://hdlab.space/novedades/'
       - name: 'Archive'
         link: '/archive/'
-  - {name: 'Explore', link: '/explore'}
+  - name: Data Mining
+    sublinks:
+      - name: 'DOAJ'
+        link: '/doaj-analisis.html'
+      - name: 'Chronicles and travelogues'
+        link: '/explore'
   - {name: 'Research', link: '/research'}
   - {name: 'Digital Library', link: '/digital-library'}
   - {name: 'Team', link: '/team'}
