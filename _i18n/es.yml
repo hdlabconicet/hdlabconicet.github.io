@@ -8,13 +8,13 @@ navigation:
         link: 'https://hdlab.space/novedades/'
       - name: 'Archivo'
         link: '/archivo/'
-  - name: 'Minería de datos'
+  - name: 'Data mining'
     sublinks:
       - name: 'DOAJ'
         link: '/doaj-analisis.html'
       - name: 'Relatos de viaje'
         link: '/explora'
-  - {name: 'Investigación y cursos de especializacion', link: '/investigacion'}
+  - {name: 'Investigación y cursos', link: '/investigacion'}
   - {name: 'Biblioteca Digital', link: '/biblioteca-digital'}
   - {name: 'Equipo', link: '/equipo'}
   - {name: 'Contacto', link: '/contacto'}
@@ -23,7 +23,7 @@ titles:
   news: "Archivo"
   explore: "Explora"
   library: "Biblioteca Digital"
-  research: "Investigación y cursos de especialización"
+  research: "Investigación y cursos"
   team: "Equipo"
   contact: "Contacto"
   search: "Búsqueda"
