@@ -3,7 +3,7 @@
 * [Gimena del Rio Riande][gimena-profile] Investigadora Independiente (CONICET) - Dirección- 
 * [Romina De León][romina-profile] - Profesional Adjunto (CONICET)
 * [Laura Volkind][laura-profile] - Profesional Principal (CONICET)
-* [Gabriel Calarco][gabriel-profile] - Becario doctoral (UBA)
+* [Gabriel Calarco][gabriel-profile] - Becario Posdoctoral (UBA)
 * [Nidia Hernández][nidia-profile] - Profesional Principal (CONICET)
 
 ![Gimena photo](/assets/img/equipo/Gimena-micrositio.jpg)
