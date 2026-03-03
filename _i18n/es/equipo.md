@@ -27,6 +27,7 @@
 * [Julián Spinelli][julian-profile] - Universidad de Buenos Aires
 * Catalina Cattaneo - Universidad del Salvador
 * [Patricio Pantaleo][patricio-profile] - Paideia Studio
+* [Martha Faiad][marthaf-profile] - Universidad de Buenos Aires
 
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
@@ -40,6 +41,7 @@
 ![rocio photo](/assets/img/equipo/rocio-micrositio.jpg)
 ![julian photo](/assets/img/equipo/julian-micrositio.jpg)
 ![catalina photo](/assets/img/equipo/catalina-micrositio.jpg)
+![marthaf photo](/assets/img/equipo/marthaf-micrositio.jpg)
 
 [gimena-profile]: https://orcid.org/0000-0002-8997-5415
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
@@ -57,3 +59,4 @@
 [rocio-profile]: https://orcid.org/0000-0002-8801-636X
 [julian-profile]: https://orcid.org/0009-0003-0895-815X
 [patricio-profile]: https://paideiastudio.net/
+[marthaf-profile]: https://www.linkedin.com/in/martha-faiad-31bb191a2/

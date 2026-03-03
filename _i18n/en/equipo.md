@@ -26,6 +26,7 @@
 * [Julián Spinelli][julian-profile]
 * Catalina Cattaneo
 * [Patricio Pantaleo][patricio-profile]
+* [Martha Faiad][marthaf-profile]
 
 
 ![Virginia photo](/assets/img/equipo/virginia-micrositio.jpg)
@@ -39,6 +40,7 @@
 ![rocio photo](/assets/img/equipo/rocio-micrositio.jpg)
 ![julian photo](/assets/img/equipo/julian-micrositio.jpg)
 ![catalina photo](/assets/img/equipo/catalina-micrositio.jpg)
+![marthaf photo](/assets/img/equipo/marthaf-micrositio.jpg)
 
 [gimena-profile]: https://orcid.org/0000-0002-8997-5415
 [romina-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=25837&amp;datos_academicos=yes
@@ -46,7 +48,7 @@
 [virginia-profile]: http://www.cim.unr.edu.ar/miembro/46/virginia-brussa-ballaris
 [nidia-profile]: http://www.conicet.gov.ar/new_scp/detalle.php?id=53027&keywords=nidia+hernandez&datos_academicos=yes
 [marisol-profile]: https://lsa.umich.edu/rll/people/graduate-students/mafila.html
-[gabriel-profile]: http://aahd.net.ar/personas/gabriel-calarco
+[gabriel-profile]: https://orcid.org/0000-0002-7841-6538
 [diego-profile]: https://www.linkedin.com/in/perfildiegoferreyra/
 [agustina-profile]: https://raffazizzi.gitlab.io/helados-in-dh-group/Maria%20Ryckeboer
 [susanna-profile]: https://susannalles.com/
@@ -56,3 +58,4 @@
 [rocio-profile]: https://orcid.org/0000-0002-8801-636X
 [julian-profile]: https://orcid.org/0009-0003-0895-815X
 [patricio-profile]: https://paideiastudio.net/
+[marthaf-profile]: https://www.linkedin.com/in/martha-faiad-31bb191a2/
