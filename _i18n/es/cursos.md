@@ -2,9 +2,9 @@
 
 2021-sigue
 
-Somos las creadoras y profesoras de la primera Diplomatura en Humanidades Digitales en el país.
+Somos las creadoras y profesoras de la primera Diplomatura en Humanidades Digitales en el país. 
 
-[Más información](https://www.uces.edu.ar/carreras-escuela-negocios/gestion-del-talento-humano/diplomatura-humanidades-digitales)
+[Más información sobre la cursada 2026 y sus contenidos](https://hdlab.space/Diplomatura-de-Humanidades-Digitales-UCES/)
 
 ----------
 
